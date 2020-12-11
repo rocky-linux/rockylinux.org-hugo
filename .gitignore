@@ -89,6 +89,8 @@ typings/
 
 .idea/
 
+resources/_gen/**/*
+
 *.content
 
 *.backup
