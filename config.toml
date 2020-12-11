@@ -15,3 +15,8 @@ height = 40
 url = "img/cover.png"
 width = 800
 height = 600
+
+[params.social]
+slackurl = "https://join.slack.com/t/hpcng/shared_invite/zt-k5z04bsh-1uqpaD1NsYVP73vzc3uKdQ"
+
+
