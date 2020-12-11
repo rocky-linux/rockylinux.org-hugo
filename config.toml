@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Rocky Linux"
 
 [params]
-description = "Rocky Linux is a community enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux, now that CentOS has shifted direction."
+description = "Rocky Linux is an open enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux."
 images = ["img/cover.png"]
 
 [params.logo]
