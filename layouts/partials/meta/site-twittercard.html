@@ -1,0 +1,20 @@
+<meta name="twitter:title" content="{{ .Title }}"/>
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
+<meta name="theme-color" content="#10B981">
+{{ if .IsHome -}}
+{{ if ge .Site.Params.image.width 300 -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ .Site.Params.image.url | absURL }}"/>
+{{- else -}}
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="{{ with .Site.Params.image }}{{ .url | absURL }}{{ else }}{{ with .Site.Params.logo }}{{ .url | absURL }}{{ end }}{{ end }}" />
+{{- end }}
+{{- else -}}
+{{ if ge (.Param "lua.image.width") 300 -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ .Param "lua.image.url" | absURL }}"/>
+{{- else -}}
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="{{ with .Param "lua.image" }}{{ .url | absURL }}{{ else }}{{ with .Site.Params.logo }}{{ .url | absURL }}{{ end }}{{ end }}" />
+{{- end }}
+{{- end }}

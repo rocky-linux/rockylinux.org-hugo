@@ -1,3 +1,17 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Rocky Linux"
+
+[params]
+description = "Rocky Linux is a community enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux, now that CentOS has shifted direction."
+images = ["img/cover.png"]
+
+[params.logo]
+url = "img/logo.png"
+width = 127
+height = 40
+
+[params.image]
+url = "img/cover.png"
+width = 800
+height = 600
