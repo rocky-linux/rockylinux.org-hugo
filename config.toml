@@ -5,6 +5,7 @@ title = "Rocky Linux"
 [params]
 description = "Rocky Linux is an open enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux."
 images = ["img/cover.png"]
+slacklink = "https://hpcng.slack.com/join/shared_invite/zt-k5z04bsh-1uqpaD1NsYVP73vzc3uKdQ"
 
 [params.logo]
 url = "img/logo.png"
