@@ -5,6 +5,6 @@
     <link>/</link>
     <description>Recent content on Rocky Linux</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

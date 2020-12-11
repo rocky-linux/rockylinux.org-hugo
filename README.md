@@ -21,7 +21,7 @@ mv hugo /usr/bin
 ```
 Finally we install TailwindCSS.
 ```bash
-npm install tailwindcss postcss-cli autoprefixer --save
+npm i -g tailwindcss postcss-cli autoprefixer --save
 ```
 
 #### How do we start the web server?
