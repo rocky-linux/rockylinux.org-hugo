@@ -1,0 +1,30 @@
+{
+  "name": "rocky-linux",
+  "version": "1.0.0",
+  "description": "The website for Rocky Linux, built with Hugo and TailwindCSS",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocky-linux/rockylinux.org.git"
+  },
+  "keywords": [
+    "linux",
+    "enterprise",
+    "stable"
+  ],
+  "author": "Michael Kinder <michael@hostbend.net>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rocky-linux/rockylinux.org/issues"
+  },
+  "homepage": "https://github.com/rocky-linux/rockylinux.org#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
+  }
+}

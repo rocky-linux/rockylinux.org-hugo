@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ .Title }}</title>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        {{ $styles := resources.Get "css/main.css" }}
+        {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) }}
+
+        {{ if hugo.IsProduction }}
+            {{ $styles = $styles | minify }}
+        {{ end }}
+
+        <link href="{{ $styles.Permalink }}" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        {{ block "main" . }}{{ end }}
+    </body>
+</html>

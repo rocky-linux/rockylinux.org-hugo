@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo-text {
+    fill: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    .logo-text {
+        fill: white;
+    }
+}
