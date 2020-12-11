@@ -86,3 +86,11 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+.idea/
+
+*.content
+
+*.backup
+
+resources/_gen/assets/css/css/main.css_0a7609e807cbb0441390b6ce32d26025.json
