@@ -14,6 +14,9 @@ forum = "https://forums.rockylinux.org/"
 email = "hello@rockylinux.org"
 get_involved = "https://github.com/rocky-linux/organization/wiki/Contributing"
 
+[params.links]
+wiki = "https://wiki.rockylinux.org/"
+
 [params.logo]
 url = "img/logo.png"
 width = 127
