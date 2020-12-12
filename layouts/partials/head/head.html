@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css" />
 <link rel="icon" href="img/favicon.ico"/>
 
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.js" defer=""></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer=""></script>
 
 {{ partial "meta/site-twittercard.html" . }}
 
@@ -23,8 +23,14 @@
         if(getParameterByName("l") == "Spanish") {
             document.cookie = "preferredLanguage=es"
         }
+        if(getParameterByName("l") == "Turkish") {
+            document.cookie = "preferredLanguage=tr"
+        }
         if(getParameterByName("l") == "English") {
             document.cookie = "preferredLanguage=en"
+        }
+        if(getParameterByName("l") == "Germand") {
+            document.cookie = "preferredLanguage=de"
         }
     }
     
@@ -38,6 +44,19 @@
         if (language == "es") {
             window.location.href = "es/"
             document.cookie = "preferredLanguage=es"
+        }
+        else if (language == "tr") {
+            window.location.href = "tr/"
+            document.cookie = "preferredLanguage=tr"
+        }else{
+            document.cookie = "preferredLanguage=en"
+        }
+    }
+
+    if('{{ i18n "language" . }}' != language) {
+        if (language == "de") {
+            window.location.href = "de/"
+            document.cookie = "preferredLanguage=de"
         }else{
             document.cookie = "preferredLanguage=en"
         }

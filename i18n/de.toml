@@ -1,0 +1,90 @@
+[language]
+other = "de"
+
+[links]
+  [links.get-involved]
+  other = "Mach mit"
+
+  [links.get-in-touch]
+  other = "Kontaktiere uns"
+
+  [links.go-home]
+  other = "Gehe zum Start"
+
+  [links.close-menu]
+  other = "Schliesse Menü"
+
+  [links.documentation]
+  other = "Dokumentation"
+
+  [links.join-the-discussion]
+  other = "Nimm an der Diskussion teil"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forums"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Project. Alle Rechte vorbehalten."
+
+  [copyright.line2]
+  other = "CentOS ist ein registriertes Markenzeichen von Red Hat, Inc. Das Rocky Linux-Projekt steht in keinerlei Verbindung zu Red Hat, Inc. und wird auch nicht von ihnen gebilligt."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Seite nicht gefunden."
+
+    [errors.404.explanation]
+    other = "Die angefragte Resource konnte nicht gefunden werden. Bitte erneut versuchen."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "Eine gemeinschaftlich-getriebene Anstrengung um eine produktionsbereite Linux-Distribution für höchste Ansprüche zu liefern."
+
+  [landing.p2.heading]
+  other = "was ist das Rocky Linux-Projekt?"
+
+  [landing.p2.content]
+  other = "Rocky Linux ist ein Community-Betriebssystem für Unternehmen, das zu 100% Bug-for-Bug-kompatibel mit Amerikas führender Linux-Distribution für Unternehmen ist, nachdem sein nachgeschalteter Partner die Richtung geändert hat. Es wird von der Community intensiv weiterentwickelt. Rocky Linux wird von Gregory Kurtzer, dem Gründer des CentOS-Projekts, geleitet. Es gibt keine ETA für eine Veröffentlichung. Die Mitwirkenden werden gebeten, die auf dieser Website angebotenen Kommunikationsoptionen zu nutzen."
+
+[faq]
+  [faq.title]
+  other = "Häufig gestellte Fragen"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "Was meinst du damit, dass \"hat sein nachgeschalteter Partner die Richtung geändert\"?"
+
+    [faq.q.come-in]
+    other = "Wo platziert sich Rocky Linux?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "Das CentOS-Projekt hat kürzlich einen Stragegie-Wechsel für CentOS angekündigt. Während CentOS zuvor als Downstream-Build seines Upstream-Anbieters existierte (es erhält Patches und Aktualisierungen, nachdem der Upstream-Anbieter dies getan hat), wird es auf einen Upstream-Build umgestellt (Testen von Patches und Updates vor der Aufnahme in den Upstream-Anbieter). Darüber hinaus wurde die Unterstützung für CentOS Linux 8 vom 31. Mai 2029 bis zum 31. Dezember 2021 eingestellt."
+
+    [faq.a.come-in]
+    other = "Rocky Linux zielt darauf ab, wie zuvor bei CentOS, als Downstream-Build zu fungieren und Releases zu veröffentlichen, nachdem sie vom Upstream-Anbieter hinzugefügt wurden, nicht zuvor."
+
+[lang]
+  [lang.footer.literal]
+  other = "Sprache:"
+
+  [lang.footer.choose-language]
+  other = "Wähle eine Sprache..."
