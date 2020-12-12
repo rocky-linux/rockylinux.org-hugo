@@ -26,3 +26,15 @@ height = 40
 url = "img/cover.png"
 width = 800
 height = 600
+
+DefaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Rocky Linux"
+    weight = 2
+  [languages.es]
+    languageName = "Spanish"
+    title = "Rocky Linux"
+    weight = 1
