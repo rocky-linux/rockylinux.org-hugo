@@ -67,5 +67,5 @@ other = "So where does Rocky Linux come in?"
 [rocky-inux-come-in-solve]
 other = "Rocky Linux aims to function as a downstream build as CentOS had done previously, building releases after they have been added by the upstream vendor, not before."
 
-[select-languaje]
-other = "Select Languaje"
+[select-language]
+other = "Select Language"
