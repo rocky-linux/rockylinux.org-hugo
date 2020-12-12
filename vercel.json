@@ -11,6 +11,5 @@
     { "src": "/es/(.*)", "status": 404, "dest": "/es/404.html" },
     { "src": "/it/(.*)", "status": 404, "dest": "/it/404.html" },
     { "src": "/(.*)",    "status": 404, "dest": "/404.html" }
-
   ]
 }
