@@ -17,7 +17,7 @@
                 <a href="javascript:void(0)" onclick="desplegatelanguajemenu()" class="dropbtn text-base text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">{{ i18n "select-languaje" . }}</a>
                 <div class="dropdown-content" id="myDropdown">
                 {{ range $.Site.Home.AllTranslations }}
-                    <a href="{{ .Permalink }}" class="languaje">
+                    <a href="{{ .Permalink }}?l={{ .Language.LanguageName }}">
                         {{ .Language.LanguageName }}
                     </a>
                 {{ end }}
