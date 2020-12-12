@@ -38,10 +38,10 @@ other = "pt"
 
 [copyright]
   [copyright.line1]
-  other = "© 2020 O projeto Rocky Linux. Todos os direitos reservados."
+  other = "© 2020 O Projeto Rocky Linux. Todos os direitos reservados."
 
   [copyright.line2]
-  other = "CentOS é uma marca registada de Red Hat, Inc. O projeto Rocky Linux não está afiliado, nem apoiado por Red Hat, Inc."
+  other = "CentOS é uma marca registada de Red Hat, Inc. O projeto Rocky Linux não está afiliado, nem é apoiado por Red Hat, Inc."
 
 [errors]
   [errors.404]
@@ -56,10 +56,10 @@ other = "pt"
   other = "Rocky Linux"
 
   [landing.p1.content]
-  other = "Um esforço conduzido pela comunidade para fornecer um sistema Linux de nível empresarial preparado para produção."
+  other = "Um esforço conduzido pela comunidade para fornecer um sistema Linux de nível empresarial, preparado para produção."
 
   [landing.p2.heading]
-  other = "O que é o projeto Rocky Linux?"
+  other = "O que é o Projeto Rocky Linux?"
 
   [landing.p2.content]
   other = "O Rocky Linux é um sistema operativo empresarial comunitário desenhado para ser 100% compatível com a distribuição de Linux empresarial mais importante dos Estados Unidos agora que o seu parceiro descendente mudou de direção. Este encontra-se sob um intenso desenvolvimento pela comunidade. O Rocky Linux é liderado por Gregory Kurtzer, fundador do projeto CentOS. Não existe ETA para um lançamento. Solicita-se aos colaboradores que comuniquem através das opções de comunicação disponibilizadas neste site."
@@ -87,4 +87,4 @@ other = "pt"
   other = "Idioma:"
 
   [lang.footer.choose-language]
-  other = "Escolher idioma..."
+  other = "Selecionar idioma..."
