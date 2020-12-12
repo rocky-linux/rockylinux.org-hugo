@@ -1,0 +1,89 @@
+[language]
+other = "tr"
+
+[links]
+  [links.get-involved]
+  other = "Katılın"
+
+  [links.get-in-touch]
+  other = "İletişim"
+
+  [links.go-home]
+  other = "Ana Sayfaya Git"
+
+  [links.close-menu]
+  other = "Menüyü Kapat"
+
+  [links.documentation]
+  other = "Dokümantasyon"
+
+  [links.join-the-discussion]
+  other = "Tartışmaya Katılın"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forumlar"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Projesi. Tüm hakları saklıdır."
+
+  [copyright.line2]
+  other = "CentOS, Red Hat, Inc.'in tescilli ticari markasıdır. Rocky Linux Projesi, Red Hat, Inc.'e bağlı değildir veya Red Hat, Inc. tarafından desteklenmemektedir."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Sayfa Bulunamadı."
+
+    [errors.404.explanation]
+    other = "İstenilen kaynak bulunamadı. Lütfen daha sonra tekrar deneyin."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "Topluluk odaklı, Kurumsal kullanıma hazır işletim sistemi."
+
+  [landing.p2.heading]
+  other = "Rocky Linux Projesi Nedir?"
+
+  [landing.p2.content]
+  other = "Rocky Linux, Enterprise Linux ile %100 bug-for-bug uyumlu olacak şekilde tasarlanmış bir topluluk kurumsal işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir. Rocky Linux, CentOS projesinin kurucusu Gregory Kurtzer tarafından yönetiliyor. Sürüm için tahmini çıkış zamanı yoktur. Katkıda bulunanlardan, bu sitede sunulan iletişim seçeneklerini kullanarak ulaşmaları istenir."
+[faq]
+  [faq.title]
+  other = "Sıkça Sorulan Sorular"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "\"its downstream partner has shifted direction\" ne anlama geliyor?"
+
+    [faq.q.come-in]
+    other = "Rocky Linux nereden geliyor?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "The CentOS project recently announced a shift in strategy for CentOS. Whereas previously CentOS existed as a downstream build of its upstream vendor (it receives patches and updates after the upstream vendor does), it will be shifting to an upstream build (testing patches and updates before inclusion in the upstream vendor). Additionally, support for CentOS Linux 8 has been cut short, from May 31, 2029 to December 31, 2021."
+
+    [faq.a.come-in]
+    other = "Rocky Linux aims to function as a downstream build as CentOS had done previously, building releases after they have been added by the upstream vendor, not before."
+
+[lang]
+  [lang.footer.literal]
+  other = "Dil"
+
+  [lang.footer.choose-language]
+  other = "Dil Seçin..."
