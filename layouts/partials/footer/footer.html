@@ -63,24 +63,7 @@
 </footer>
 
 <script type="text/javascript">
-    if(getParameterByName("l") != "") {
-        document.cookie = "preferredLanguage=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "redirected=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-
-        if(getParameterByName("l") == "Spanish") {
-            document.cookie = "preferredLanguage=es"
-        }
-        if(getParameterByName("l") == "English") {
-            document.cookie = "preferredLanguage=en"
-        }
-    }
-    
-    if (getCookie("preferredLanguage")) {
-        document.cookie = "redirected=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        var language = getCookie("preferredLanguage");
-    }else{
-        var language = (navigator.language || navigator.userLanguage).substr(0, 2);
-    }
+    var language = (navigator.language || navigator.userLanguage).substr(0, 2);
     
     if('{{ i18n "language" . }}' != language && getCookie("redirected") == null) {
         if (language == "es") {
@@ -98,14 +81,7 @@
        const parts = value.split(`; ${name}=`);
        if (parts.length === 2) return parts.pop().split(';').shift();
     }
-
-    function getParameterByName(name) {
-        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-        results = regex.exec(location.search);
-        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    }
-
+    
     function filename(){
 		var rutaAbsoluta = self.location.href;   
 		var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
