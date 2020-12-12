@@ -26,6 +26,9 @@
         if(getParameterByName("l") == "English") {
             document.cookie = "preferredLanguage=en"
         }
+        if(getParameterByName("l") == "Germand") {
+            document.cookie = "preferredLanguage=de"
+        }
     }
     
     if (getCookie("preferredLanguage")) {
@@ -38,6 +41,15 @@
         if (language == "es") {
             window.location.href = "es/"
             document.cookie = "preferredLanguage=es"
+        }else{
+            document.cookie = "preferredLanguage=en"
+        }
+    }
+
+    if('{{ i18n "language" . }}' != language) {
+        if (language == "de") {
+            window.location.href = "de/"
+            document.cookie = "preferredLanguage=de"
         }else{
             document.cookie = "preferredLanguage=en"
         }
