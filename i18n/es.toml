@@ -84,7 +84,7 @@ other = "es"
 
 [lang]
   [lang.footer.literal]
-  other = "Idioma"
+  other = "Idioma:"
 
   [lang.footer.choose-language]
   other = "Elegir idioma..."

@@ -13,19 +13,6 @@
                 </a>
             </div>
         </nav>
-        <nav class="mt-6 mb-2 flex flex-wrap justify-center" aria-label="Language">
-        <h5 class="font-medium text-black dark:text-white">{{ i18n "lang.footer.literal" . }}</h5>
-        </nav>
-        <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Language">
-            <div class="px-5 py-2">
-                <select id="language" name="language" onchange="location = this.value;" class="mt-1 block w-full pl-3 pr-10 py-2 text-base text-black dark:text-white border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm rounded-md">
-                        <option value="" selected hidden disabled>Choose a language...</option>
-                    {{ range $.Site.Home.AllTranslations }}
-                        <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
-                    {{ end }}
-                </select>
-            </div>
-        </nav>
         <div class="mt-8 flex justify-center space-x-6">
             <a href="{{ .Site.Params.social.twitter }}" class="text-gray-400 hover:text-gray-500 dark:hover:text-white">
                 <span class="sr-only">{{ i18n "socials.twitter" . }}</span>
@@ -63,6 +50,17 @@
                 </svg>
             </a>
         </div>
+        <nav class="mt-5 flex flex-wrap justify-center" aria-label="Language">
+            <div class="px-5 py-2 flex">
+                <h5 class="font-medium text-sm text-black dark:text-white mr-2 mt-2">{{ i18n "lang.footer.literal" . }}</h5>
+                <select id="language" name="language" onchange="location = this.value;" class="mt-1 block w-full pl-2 pr-8 py-1 text-sm text-black dark:text-white border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm rounded-md">
+                    <option value="" selected hidden disabled>{{ i18n "lang.footer.choose-language" . }}</option>
+                    {{ range $.Site.Home.AllTranslations }}
+                    <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
+                    {{ end }}
+                </select>
+            </div>
+        </nav>
             <p class="mt-8 text-center text-base text-gray-400">
                 {{ i18n "copyright.line1" . }}
             </p>
