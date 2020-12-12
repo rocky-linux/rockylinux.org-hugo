@@ -17,15 +17,24 @@
 {{ partial "meta/site-twittercard.html" . }}
 
 <script type="text/javascript">
-    if(getParameterByName("l") == "") {
-        var languageCookie = getCookie("preferredLanguage")
+    if(getParameterByName("l") != "") {
+        document.cookie = "preferredLanguage=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
-        if (languageCookie) {
-            var language = languageCookie
-        }else{
-            var language = navigator.language || navigator.userLanguage;
+        if(getParameterByName("l") == "Spanish") {
+            document.cookie = "preferredLanguage=es"
         }
-
+        if(getParameterByName("l") == "English") {
+            document.cookie = "preferredLanguage=en"
+        }
+    }
+    
+    if (getCookie("preferredLanguage")) {
+        var language = getCookie("preferredLanguage");
+    }else{
+        var language = (navigator.language || navigator.userLanguage).substr(0, 2);
+    }
+    
+    if('{{ i18n "language" . }}' != language) {
         if (language == "es") {
             window.location.href = "es/"
             document.cookie = "preferredLanguage=es"
