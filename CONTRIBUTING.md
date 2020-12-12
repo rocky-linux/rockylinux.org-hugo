@@ -28,6 +28,6 @@ that said, we must ask that:
   create a PR for any issues before a PR has been requested by maintainers.
 
 Finally, you must understand & acknowledge that any changes you submit into our
-project's version control history are licensed under the GPLv3 license, the
-terms of which are described fully in the [LICENSE](./LICENSE) file, located at
-the root of this repository.
+project's version control history are licensed under the BSD 3-clause license,
+the terms of which are described fully in the [LICENSE](./LICENSE) file, located
+at the root of this repository.
