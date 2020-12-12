@@ -15,7 +15,7 @@ documentation improvements, issues, etc. are all *very* much welcome. We
 don't wish to discourage any such contributions, quite the opposite. With
 that said, we must ask that:
 
-- Pull requests must be linked to an issue. If there is no issue currently
+- Pull requests must be linked to an issue and must be targeted towards the `develop` branch. If there is no issue currently
   open describing the issue/feature request you are contributing a solution
   to, open one yourself first, *before* you make a PR. This is to ensure that
   we know every part of our project is organized well, and makes sure that we
@@ -31,3 +31,7 @@ Finally, you must understand & acknowledge that any changes you submit into our
 project's version control history are licensed under the BSD 3-clause license,
 the terms of which are described fully in the [LICENSE](./LICENSE) file, located
 at the root of this repository.
+
+## Translations
+Please refer to [wiki](https://wiki.rockylinux.org/en/Web/Website/contrib-i18n) for
+information on translation contributions.
