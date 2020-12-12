@@ -2,8 +2,6 @@
 
 The Rocky Linux landing page, built using [Hugo](https://gohugo.io) and [TailwindCSS](https://tailwindcss.com).
 
-To add support for new languages, please refer to [contributing i18n wiki article](https://wiki.rockylinux.org/en/Web/Website/contrib-i18n).
-
 ## Requirements
 
 - [Hugo](https://gohugo.io)
