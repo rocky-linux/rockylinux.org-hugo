@@ -33,5 +33,5 @@ the terms of which are described fully in the [LICENSE](./LICENSE) file, located
 at the root of this repository.
 
 ## Translations
-Please refer to (wiki)[https://wiki.rockylinux.org/en/Web/Website/contrib-i18n] for
+Please refer to [wiki](https://wiki.rockylinux.org/en/Web/Website/contrib-i18n) for
 information on translation contributions.
