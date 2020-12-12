@@ -36,12 +36,16 @@ DefaultContentLanguage = "en"
   [languages.en]
     languageName = "English"
     title = "Rocky Linux"
-    weight = 2
+    weight = 1
   [languages.es]
     languageName = "Spanish"
     title = "Rocky Linux"
-    weight = 1
+    weight = 2
+  [languages.tr]
+    languageName = "Turkish"
+    title = "Rocky Linux"
+    weight = 3
   [languages.de]
     languageName = "Deutsch"
     title = "Rocky Linux"
-    weight = 1
+    weight = 4
