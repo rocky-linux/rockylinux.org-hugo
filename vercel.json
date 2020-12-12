@@ -8,6 +8,7 @@
   },
   "routes": [
     { "handle": "filesystem" },
+    { "src": "/de/(.*)", "status": 404, "dest": "/de/404.html" },
     { "src": "/es/(.*)", "status": 404, "dest": "/es/404.html" },
     { "src": "/(.*)",    "status": 404, "dest": "/404.html" }
   ]
