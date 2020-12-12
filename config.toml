@@ -27,6 +27,9 @@ url = "img/cover.png"
 width = 800
 height = 600
 
+[params.faqs]
+questions = ["downstream-partner-direction", "come-in"]
+
 DefaultContentLanguage = "en"
 
 [languages]
