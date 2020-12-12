@@ -36,9 +36,10 @@
     
     if('{{ i18n "language" . }}' != language) {
         if (language == "es") {
-            window.location.href = "es/"
+            window.location.href = "es/"+filename();
             document.cookie = "preferredLanguage=es"
         }else{
+            window.location.href = "/"+filename();
             document.cookie = "preferredLanguage=en"
         }
     }
@@ -56,4 +57,10 @@
         return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     }
 
+    function filename(){
+		var rutaAbsoluta = self.location.href;   
+		var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
+		var rutaRelativa = rutaAbsoluta.substring( posicionUltimaBarra + "/".length , rutaAbsoluta.length );
+		return rutaRelativa;  
+	}
  </script>
