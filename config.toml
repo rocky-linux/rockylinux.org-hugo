@@ -26,3 +26,18 @@ height = 40
 url = "img/cover.png"
 width = 800
 height = 600
+
+[params.faqs]
+questions = ["downstream-partner-direction", "come-in"]
+
+DefaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Rocky Linux"
+    weight = 2
+  [languages.es]
+    languageName = "Spanish"
+    title = "Rocky Linux"
+    weight = 1
