@@ -5,5 +5,10 @@
       "HUGO_VERSION": "0.79.0",
       "NODE_ENV": "production"
     }
-  }
+  },
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/es/(.*)", "status": 404, "dest": "/es/404.html" },
+    { "src": "/(.*)",    "status": 404, "dest": "/404.html" }
+  ]
 }

@@ -14,7 +14,7 @@
                         </div>
                     </div>
                     <div class="hidden md:flex md:space-x-10">
-                        <a href="{{ .Site.Params.links.wiki | absURL }}" class="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">Documentation</a>
+                        <a href="{{ .Site.Params.links.wiki | absURL }}" class="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{{ i18n "links.documentation" . }}</a>
                     </div>
                     <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                         <span class="inline-flex rounded-md shadow"><a class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out" href="mailto:{{ .Site.Params.social.email }}">Get in Touch</a></span>
