@@ -1,0 +1,90 @@
+[language]
+other = "pt_BR"
+
+[links]
+  [links.get-involved]
+  other = "Envolva-se"
+
+  [links.get-in-touch]
+  other = "Ficar em contato"
+
+  [links.go-home]
+  other = "Inicio"
+
+  [links.close-menu]
+  other = "Fechar menu"
+
+  [links.documentation]
+  other = "Documentação"
+
+  [links.join-the-discussion]
+  other = "Unir-se à discussão"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forums"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 O projeto Rocky Linux. Todos os direitos reservados."
+
+  [copyright.line2]
+  other = "CentOS é uma marca registrada de Red Hat, Inc. O projeto Rocky Linux não está afiliado nem respaldado pela Red Hat, Inc."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Página não encontrada."
+
+    [errors.404.explanation]
+    other = "Não se pode encontrar o recurso solicitado. Tente novamente."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "Um esforço da comunidade esfuerzo para obter um sistema Linux de classe empresarial pronto para produção."
+
+  [landing.p2.heading]
+  other = "O qué é o projeto Rocky Linux?"
+
+  [landing.p2.content]
+  other = "O Rocky Linux é um sistema operacional empresarial comunitário desenhado para ser 100% compatible com a distrubuição de Linux empresarial mais importante dos Estados Unidos agora que o sócio intermediário tinha trocado de direção. Está em desenvolvimento intensivo por parte da comunidade. O Rocky Linux está liderado por Gregory Kurtzer, fundador do projeto CentOS. Não há um ETA para liberação. Solicita-se aos colaboradores que se comuniquem com as opções de comunicação que se oferecem neste sitio."
+
+[faq]
+  [faq.title]
+  other = "Perguntas frecuentes"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "O qué significa, \"¿O sócio anterior tinha trocado de direção?\""
+
+    [faq.q.come-in]
+    other = "Então, onde entra o Rocky Linux?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "O projeto CentOS anunciou recentemente uma mudança na estratégia de CentOS. Anteriormente o CentOS existia como uma compilação descendente do seu fornecedor ascendente (recebe parches e actualizações depois que o forcernedor faz), se mudará a uma compilação ascendente (testando parches e atualizações antes da sua inclussão dentro do fornecedor ascendente). Aliás, o suporte para o CentOS Linux 8 tinha sido reduzido, desde em 31 de maio de 2029 até em 31 de dezembro de 2021."
+
+    [faq.a.come-in]
+    other = "Rocky Linux aponta a funcionar como uma compilação descendente como havía feito CentOS anteriormente, construíndo versões depois que tinham sido anadidas pelo fornecedor ascendente, não antes."
+
+[lang]
+  [lang.footer.literal]
+  other = "Idioma:"
+
+  [lang.footer.choose-language]
+  other = "Escolher idioma..."
