@@ -69,17 +69,17 @@ other = "tr"
 
   [faq.q]
     [faq.q.downstream-partner-direction]
-    other = "\"its downstream partner has shifted direction\" ne anlama geliyor?"
+    other = "\"aşağı akış ortağı yön değiştirdi mi?\" ne anlama geliyor?"
 
     [faq.q.come-in]
     other = "Rocky Linux nereden geliyor?"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
-    other = "The CentOS project recently announced a shift in strategy for CentOS. Whereas previously CentOS existed as a downstream build of its upstream vendor (it receives patches and updates after the upstream vendor does), it will be shifting to an upstream build (testing patches and updates before inclusion in the upstream vendor). Additionally, support for CentOS Linux 8 has been cut short, from May 31, 2029 to December 31, 2021."
+    other = "CentOS projesi geçtiğimiz günlerde CentOS için stratejide bir değişiklik duyurdu. Daha önce CentOS, yukarı akış satıcısının bir aşağı akış yapısı olarak mevcuttu (yukarı akış satıcısı yaptıktan sonra yamaları ve güncellemeleri alır),yukarı akışlı bir yapıya geçecek (yukarı akış sağlayıcıya dahil edilmeden önce yamaları ve güncellemeleri test etmek). Ek olarak, CentOS Linux 8 desteği 31 Mayıs 2029 ile 31 Aralık 2021 tarihleri arasında sona erdirildi."
 
     [faq.a.come-in]
-    other = "Rocky Linux aims to function as a downstream build as CentOS had done previously, building releases after they have been added by the upstream vendor, not before."
+    other = "Rocky Linux, CentOS'un daha önce yaptığı gibi yukarıdan aşağıya bir yapı olarak işlev görmeyi, daha önce değil, yukarı akış sağlayıcı tarafından eklendikten sonra sürümler oluşturmayı hedefliyor."
 
 [lang]
   [lang.footer.literal]
