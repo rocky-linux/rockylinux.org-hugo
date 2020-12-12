@@ -31,3 +31,10 @@ Finally, you must understand & acknowledge that any changes you submit into our
 project's version control history are licensed under the BSD 3-clause license,
 the terms of which are described fully in the [LICENSE](./LICENSE) file, located
 at the root of this repository.
+
+## Translations
+If you notice that we don't have support for your native language, feel free to
+contribute your translations! You'll need to reference `i18n/en.toml`, `config.toml`,
+`vercel.json`, and the script section in `layouts/partials/head/head.html` for the
+formats needed. Once you have the file ready, create your issue and link it to your
+Pull Request.
