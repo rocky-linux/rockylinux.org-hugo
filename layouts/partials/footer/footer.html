@@ -61,31 +61,3 @@
         </div>
     </div>
 </footer>
-
-<script type="text/javascript">
-    var language = (navigator.language || navigator.userLanguage).substr(0, 2);
-    
-    if('{{ i18n "language" . }}' != language && getCookie("redirected") == null) {
-        if (language == "es") {
-            window.location.href = "es/"+filename();
-            document.cookie = "preferredLanguage=es"
-        }else{
-            window.location.href = "/"+filename();
-            document.cookie = "preferredLanguage=en"
-        }
-        document.cookie = "redirected=1"
-    }
-
-    function getCookie(name) {
-       const value = `; ${document.cookie}`;
-       const parts = value.split(`; ${name}=`);
-       if (parts.length === 2) return parts.pop().split(';').shift();
-    }
-    
-    function filename(){
-		var rutaAbsoluta = self.location.href;   
-		var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
-		var rutaRelativa = rutaAbsoluta.substring( posicionUltimaBarra + "/".length , rutaAbsoluta.length );
-		return rutaRelativa;  
-	}
- </script>
