@@ -81,3 +81,10 @@ other = "es"
 
     [faq.a.come-in]
     other = "Rocky Linux apunta a funcionar como una compilación descendente como lo había hecho CentOS anteriormente, construyendo versiones después de que hayan sido agregadas por el proveedor ascendente, no antes."
+
+[lang]
+  [lang.footer.literal]
+  other = "Idioma"
+
+  [lang.footer.choose-language]
+  other = "Elegir idioma..."
