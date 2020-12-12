@@ -26,6 +26,13 @@
         if(getParameterByName("l") == "English") {
             document.cookie = "preferredLanguage=en"
         }
+
+        /* Italian Language */
+
+        if(getParameterByName("l") == "Italian") {
+            document.cookie = "preferredLanguage=it"
+        }
+        /* Italian Language end */
     }
     
     if (getCookie("preferredLanguage")) {
@@ -38,7 +45,15 @@
         if (language == "es") {
             window.location.href = "es/"
             document.cookie = "preferredLanguage=es"
-        }else{
+        }
+        
+        else
+        if (language == "it") {
+            window.location.href = "it/"
+            document.cookie = "preferredLanguage=it"
+        }
+        else // Default to English
+        {
             document.cookie = "preferredLanguage=en"
         }
     }
