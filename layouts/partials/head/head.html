@@ -26,6 +26,9 @@
         if(getParameterByName("l") == "English") {
             document.cookie = "preferredLanguage=en"
         }
+        if(getParameterByName("l") == "Portuguese") {
+            document.cookie = "preferredLanguage=pt"
+        }
     }
     
     if (getCookie("preferredLanguage")) {
@@ -38,7 +41,12 @@
         if (language == "es") {
             window.location.href = "es/"
             document.cookie = "preferredLanguage=es"
-        }else{
+        }
+        else if (language == "pt") {
+            window.location.href = "pt/"
+            document.cookie = "preferredLanguage=pt"
+        }
+        else {
             document.cookie = "preferredLanguage=en"
         }
     }
