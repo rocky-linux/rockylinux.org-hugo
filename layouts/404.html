@@ -1,10 +1,10 @@
 {{ define "main" }}
     <div class="relative bg-gray-50 dark:bg-gray-900 overflow-hidden">
-        <div class="relative pt-6 pb-6 sm:pb-6 md:pb-6 lg:pb-6 xl:pb-6">
+        <div class="relative pt-6 pb-6 sm:pb-6 md:pb-6 lg:pb-6 xl:pb-6" x-data="{ open: false }">
             <div class="max-w-screen-xl mx-auto px-4 sm:px-6">
                 <nav class="relative flex items-center justify-between sm:h-10 md:justify-center">
                     <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-                        <div class="flex items-center justify-between w-full md:w-auto h-full">
+                        <div class="flex items-center justify-between w-full md:w-auto">
                             <a href="/" aria-label="Home">
                                 <svg class="h-8 w-auto sm:h-10" width="1104" height="256" viewBox="0 0 1104 256" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M186.658 128.658C190.119 118.746 192 108.093 192 97c0-53.02-42.981-96-96-96C42.98 1 0 43.98 0 97c0 26.234 10.523 50.011 27.578 67.338l97.38-97.38L149 91l37.658 37.658zm-17.536 30.547l-44.164-44.163-69.16 69.16C68.027 189.849 81.645 193 96 193c29.288 0 55.514-13.116 73.122-33.795z" fill="#10B981"/>
@@ -13,14 +13,17 @@
                             </a>
                         </div>
                     </div>
+                    <div class="hidden md:flex md:space-x-10">
+                        <a href="{{ .Site.Params.links.wiki | absURL }}" class="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">Documentation</a>
+                    </div>
                     <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
-                        <span class="inline-flex rounded-md shadow"><a class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out" href="mailto:hello@rockylinux.org">Get in Touch</a></span>
+                        <span class="inline-flex rounded-md shadow"><a class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out" href="mailto:{{ .Site.Params.social.email }}">Get in Touch</a></span>
                     </div>
                 </nav>
             </div>
         </div>
     </div>
-    <div class="bg-gray-100 dark:bg-gray-800">
+    <div class="bg-gray-100 dark:bg-gray-800 relative z-0">
         <div class="max-w-4xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
             <svg class="h-52 text-green-500 w-full items-center justify-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-7.536 5.879a1 1 0 001.415 0 3 3 0 014.242 0 1 1 0 001.415-1.415 5 5 0 00-7.072 0 1 1 0 000 1.415z" clip-rule="evenodd" />
