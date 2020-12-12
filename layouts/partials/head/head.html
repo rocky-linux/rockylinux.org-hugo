@@ -29,8 +29,11 @@
         if(getParameterByName("l") == "English") {
             document.cookie = "preferredLanguage=en"
         }
-        if(getParameterByName("l") == "Germand") {
+        if(getParameterByName("l") == "German") {
             document.cookie = "preferredLanguage=de"
+        }
+        if(getParameterByName("l") == "Dutch") {
+            document.cookie = "preferredLanguage=nl"
         }
     }
     
@@ -57,6 +60,15 @@
         if (language == "de") {
             window.location.href = "de/"
             document.cookie = "preferredLanguage=de"
+        }else{
+            document.cookie = "preferredLanguage=en"
+        }
+    }
+
+    if('{{ i18n "language" . }}' != language) {
+        if (language == "nl") {
+            window.location.href = "nl/"
+            document.cookie = "preferredLanguage=nl"
         }else{
             document.cookie = "preferredLanguage=en"
         }
