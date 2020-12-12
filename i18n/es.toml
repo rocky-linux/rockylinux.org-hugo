@@ -66,3 +66,6 @@ other = "Entonces, ¿dónde entra Rocky Linux?"
 
 [rocky-inux-come-in-solve]
 other = "Rocky Linux apunta a funcionar como una compilación descendente como lo había hecho CentOS anteriormente, construyendo versiones después de que hayan sido agregadas por el proveedor ascendente, no antes."
+
+[select-languaje]
+other = "Seleccionar idioma"
