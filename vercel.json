@@ -11,7 +11,7 @@
     { "src": "/zh/(.*)", "status": 404, "dest": "/zh/404.html" },
     { "src": "/de/(.*)", "status": 404, "dest": "/de/404.html" },
     { "src": "/es/(.*)", "status": 404, "dest": "/es/404.html" },
-    { "src": "/pt-BR/(.*)", "status": 404, "dest": "/pt-BR/404.html" },
+    { "src": "/pt-br/(.*)", "status": 404, "dest": "/pt-br/404.html" },
     { "src": "/pt-pt/(.*)", "status": 404, "dest": "/pt-pt/404.html" },
     { "src": "/nl/(.*)", "status": 404, "dest": "/nl/404.html" },
     { "src": "/it/(.*)", "status": 404, "dest": "/it/404.html" },

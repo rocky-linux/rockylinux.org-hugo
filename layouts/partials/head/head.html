@@ -40,7 +40,7 @@
         var languageWCountry = (navigator.language || navigator.userLanguage).toLowerCase();
     }
 
-    let hugoLanguage = '{{ i18n "language" . }}';
+    let hugoLanguage = '{{ i18n "language" . }}'.toLowerCase();
     if (hugoLanguage != language && hugoLanguage != languageWCountry) {
         if (languages.includes(language)) {
             window.location.href = language + "/";
