@@ -56,13 +56,13 @@ other = "pl"
   other = "Rocky Linux"
 
   [landing.p1.content]
-  other = "Prowadzony przez społeczność wysiłek w celu stworzenia korporacyjnej klasy, gotowego na produkcję Linuksa."
+  other = "Inicjatywa społecznościowa w celu stworzenia biznesowej klasy, gotowego do wykorzystania produkcyjnego Linuksa."
 
   [landing.p2.heading]
   other = "Czym jest projekt Rocky Linux?"
 
   [landing.p2.content]
-  other = "Rocky Linux jest społecznościowym systemem operacyjnym klasy korporacyjnej zaprojektowanym aby być w 100% błąd-za-błędem kompatybilny z najlepszyą dystrybucją amerykańskiego systemu klasy korporacyjnej, kiedy to jej partner zmienił kierunek rozwoju. Jest on intensywnie rozwijany przez społeczność. Rocky Linux jest prowadzony przez Gregory'ego Kurtzera, założyciela projektu CentOS. Nie ma żadnego szacunkowego czasu wydania. Autorzy są proszeni o kontakt za pomocą opcji komunikacyjnych oferowanych na tej stronie."
+  other = "Rocky Linux jest społecznościowym systemem operacyjnym klasy biznesowej, zaprojektowanym aby być w 100% błąd-za-błędem kompatybilnym z najlepszą korporacyjną dystrybucją amerykańskiego systemu Linux, kiedy to jej mniejszy partner zmienił kierunek rozwoju. Jest on intensywnie rozwijany przez społeczność. Rocky Linux jest prowadzony przez Gregory'ego Kurtzera, założyciela projektu CentOS. Nie ma żadnego szacunkowego czasu wydania. Autorzy są proszeni o kontakt za pomocą opcji komunikacyjnych oferowanych na tej stronie."
 
 [faq]
   [faq.title]
@@ -77,7 +77,7 @@ other = "pl"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
-    other = "Projekt CentOS niedawno ogłosił zmianę kierunku rozwoju. mając na uwadze, że wcześniej CentOS istniał jako kompilacja tzw. downstream swojego dostawcy wyższego szczebla (otrzymuje łatki i aktualizacje po tym, jak dostawca wyższego szczebla je otrzymuje), zostanie on przeniesiony do kompilacji upstream (testowanie łatek i aktualizacji przed włączeniem do dostawcy wyższego szczebla)."
+    other = "Projekt CentOS niedawno ogłosił zmianę kierunku rozwoju. Mając na uwadze, że wcześniej CentOS istniał jako kompilacja tzw. downstream swojego dostawcy wyższego szczebla (otrzymuje łatki i aktualizacje po tym, jak dostawca wyższego szczebla je otrzymuje), zostanie on przeniesiony do kompilacji upstream (testowanie łatek i aktualizacji przed włączeniem do dostawcy wyższego szczebla)."
 
     [faq.a.come-in]
     other = "Rocky Linux ma na celu funkcjonowanie jako kompilacja downstream, tak jak CentOS robił to wcześniej, budując wydania po dodaniu ich do dostawcy upstream, a nie wcześniej."
