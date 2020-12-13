@@ -16,108 +16,88 @@
 
 {{ partial "meta/site-twittercard.html" . }}
 
-<script type="text/javascript">
-    if(getParameterByName("l") != "") {
+<!-- This is the script in charge of redirecting the page if it is not in the correct language -->
+<script>
+// If no language has been defined by the GET method, we save it as preferred in a cookie.
+if(getParameterByName("l") != "") {
+
+    // We define all available languages
+    var languages = ["pt-BR", "pt-PT", "es", "tr", "en", "nl", "it", "de", "ru", "lv", "zh", "ja"]
+
+    // We see if the language passed by the get exists in the array
+    if(languages.includes( getParameterByName("l") )) {
+        // We delete the previous preferred language
         document.cookie = "preferredLanguage=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
-        if(getParameterByName("l") == "es") {
-            document.cookie = "preferredLanguage=es"
-        }
-        if(getParameterByName("l") == "tr") {
-            document.cookie = "preferredLanguage=tr"
-        }
-        if(getParameterByName("l") == "en") {
-            document.cookie = "preferredLanguage=en"
-        }
-        if(getParameterByName("l") == "pt-BR") {
-            document.cookie = "preferredLanguage=pt-BR"
-        }
-        if(getParameterByName("l") == "pt-PT") {
-            document.cookie = "preferredLanguage=pt-PT"
-        }
-        if(getParameterByName("l") == "nl") {
-            document.cookie = "preferredLanguage=nl"
-        }
-        if(getParameterByName("l") == "it") {
-            document.cookie = "preferredLanguage=it"
-        }
-        if(getParameterByName("l") == "de") {
-            document.cookie = "preferredLanguage=de"
-        }
-        if(getParameterByName("l") == "ru") {
-            document.cookie = "preferredLanguage=ru"
-        }
-        if(getParameterByName("l") == "lv") {
-            document.cookie = "preferredLanguage=lv"
-        }
-        if(getParameterByName("l") == "zh") {
-            document.cookie = "preferredLanguage=zh"
-        }
-        if(getParameterByName("l") == "ja") {
-            document.cookie = "preferredLanguage=ja"
-        }
+        // We save new language
+        document.cookie = "preferredLanguage="+getParameterByName("l");
     }
+}    
 
-    if (getCookie("preferredLanguage")) {
-        var language = getCookie("preferredLanguage");
-    }else{
-        var language = (navigator.language || navigator.userLanguage).substr(0, 2);
-        var languageWCountry = (navigator.language || navigator.userLanguage);
+if (getCookie("preferredLanguage")) {
+    // If we have a favorite language, it is the one we will use
+    var language = getCookie("preferredLanguage");
+    var languageWCountry = getCookie("preferredLanguage");
+}else{
+    // If we don't get it from the browser
+    var language = (navigator.language || navigator.userLanguage).substr(0, 2);
+    var languageWCountry = (navigator.language || navigator.userLanguage);
+}
+
+// We check that the site is in the correct language, and if it is not, we redirect
+// VERY IMPORTANT. ALWAYS PUT UP THE LANGUAGES THAT HAVE FORMAT xx-YY AND BELOW THOSE THAT HAVE FORMAT xx
+if('{{ i18n "language" . }}' != language) {
+    if (languageWCountry == "pt-BR") {
+        window.location.href = "pt-BR/"
+        document.cookie = "preferredLanguage=pt-BR"
+    } else if (languageWCountry == "pt-PT") {
+        window.location.href = "pt-PT/"
+        document.cookie = "preferredLanguage=pt-PT"
+    } else if (language == "es") {
+        window.location.href = "es/"
+        document.cookie = "preferredLanguage=es"
+    } else if (language == "it") {
+        window.location.href = "it/"
+        document.cookie = "preferredLanguage=it"
+    } else if (language == "de") {
+        window.location.href = "de/"
+        document.cookie = "preferredLanguage=de"
+    } else if (language == "nl") {
+        window.location.href = "nl/"
+        document.cookie = "preferredLanguage=nl"
+    } else if (language == "tr") {
+        window.location.href = "tr/"
+        document.cookie = "preferredLanguage=tr"
+    } else if (language == "ru") {
+        window.location.href = "ru/"
+        document.cookie = "preferredLanguage=ru"
+    } else if (language == "de") {
+        window.location.href = "de/"
+        document.cookie = "preferredLanguage=de"
+    } else if (language == "lv") {
+        window.location.href = "lv/"
+        document.cookie = "preferredLanguage=lv"
+    } else if (language == "zh") {
+        window.location.href = "zh/"
+        document.cookie = "preferredLanguage=zh"
+    } else if (language == "ja") {
+        window.location.href = "ja/"
+        document.cookie = "preferredLanguage=ja"
+    } else  { //Default to english
+        document.cookie = "preferredLanguage=en"
     }
+}
 
-    if('{{ i18n "language" . }}' != language) {
-        if (language == "es") {
-            window.location.href = "es/"
-            document.cookie = "preferredLanguage=es"
-        } else if (language == "it") {
-            window.location.href = "it/"
-            document.cookie = "preferredLanguage=it"
-        } else if (language == "de") {
-            window.location.href = "de/"
-            document.cookie = "preferredLanguage=de"
-        } else if (language == "nl") {
-            window.location.href = "nl/"
-            document.cookie = "preferredLanguage=nl"
-        } else if (language == "tr") {
-            window.location.href = "tr/"
-            document.cookie = "preferredLanguage=tr"
-        } else if (language == "ru") {
-            window.location.href = "ru/"
-            document.cookie = "preferredLanguage=ru"
-        } else if (language == "de") {
-            window.location.href = "de/"
-            document.cookie = "preferredLanguage=de"
-        } else if (language == "lv") {
-            window.location.href = "lv/"
-            document.cookie = "preferredLanguage=lv"
-        } else if (language == "zh") {
-            window.location.href = "zh/"
-            document.cookie = "preferredLanguage=zh"
-        } else if (language == "pt-BR" || languageWCountry == "pt-BR") {
-            window.location.href = "pt-BR/"
-            document.cookie = "preferredLanguage=pt-BR"
-        } else if (language == "pt-PT" || languageWCountry == "pt-PT") {
-            window.location.href = "pt-PT/"
-            document.cookie = "preferredLanguage=pt-PT"
-        } else if (language == "ja") {
-            window.location.href = "ja/"
-            document.cookie = "preferredLanguage=ja"
-        } else  { //Default to english
-            document.cookie = "preferredLanguage=en"
-        }
-    }
+function getCookie(name) {
+   const value = `; ${document.cookie}`;
+   const parts = value.split(`; ${name}=`);
+   if (parts.length === 2) return parts.pop().split(';').shift();
+}
 
-    function getCookie(name) {
-       const value = `; ${document.cookie}`;
-       const parts = value.split(`; ${name}=`);
-       if (parts.length === 2) return parts.pop().split(';').shift();
-    }
-
-    function getParameterByName(name) {
-        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-        results = regex.exec(location.search);
-        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    }
-
- </script>
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+</script>
