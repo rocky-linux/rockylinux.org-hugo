@@ -1,0 +1,87 @@
+[language]
+other = "ja"
+
+[links]
+  [links.get-involved]
+  other = "参加する"
+
+  [links.get-in-touch]
+  other = "お問い合わせ"
+
+  [links.go-home]
+  other = "ホームに戻る"
+
+  [links.close-menu]
+  other = "メニューを閉じる"
+
+  [links.documentation]
+  other = "ドキュメント"
+
+  [links.join-the-discussion]
+  other = "議論に参加する"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "フォーラム"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Project. All rights reserved."
+
+  [copyright.line2]
+  other = "CentOS は Red Hat, Inc.の登録商標です。Rocky Linux Project は Red Hat, Inc.と提携しておらず、また Red Hat, Inc.が推奨しているものではありません。"
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Page not found."
+
+    [errors.404.explanation]
+    other = "指定されたURLが見つかりませんでした。もう一度お試しください。"
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "コミュニティ主導の、企業向けの本番環境に対応したLinux。"
+
+  [landing.p2.heading]
+  other = "Rocky Linux Projectとは？"
+
+  [landing.p2.content]
+  other = "Rocky Linux は、ダウンストリームパートナーが方向転換した今、アメリカのトップエンタープライズ Linux ディストリビューションと 100% バグ・フォー・バグ互換性を持つように設計されたコミュニティ・エンタープライズ・オペレーティングシステムです。コミュニティ主導で開発されています。Rocky LinuxはCentOSプロジェクトの創設者であるGregory Kurtzer氏が発足しました。リリースは未定です。プロジェクトに貢献する場合は、このサイトで提供されている連絡手段で連絡を取ってください。"
+
+[faq]
+  [faq.title]
+  other = "よくある質問"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "\"ダウンストリームパートナーが方向転換した\"ってどういうこと？"
+
+    [faq.q.come-in]
+    other = "Rocky Linuxはどの場所に位置しますか？"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "CentOSプロジェクトは最近、CentOSの戦略の転換を発表しました。これまでCentOSは、アップストリームベンダーのダウンストリームビルドとして存在していたのに対し（アップストリームベンダーが行った後にパッチやアップデートを受け取る）、アップストリームビルド（アップストリームベンダーに組み込む前にパッチやアップデートをテストする）に移行するとしました。さらに、CentOS Linux 8のサポートは2029年5月31日から2021年12月31日までと短くなりました。"
+
+    [faq.a.come-in]
+    other = "Rocky Linuxは、以前にCentOSが行っていたように、リリースが追加される前ではなく、アップストリームベンダによって追加された後にリリースをビルドすることで、ダウンストリームビルドとして機能することを目指しています。"
+
+[lang]
+  [lang.footer.choose-language]
+  other = "言語を選択..."
