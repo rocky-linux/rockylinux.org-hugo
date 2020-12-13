@@ -83,8 +83,5 @@ other = "pt"
     other = "O Rocky Linux pretende funcionar como uma compilação descendente, tal como o CentOS fazia anteriormente, construindo versões após estas terem sido adicionadas pelo provedor ascendente, não antes."
 
 [lang]
-  [lang.footer.literal]
-  other = "Idioma:"
-
   [lang.footer.choose-language]
   other = "Selecionar idioma..."
