@@ -62,24 +62,24 @@ other = "tr"
   other = "Rocky Linux Projesi Nedir?"
 
   [landing.p2.content]
-  other = "Rocky Linux, Enterprise Linux ile %100 bug-for-bug uyumlu olacak şekilde tasarlanmış bir topluluk kurumsal işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir. Rocky Linux, CentOS projesinin kurucusu Gregory Kurtzer tarafından yönetiliyor. Sürüm için tahmini çıkış zamanı yoktur. Katkıda bulunanlardan, bu sitede sunulan iletişim seçeneklerini kullanarak ulaşmaları istenir."
+  other = "Rocky Linux, topluluk tarafından oluşturulan ve karşılığı downstream olmayı bıraktıktan sonra Enterprise Linux ile 100% bug-for-bug şekilde uyumlu olması için dizayn edilmiş bir işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir. Rocky Linux, CentOS projesinin kurucusu Gregory Kurtzer tarafından yönetiliyor. Sürüm için tahmini çıkış zamanı yoktur. Katkıda bulunanlardan, bu sitede sunulan iletişim seçeneklerini kullanarak ulaşmaları istenir."
 [faq]
   [faq.title]
   other = "Sıkça Sorulan Sorular"
 
   [faq.q]
     [faq.q.downstream-partner-direction]
-    other = "\"aşağı akış ortağı yön değiştirdi mi?\" ne anlama geliyor?"
+    other = "\"...karşılığı downstream olmayı bıraktıktan sonra...\" ne anlama geliyor?"
 
     [faq.q.come-in]
     other = "Rocky Linux nereden geliyor?"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
-    other = "CentOS projesi geçtiğimiz günlerde CentOS için stratejide bir değişiklik duyurdu. Daha önce CentOS, yukarı akış satıcısının bir aşağı akış yapısı olarak mevcuttu (yukarı akış satıcısı yaptıktan sonra yamaları ve güncellemeleri alır),yukarı akışlı bir yapıya geçecek (yukarı akış sağlayıcıya dahil edilmeden önce yamaları ve güncellemeleri test etmek). Ek olarak, CentOS Linux 8 desteği 31 Mayıs 2029 ile 31 Aralık 2021 tarihleri arasında sona erdirildi."
+    other = "CentOS projesi geçtiğimiz günlerde CentOS için stratejide bir değişiklik duyurdu. Geçmişte CentOS, Enterprise Linux'in bir downstream (çıkan güncellemeleri ve güvenlik yamalarını upstream versiyonu aldıktan sonra alan) versiyonu olarak kullanılıyordu fakat Enterprise Linux'in upstream (çıkan güncellemeleri ve güvenlik yamalarının denendiği) versiyonu olma yönünde bir değişiklik yaşadı. Ek olarak, CentOS Linux 8'e verilecek desteğin son tarihi 31 Mayıs 2029'dan 31 Aralık 2021'e çekildi."
 
     [faq.a.come-in]
-    other = "Rocky Linux, CentOS'un daha önce yaptığı gibi yukarıdan aşağıya bir yapı olarak işlev görmeyi, daha önce değil, yukarı akış sağlayıcı tarafından eklendikten sonra sürümler oluşturmayı hedefliyor."
+    other = "Rocky Linux, CentOS'un geçmişte yaptığı gibi downstream bir versiyon olmayı hedefliyor. Sürümler upstream karşılığına yenilikler eklendikten sonra çıkacak, önce değil."
 
 [lang]
   [lang.footer.choose-language]
