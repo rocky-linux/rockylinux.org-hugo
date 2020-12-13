@@ -41,6 +41,9 @@
         if(getParameterByName("l") == "lv") {
             document.cookie = "preferredLanguage=lv"
         }
+        if(getParameterByName("l") == "pt") {
+            document.cookie = "preferredLanguage=pt"
+        }
         if(getParameterByName("l") == "ja") {
             document.cookie = "preferredLanguage=ja"
         }
@@ -65,32 +68,19 @@
         } else if (language == "ru") {
             window.location.href = "ru/"
             document.cookie = "preferredLanguage=ru"
+        } else if (language == "de") {
+            window.location.href = "de/"
+            document.cookie = "preferredLanguage=de"
         } else if (language == "lv") {
             window.location.href = "lv/"
             document.cookie = "preferredLanguage=lv"
+        } else if (language == "pt") {
+            window.location.href = "pt/"
+            document.cookie = "preferredLanguage=pt"
         } else if (language == "ja") {
             window.location.href = "ja/"
             document.cookie = "preferredLanguage=ja"
         } else  { //Default to english
-            document.cookie = "preferredLanguage=en"
-        }
-    }
-
-    if('{{ i18n "language" . }}' != language) {
-        if (language == "de") {
-            window.location.href = "de/"
-            document.cookie = "preferredLanguage=de"
-        }else if (language == "ru") {
-            window.location.href = "ru/"
-            document.cookie = "preferredLanguage=ru"
-        }else if (language == "lv") {
-            window.location.href = "lv/"
-            document.cookie = "preferredLanguage=lv"
-        }else if (language == "ja") {
-            window.location.href = "ja/"
-            document.cookie = "preferredLanguage=ja"
-        }else{
-
             document.cookie = "preferredLanguage=en"
         }
     }
