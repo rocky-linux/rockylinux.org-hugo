@@ -17,92 +17,45 @@
 {{ partial "meta/site-twittercard.html" . }}
 
 <script type="text/javascript">
-    if(getParameterByName("l") != "") {
+
+    const languages = [];
+    {{ range $.Site.Home.AllTranslations }}
+        languages.push('{{ .Language.Lang }}'.toLowerCase())
+    {{ end }}
+
+    let parameterLang = getParameterByName("l").toLowerCase();
+    if(parameterLang != "") {
         document.cookie = "preferredLanguage=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
-        if(getParameterByName("l") == "es") {
-            document.cookie = "preferredLanguage=es"
-        }
-        if(getParameterByName("l") == "tr") {
-            document.cookie = "preferredLanguage=tr"
-        }
-        if(getParameterByName("l") == "en") {
-            document.cookie = "preferredLanguage=en"
-        }
-        if(getParameterByName("l") == "pt-BR") {
-            document.cookie = "preferredLanguage=pt-BR"
-        }
-        if(getParameterByName("l") == "pt-PT") {
-            document.cookie = "preferredLanguage=pt-PT"
-        }
-        if(getParameterByName("l") == "nl") {
-            document.cookie = "preferredLanguage=nl"
-        }
-        if(getParameterByName("l") == "it") {
-            document.cookie = "preferredLanguage=it"
-        }
-        if(getParameterByName("l") == "de") {
-            document.cookie = "preferredLanguage=de"
-        }
-        if(getParameterByName("l") == "ru") {
-            document.cookie = "preferredLanguage=ru"
-        }
-        if(getParameterByName("l") == "lv") {
-            document.cookie = "preferredLanguage=lv"
-        }
-        if(getParameterByName("l") == "zh") {
-            document.cookie = "preferredLanguage=zh"
-        }
-        if(getParameterByName("l") == "ja") {
-            document.cookie = "preferredLanguage=ja"
+        if (languages.includes(parameterLang)) {
+            document.cookie = "preferredLanguage=" + parameterLang;
         }
     }
 
     if (getCookie("preferredLanguage")) {
         var language = getCookie("preferredLanguage");
-    }else{
+        console.log("language form cookie");
+        console.log(language);
+    }
+    else {
         var language = (navigator.language || navigator.userLanguage).substr(0, 2);
-        var languageWCountry = (navigator.language || navigator.userLanguage);
+        var languageWCountry = (navigator.language || navigator.userLanguage).toLowerCase();
+        console.log(languageWCountry);
     }
 
-    if('{{ i18n "language" . }}' != language) {
-        if (language == "es") {
-            window.location.href = "es/"
-            document.cookie = "preferredLanguage=es"
-        } else if (language == "it") {
-            window.location.href = "it/"
-            document.cookie = "preferredLanguage=it"
-        } else if (language == "de") {
-            window.location.href = "de/"
-            document.cookie = "preferredLanguage=de"
-        } else if (language == "nl") {
-            window.location.href = "nl/"
-            document.cookie = "preferredLanguage=nl"
-        } else if (language == "tr") {
-            window.location.href = "tr/"
-            document.cookie = "preferredLanguage=tr"
-        } else if (language == "ru") {
-            window.location.href = "ru/"
-            document.cookie = "preferredLanguage=ru"
-        } else if (language == "de") {
-            window.location.href = "de/"
-            document.cookie = "preferredLanguage=de"
-        } else if (language == "lv") {
-            window.location.href = "lv/"
-            document.cookie = "preferredLanguage=lv"
-        } else if (language == "zh") {
-            window.location.href = "zh/"
-            document.cookie = "preferredLanguage=zh"
-        } else if (language == "pt-BR" || languageWCountry == "pt-BR") {
-            window.location.href = "pt-BR/"
-            document.cookie = "preferredLanguage=pt-BR"
-        } else if (language == "pt-PT" || languageWCountry == "pt-PT") {
-            window.location.href = "pt-PT/"
-            document.cookie = "preferredLanguage=pt-PT"
-        } else if (language == "ja") {
-            window.location.href = "ja/"
-            document.cookie = "preferredLanguage=ja"
-        } else  { //Default to english
+    let hugoLanguage = '{{ i18n "language" . }}';
+    if (hugoLanguage != language && hugoLanguage != languageWCountry) {
+        console.log("current language is diffrent")
+
+        if (languages.includes(language)) {
+            window.location.href = language + "/";
+            document.cookie = "preferredLanguage=" + language;
+        }
+        else if (languages.includes(languageWCountry)) {
+            window.location.href = languageWCountry + "/";
+            document.cookie = "preferredLanguage=" + languageWCountry;
+        }
+        else  { // Default to english
             document.cookie = "preferredLanguage=en"
         }
     }
