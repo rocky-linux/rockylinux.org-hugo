@@ -20,29 +20,35 @@
     if(getParameterByName("l") != "") {
         document.cookie = "preferredLanguage=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
-        if(getParameterByName("l") == "Spanish") {
+        if(getParameterByName("l") == "Español") {
             document.cookie = "preferredLanguage=es"
         }
-        if(getParameterByName("l") == "Turkish") {
+        if(getParameterByName("l") == "Türkçe") {
             document.cookie = "preferredLanguage=tr"
         }
         if(getParameterByName("l") == "English") {
             document.cookie = "preferredLanguage=en"
         }
-        if(getParameterByName("l") == "Italian") {
+        if(getParameterByName("l") == "Italiano") {
             document.cookie = "preferredLanguage=it"
         }
-        if(getParameterByName("l") == "Germand") {
+        if(getParameterByName("l") == "Deutsch") {
             document.cookie = "preferredLanguage=de"
         }
+        if(getParameterByName("l") == "Русский") {
+            document.cookie = "preferredLanguage=ru"
+        }
+        if(getParameterByName("l") == "Latviski") {
+            document.cookie = "preferredLanguage=lv"
+        }
     }
-    
+
     if (getCookie("preferredLanguage")) {
         var language = getCookie("preferredLanguage");
     }else{
         var language = (navigator.language || navigator.userLanguage).substr(0, 2);
     }
-    
+
     if('{{ i18n "language" . }}' != language) {
         if (language == "es") {
             window.location.href = "es/"
@@ -53,6 +59,12 @@
         } else if (language == "tr") {
             window.location.href = "tr/"
             document.cookie = "preferredLanguage=tr"
+        } else if (language == "ru") {
+            window.location.href = "ru/"
+            document.cookie = "preferredLanguage=ru"
+        } else if (language == "lv") {
+            window.location.href = "lv/"
+            document.cookie = "preferredLanguage=lv"
         } else  { //Default to english
             document.cookie = "preferredLanguage=en"
         }
@@ -62,6 +74,12 @@
         if (language == "de") {
             window.location.href = "de/"
             document.cookie = "preferredLanguage=de"
+        }else if (language == "ru") {
+            window.location.href = "ru/"
+            document.cookie = "preferredLanguage=ru"
+        }else if (language == "lv") {
+            window.location.href = "lv/"
+            document.cookie = "preferredLanguage=lv"
         }else{
 
             document.cookie = "preferredLanguage=en"
