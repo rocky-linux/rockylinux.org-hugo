@@ -41,6 +41,9 @@
         if(getParameterByName("l") == "lv") {
             document.cookie = "preferredLanguage=lv"
         }
+        if(getParameterByName("l") == "ja") {
+            document.cookie = "preferredLanguage=ja"
+        }
     }
 
     if (getCookie("preferredLanguage")) {
@@ -65,6 +68,9 @@
         } else if (language == "lv") {
             window.location.href = "lv/"
             document.cookie = "preferredLanguage=lv"
+        } else if (language == "ja") {
+            window.location.href = "ja/"
+            document.cookie = "preferredLanguage=ja"
         } else  { //Default to english
             document.cookie = "preferredLanguage=en"
         }
@@ -80,6 +86,9 @@
         }else if (language == "lv") {
             window.location.href = "lv/"
             document.cookie = "preferredLanguage=lv"
+        }else if (language == "ja") {
+            window.location.href = "ja/"
+            document.cookie = "preferredLanguage=ja"
         }else{
 
             document.cookie = "preferredLanguage=en"
