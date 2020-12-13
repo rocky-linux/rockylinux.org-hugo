@@ -72,15 +72,15 @@ other = "pt"
     [faq.q.downstream-partner-direction]
     other = "O que significa, \"o parceiro descendente mudou de direção?\""
 
-  [faq.q.come-in]
-  other = "Então, onde entra o Rocky Linux?"
+    [faq.q.come-in]
+    other = "Então, onde entra o Rocky Linux?"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
     other = "O projeto CentOS anuciou recentemente uma mudança de estratégia para o CentOS. Enquanto que anteriormente o CentOS existia como uma compilação descendente do seu provedor ascendente (recebe correções e atualizações depois do provedor ascendente), agora passará a uma compilação ascendente (testando correções e atualizações antes da sua inclusão no provedor ascendente). Além disso, o suporte do CentOS Linux 8 foi reduzido, de 31 de maio de 2029 para 31 de dezembro de 2021."
 
-  [faq.a.come-in]
-  other = "O Rocky Linux pretende funcionar como uma compilação descendente, tal como o CentOS fazia anteriormente, construindo versões após estas terem sido adicionadas pelo provedor ascendente, não antes."
+    [faq.a.come-in]
+    other = "O Rocky Linux pretende funcionar como uma compilação descendente, tal como o CentOS fazia anteriormente, construindo versões após estas terem sido adicionadas pelo provedor ascendente, não antes."
 
 [lang]
   [lang.footer.choose-language]
