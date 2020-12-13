@@ -34,19 +34,14 @@
 
     if (getCookie("preferredLanguage")) {
         var language = getCookie("preferredLanguage");
-        console.log("language form cookie");
-        console.log(language);
     }
     else {
         var language = (navigator.language || navigator.userLanguage).substr(0, 2);
         var languageWCountry = (navigator.language || navigator.userLanguage).toLowerCase();
-        console.log(languageWCountry);
     }
 
     let hugoLanguage = '{{ i18n "language" . }}';
     if (hugoLanguage != language && hugoLanguage != languageWCountry) {
-        console.log("current language is diffrent")
-
         if (languages.includes(language)) {
             window.location.href = language + "/";
             document.cookie = "preferredLanguage=" + language;
