@@ -59,7 +59,7 @@ other = "de"
   other = "Eine gemeinschaftlich-getriebene Anstrengung um eine produktionsbereite Linux-Distribution für höchste Ansprüche zu liefern."
 
   [landing.p2.heading]
-  other = "was ist das Rocky Linux-Projekt?"
+  other = "Was ist das Rocky Linux-Projekt?"
 
   [landing.p2.content]
   other = "Rocky Linux ist ein Community-Betriebssystem für Unternehmen, das zu 100% Bug-for-Bug-kompatibel mit Amerikas führender Linux-Distribution für Unternehmen ist, nachdem sein nachgeschalteter Partner die Richtung geändert hat. Es wird von der Community intensiv weiterentwickelt. Rocky Linux wird von Gregory Kurtzer, dem Gründer des CentOS-Projekts, geleitet. Es gibt keine ETA für eine Veröffentlichung. Die Mitwirkenden werden gebeten, die auf dieser Website angebotenen Kommunikationsoptionen zu nutzen."
