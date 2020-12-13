@@ -10,9 +10,9 @@
 
 <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css" />
-<link rel="icon" href="img/favicon.ico"/>
+<link rel="icon" href="/img/favicon.ico"/>
 
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.js" defer=""></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer=""></script>
 
 {{ partial "meta/site-twittercard.html" . }}
 
@@ -20,25 +20,68 @@
     if(getParameterByName("l") != "") {
         document.cookie = "preferredLanguage=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
-        if(getParameterByName("l") == "Spanish") {
+        if(getParameterByName("l") == "es") {
             document.cookie = "preferredLanguage=es"
         }
-        if(getParameterByName("l") == "English") {
+        if(getParameterByName("l") == "tr") {
+            document.cookie = "preferredLanguage=tr"
+        }
+        if(getParameterByName("l") == "en") {
             document.cookie = "preferredLanguage=en"
         }
+        if(getParameterByName("l") == "it") {
+            document.cookie = "preferredLanguage=it"
+        }
+        if(getParameterByName("l") == "de") {
+            document.cookie = "preferredLanguage=de"
+        }
+        if(getParameterByName("l") == "ru") {
+            document.cookie = "preferredLanguage=ru"
+        }
+        if(getParameterByName("l") == "lv") {
+            document.cookie = "preferredLanguage=lv"
+        }
     }
-    
+
     if (getCookie("preferredLanguage")) {
         var language = getCookie("preferredLanguage");
     }else{
         var language = (navigator.language || navigator.userLanguage).substr(0, 2);
     }
-    
+
     if('{{ i18n "language" . }}' != language) {
         if (language == "es") {
             window.location.href = "es/"
             document.cookie = "preferredLanguage=es"
+        } else if (language == "it") {
+            window.location.href = "it/"
+            document.cookie = "preferredLanguage=it"
+        } else if (language == "tr") {
+            window.location.href = "tr/"
+            document.cookie = "preferredLanguage=tr"
+        } else if (language == "ru") {
+            window.location.href = "ru/"
+            document.cookie = "preferredLanguage=ru"
+        } else if (language == "lv") {
+            window.location.href = "lv/"
+            document.cookie = "preferredLanguage=lv"
+        } else  { //Default to english
+            document.cookie = "preferredLanguage=en"
+        }
+    }
+
+    if('{{ i18n "language" . }}' != language) {
+        if (language == "de") {
+            window.location.href = "de/"
+            document.cookie = "preferredLanguage=de"
+        }else if (language == "ru") {
+            window.location.href = "ru/"
+            document.cookie = "preferredLanguage=ru"
+        }else if (language == "lv") {
+            window.location.href = "lv/"
+            document.cookie = "preferredLanguage=lv"
         }else{
+
             document.cookie = "preferredLanguage=en"
         }
     }
