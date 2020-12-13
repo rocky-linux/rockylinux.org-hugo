@@ -1,0 +1,86 @@
+[language]
+other = "tr"
+
+[links]
+  [links.get-involved]
+  other = "Bize Katılın" 
+
+  [links.get-in-touch]
+  other = "İletişim"
+
+  [links.go-home]
+  other = "Ana Sayfa" 
+
+  [links.close-menu]
+  other = "Menüyü Kapat"
+
+  [links.documentation]
+  other = "Belgelendirme"
+
+  [links.join-the-discussion]
+  other = "Tartışmaya Katılın"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forumlar"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Projesi. Tüm hakları saklıdır."
+
+  [copyright.line2]
+  other = "CentOS, Red Hat, Inc.'in tescilli ticari markasıdır. Rocky Linux Projesi, Red Hat, Inc.'e bağlı değildir veya Red Hat, Inc. tarafından desteklenmemektedir."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Sayfa Bulunamadı."
+
+    [errors.404.explanation]
+    other = "İstenilen kaynak bulunamadı. Lütfen daha sonra tekrar deneyin."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "Topluluk odaklı, Kurumsal kullanıma hazır işletim sistemi."
+
+  [landing.p2.heading]
+  other = "Rocky Linux Projesi Nedir?"
+
+  [landing.p2.content]
+  other = "Rocky Linux, Enterprise Linux ile %100 bug-for-bug uyumlu olacak şekilde tasarlanmış bir topluluk kurumsal işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir. Rocky Linux, CentOS projesinin kurucusu Gregory Kurtzer tarafından yönetiliyor. Sürüm için tahmini çıkış zamanı yoktur. Katkıda bulunanlardan, bu sitede sunulan iletişim seçeneklerini kullanarak ulaşmaları istenir."
+[faq]
+  [faq.title]
+  other = "Sıkça Sorulan Sorular"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "\"aşağı akış ortağı yön değiştirdi mi?\" ne anlama geliyor?"
+
+    [faq.q.come-in]
+    other = "Rocky Linux nereden geliyor?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "CentOS projesi geçtiğimiz günlerde CentOS için stratejide bir değişiklik duyurdu. Daha önce CentOS, yukarı akış satıcısının bir aşağı akış yapısı olarak mevcuttu (yukarı akış satıcısı yaptıktan sonra yamaları ve güncellemeleri alır),yukarı akışlı bir yapıya geçecek (yukarı akış sağlayıcıya dahil edilmeden önce yamaları ve güncellemeleri test etmek). Ek olarak, CentOS Linux 8 desteği 31 Mayıs 2029 ile 31 Aralık 2021 tarihleri arasında sona erdirildi."
+
+    [faq.a.come-in]
+    other = "Rocky Linux, CentOS'un daha önce yaptığı gibi yukarıdan aşağıya bir yapı olarak işlev görmeyi, daha önce değil, yukarı akış sağlayıcı tarafından eklendikten sonra sürümler oluşturmayı hedefliyor."
+
+[lang]
+  [lang.footer.choose-language]
+  other = "Sayfanın Dilini Seçiniz..."
