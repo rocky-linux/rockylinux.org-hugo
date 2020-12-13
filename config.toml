@@ -80,3 +80,7 @@ DefaultContentLanguage = "en"
     languageName = "Português"
     title = "Rocky Linux"
     weight = 12
+  [languages.ar]
+    languageName = "العربية"
+    title = "روكي لينكس"
+    weight = 13
