@@ -1,0 +1,90 @@
+[language]
+other = "lv"
+
+[links]
+[links.get-involved]
+other = "Iesaisties"
+
+[links.get-in-touch]
+other = "Saziņai"
+
+[links.go-home]
+other = "Mājup"
+
+[links.close-menu]
+other = "Aizvērt izvēlni"
+
+[links.documentation]
+other = "Dokumentācija"
+
+[links.join-the-discussion]
+other = "Pievienojies diskusijai"
+
+[socials]
+[socials.twitter]
+other = "Twitter"
+
+[socials.reddit]
+other = "Reddit"
+
+[socials.forums]
+other = "Forums"
+
+[socials.slack]
+other = "Slack"
+
+[socials.github]
+other = "GitHub"
+
+[copyright]
+[copyright.line1]
+other = "© 2020 The Rocky Linux Project. Visas tiesībais aizsargātas."
+
+[copyright.line2]
+other = "CentOS ir Red Hat, Inc reģistrēta preču zīme. Rocky Linux Project nav saistīts un nav atbalstīts no Red Hat, Inc."
+
+[errors]
+[errors.404]
+[errors.404.title]
+other = "Lapa nav atrasta."
+
+[errors.404.explanation]
+other = "Pieprasītā vietne nav atrasta. Lūdzu, mēģini vēlreiz."
+
+[landing]
+[landing.p1.heading]
+other = "Rocky Linux"
+
+[landing.p1.content]
+other = "Komūnas iniciatīva biznesa klases produkcijas Linux operetājsistēmas izveidē"
+
+[landing.p2.heading]
+other = "Kas ir Rocky Linux?"
+
+[landing.p2.content]
+other = "Rocky Linux ir komūnas veidota biznesa klases operētājsistēma, veidota būt 100% savietojama ar Amerikas vislabāk pazīstamo biznesa Linux distribūciju, sekojot tās veidotāj-partnera virziena maiņai. Rocky Linux distributīvu aktīvi istrāda komūna, tās izstrādi vada Gregorijs Kurtzers, CentOS projekta dibinātājs. Distribūcijas iznākšanas datums nav zināms. Visi kas vēlas iesaistīties Rocky Linux izveidē tiek aicināti sazināties ar mums izmantojot kādu no šajā vietnē piedāvātajām iespējām."
+
+[faq]
+[faq.title]
+other = "Biežāk Uzdotie Jautājumi"
+
+[faq.q]
+[faq.q.downstream-partner-direction]
+other = "Kas tiek domāts ar , \"sekojot tās partnera virziena maiņai\"?"
+
+[faq.q.come-in]
+other = "Ko piedāvā Rocky Linux?"
+
+[faq.a]
+[faq.a.downstream-partner-direction]
+other = "CentOS projekts nesen paziņoja par stratēģisku virziena maiņu CentOS projekta izstrādē. Agrāk CentOS distribūcija eksistēja kā būvējums veidots no partnera izejas koda - saņemot labojumus un atjauninājums pēc partnera distribūcijas. Turpmāk CentOS distribūcija saņems atjauninājumus pirms partnera distribūcijas, testējot atjauninājumus un labojumus pirms to iekļaušanas distribūcījā. Papildus tam, CentOS 8. versijas atbalsta laiks tika saīsināts no 2029. gada 31. maija līdz 2021. gada 31. decembrim."
+
+[faq.a.come-in]
+other = "Rocky Linux ir izveidots ar mērķi turpināt piedāvāt Linux distribūciju kas veidota pēc atjauninājumu iekļaušanas partnera distribūcijā, salīdzināmi kā tas notika pirms CentOS izstrādes virziena maiņas."
+
+[lang]
+[lang.footer.literal]
+other = "Valoda:"
+
+[lang.footer.choose-language]
+other = "Izvēlies valodu..."

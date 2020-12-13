@@ -10,7 +10,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css" />
-<link rel="icon" href="img/favicon.ico"/>
+<link rel="icon" href="/img/favicon.ico"/>
 
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer=""></script>
 
@@ -22,9 +22,6 @@
 
         if(getParameterByName("l") == "es") {
             document.cookie = "preferredLanguage=es"
-        }
-        if(getParameterByName("l") == "pt") {
-            document.cookie = "preferredLanguage=pt"
         }
         if(getParameterByName("l") == "tr") {
             document.cookie = "preferredLanguage=tr"
@@ -38,36 +35,43 @@
         if(getParameterByName("l") == "de") {
             document.cookie = "preferredLanguage=de"
         }
+        if(getParameterByName("l") == "ru") {
+            document.cookie = "preferredLanguage=ru"
+        }
+        if(getParameterByName("l") == "lv") {
+            document.cookie = "preferredLanguage=lv"
+        }
+        if(getParameterByName("l") == "pt") {
+            document.cookie = "preferredLanguage=pt"
+        }
     }
-    
+
     if (getCookie("preferredLanguage")) {
         var language = getCookie("preferredLanguage");
     }else{
         var language = (navigator.language || navigator.userLanguage).substr(0, 2);
     }
-    
+
     if('{{ i18n "language" . }}' != language) {
         if (language == "es") {
             window.location.href = "es/"
             document.cookie = "preferredLanguage=es"
-        }
-        else if (language == "pt") {
-            window.location.href = "pt/"
-            document.cookie = "preferredLanguage=pt"
-        }
-        else if (language == "tr") {
-            window.location.href = "tr/"
-            document.cookie = "preferredLanguage=tr"
-        } 
-        else if (language == "it") {
+        } else if (language == "it") {
             window.location.href = "it/"
             document.cookie = "preferredLanguage=it"
-        } 
-        else if (language == "de") {
-            window.location.href = "de/"
-            document.cookie = "preferredLanguage=de"
-        }
-        else  { // Default to english
+        } else if (language == "tr") {
+            window.location.href = "tr/"
+            document.cookie = "preferredLanguage=tr"
+        } else if (language == "ru") {
+            window.location.href = "ru/"
+            document.cookie = "preferredLanguage=ru"
+        } else if (language == "lv") {
+            window.location.href = "lv/"
+            document.cookie = "preferredLanguage=lv"
+        } else if (language == "pt") {
+            window.location.href = "pt/"
+            document.cookie = "preferredLanguage=pt"
+        } else  { //Default to english
             document.cookie = "preferredLanguage=en"
         }
     }
