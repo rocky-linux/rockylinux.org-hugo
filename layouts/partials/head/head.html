@@ -62,7 +62,6 @@
         var language = getCookie("preferredLanguage");
     }else{
         var language = (navigator.language || navigator.userLanguage).substr(0, 2);
-        var languageWCountry = (navigator.language || navigator.userLanguage);
     }
 
     if('{{ i18n "language" . }}' != language) {
@@ -93,10 +92,10 @@
         } else if (language == "zh") {
             window.location.href = "zh/"
             document.cookie = "preferredLanguage=zh"
-        } else if (language == "pt-BR" || languageWCountry == "pt-BR") {
+        } else if (language == "pt-BR") {
             window.location.href = "pt-BR/"
             document.cookie = "preferredLanguage=pt-BR"
-        } else if (language == "pt-PT" || languageWCountry == "pt-PT") {
+        } else if (language == "pt-PT") {
             window.location.href = "pt-PT/"
             document.cookie = "preferredLanguage=pt-PT"
         } else if (language == "ja") {
