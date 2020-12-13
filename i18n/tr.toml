@@ -3,19 +3,19 @@ other = "tr"
 
 [links]
   [links.get-involved]
-  other = "Katılın"
+  ot	her = "Bize Katılın" # Bize katılın daha samimi duruyor
 
   [links.get-in-touch]
   other = "İletişim"
 
   [links.go-home]
-  other = "Ana Sayfaya Git"
+  other = "Ana Sayfa" # Cümle paragraf bağlantısı için daha iyi gibi
 
   [links.close-menu]
   other = "Menüyü Kapat"
 
   [links.documentation]
-  other = "Dokümantasyon"
+  other = "Belgelendirme"
 
   [links.join-the-discussion]
   other = "Tartışmaya Katılın"
@@ -83,4 +83,4 @@ other = "tr"
 
 [lang]
   [lang.footer.choose-language]
-  other = "Dil Seçin..."
+  other = "Sayfanın Dilini Seçiniz..."
