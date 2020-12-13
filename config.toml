@@ -7,7 +7,7 @@ description = "Rocky Linux is an open enterprise Operating System designed to be
 images = ["img/cover.png"]
 
 [params.social]
-slackurl = "https://hpcng.slack.com/join/shared_invite/zt-k5z04bsh-1uqpaD1NsYVP73vzc3uKdQ"
+slackurl = "https://hpcng.slack.com/join/shared_invite/zt-k1v012fn-SH2IG7iwhLhE0j8qb1GHVw"
 twitter = "https://twitter.com/rocky_linux"
 reddit = "https://reddit.com/r/rockylinux"
 forum = "https://forums.rockylinux.org/"
@@ -40,24 +40,32 @@ DefaultContentLanguage = "en"
   [languages.es]
     languageName = "Español"
     title = "Rocky Linux"
-    weight = 1
+    weight = 2
+  [languages.nl]
+    languageName = "Nederlands"
+    title = "Rocky Linux"
+    weight = 3
   [languages.it]
     languageName = "Italiano"
     title = "Rocky Linux"
-    weight = 2
+    weight = 4
   [languages.tr]
     languageName = "Türkçe"
     title = "Rocky Linux"
-    weight = 3
+    weight = 5
   [languages.de]
-    languageName = "Deutsch"
+    languageName = "German"
     title = "Rocky Linux"
-    weight = 4
+    weight = 6
   [languages.ru]
     languageName = "Русский"
     title = "Rocky Linux"
-    weight = 5
+    weight = 7
   [languages.lv]
     languageName = "Latviski"
     title = "Rocky Linux"
-    weight = 6
+    weight = 8
+  [languages.pt-BR]
+    languageName = "Português (Brasil)"
+    title = "Rocky Linux"
+    weight = 10
