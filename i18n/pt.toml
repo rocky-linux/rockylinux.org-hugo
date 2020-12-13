@@ -5,20 +5,20 @@ other = "pt"
   [links.get-involved]
   other = "Envolver-se"
 
-[links.get-in-touch]
-other = "Entrar em Contacto"
+  [links.get-in-touch]
+  other = "Entrar em Contacto"
 
-[links.go-home]
-other = "Início"
+  [links.go-home]
+  other = "Início"
 
-[links.close-menu]
-other = "Fechar menu"
+  [links.close-menu]
+  other = "Fechar menu"
 
-[links.documentation]
-other = "Documentação"
+  [links.documentation]
+  other = "Documentação"
 
-[links.join-the-discussion]
-other = "Junte-se à Discussão"
+  [links.join-the-discussion]
+  other = "Junte-se à Discussão"
 
 [socials]
   [socials.twitter]
