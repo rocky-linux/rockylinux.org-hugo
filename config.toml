@@ -45,6 +45,10 @@ DefaultContentLanguage = "en"
     languageName = "Italiano"
     title = "Rocky Linux"
     weight = 2
+  [languages.pt]
+    languageName = "Português"
+    title = "Rocky Linux"
+    weight = 5
   [languages.tr]
     languageName = "Türkçe"
     title = "Rocky Linux"
