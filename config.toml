@@ -7,7 +7,7 @@ description = "Rocky Linux is an open enterprise Operating System designed to be
 images = ["img/cover.png"]
 
 [params.social]
-slackurl = "https://hpcng.slack.com/join/shared_invite/zt-k1v012fn-SH2IG7iwhLhE0j8qb1GHVw"
+slackurl = "https://join.slack.com/t/hpcng/shared_invite/zt-k7pb2a4x-gJ_YJdTg6KAU3Pc2YORZrA"
 twitter = "https://twitter.com/rocky_linux"
 reddit = "https://reddit.com/r/rockylinux"
 forum = "https://forums.rockylinux.org/"
