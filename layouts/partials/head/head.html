@@ -32,6 +32,9 @@
         if(getParameterByName("l") == "pt-BR") {
             document.cookie = "preferredLanguage=pt-BR"
         }
+        if(getParameterByName("l") == "pt") {
+            document.cookie = "preferredLanguage=pt"
+        }
         if(getParameterByName("l") == "nl") {
             document.cookie = "preferredLanguage=nl"
         }
@@ -86,6 +89,9 @@
         } else if (language == "pt-BR") {
             window.location.href = "pt-BR/"
             document.cookie = "preferredLanguage=pt-BR"
+        } else if (language == "pt") {
+            window.location.href = "pt/"
+            document.cookie = "preferredLanguage=pt"
         } else  { //Default to english
             document.cookie = "preferredLanguage=en"
         }
