@@ -8,6 +8,7 @@
   },
   "routes": [
     { "handle": "filesystem" },
+    { "src": "/zh_CN/(.*)", "status": 404, "dest": "/zh_CN/404.html" },
     { "src": "/de/(.*)", "status": 404, "dest": "/de/404.html" },
     { "src": "/es/(.*)", "status": 404, "dest": "/es/404.html" },
     { "src": "/it/(.*)", "status": 404, "dest": "/it/404.html" },
