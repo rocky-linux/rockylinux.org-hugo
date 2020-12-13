@@ -1,0 +1,90 @@
+[language]
+other = "ru"
+
+[links]
+[links.get-involved]
+other = "Присоединяйтесь"
+
+[links.get-in-touch]
+other = "Связаться"
+
+[links.go-home]
+other = "Домашняя страница"
+
+[links.close-menu]
+other = "Закрыть"
+
+[links.documentation]
+other = "Документация"
+
+[links.join-the-discussion]
+other = "Присоединяйтесь к обсуждению"
+
+[socials]
+[socials.twitter]
+other = "Twitter"
+
+[socials.reddit]
+other = "Reddit"
+
+[socials.forums]
+other = "Форум"
+
+[socials.slack]
+other = "Slack"
+
+[socials.github]
+other = "GitHub"
+
+[copyright]
+[copyright.line1]
+other = "© 2020 The Rocky Linux Project. Все права защищены."
+
+[copyright.line2]
+other = "CentOS является зарегистрированной торговой маркой компании Red Hat, Inc. Rocky Linux не связан и не одобрен Red Hat, Inc."
+
+[errors]
+[errors.404]
+[errors.404.title]
+other = "Страница не найдена."
+
+[errors.404.explanation]
+other = "Запрошенная страница не найдена. Пожалуйста, повторите позже."
+
+[landing]
+[landing.p1.heading]
+other = "Rocky Linux"
+
+[landing.p1.content]
+other = "Общественная инициатива по созданию готовой к работе системы Linux корпоративного уровня."
+
+[landing.p2.heading]
+other = "Что такое Rocky Linux?"
+
+[landing.p2.content]
+other = "Rocky Linux - это операционная система корпоративного уровня, разработанная для того, чтобы быть на 100% совместимой с ведущим корпоративным дистрибутивом Linux в Америке, поскольку ее партнер-создатель изменил направление. Rocky Linux в настоящее время активно развивается. Rocky Linux возглавляет Грегори Курцер, основатель проекта CentOS. Нет никаких оценок того, когда произойдет релиз. Всех заинтересованных просим связаться с нами используя способы связи предлагаемые на этом сайте."
+
+[faq]
+[faq.title]
+other = "Часто задаваемые вопросы"
+
+[faq.q]
+[faq.q.downstream-partner-direction]
+other = "Что значит \"его партнер-создатель сменил направление\"?"
+
+[faq.q.come-in]
+other = "Какую роль играет Rocky Linux?"
+
+[faq.a]
+[faq.a.downstream-partner-direction]
+other = "Проект CentOS недавно объявил об изменении стратегии для CentOS. Ранее CentOS существовала как нисходящая сборка своего восходящего поставщика, потому что дистрибутив получал исправления и обновления после того, как вышестоящий поставщик. Теперь CentOS перейдет на восходящую сборку, тестирование исправлений и обновлений перед включением в вышестоящего поставщика. Кроме того, поддержка CentOS Linux 8 была сокращена с 31 мая 2029 года до 31 декабря 2021 года."
+
+[faq.a.come-in]
+other = "Rocky Linux стремится существовать как последующая сборка, аналогично тому, как CentOS разрабатывалась ранее. Rocky Linux будет создавать выпуски после того, как они будут созданы первоначальным поставщиком."
+
+[lang]
+[lang.footer.literal]
+other = "Язык:"
+
+[lang.footer.choose-language]
+other = "Выберите язык..."

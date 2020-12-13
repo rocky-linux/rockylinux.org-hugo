@@ -83,8 +83,5 @@ other = "en"
     other = "Rocky Linux aims to function as a downstream build as CentOS had done previously, building releases after they have been added by the upstream vendor, not before."
 
 [lang]
-  [lang.footer.literal]
-  other = "Language:"
-
   [lang.footer.choose-language]
   other = "Choose a language..."
