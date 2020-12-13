@@ -68,7 +68,7 @@ other = "sv"
 
   [faq.q]
     [faq.q.downstream-partner-direction]
-    other = "Vad menar ni med att, \ "dess nedströmspartner har ändrat inriktning? \""
+    other = "Vad menar ni med att, \"dess nedströmspartner har ändrat inriktning?\""
 
     [faq.q.come-in]
     other = "Så var gör det att Rocky Linux kommer in i bilden?"
