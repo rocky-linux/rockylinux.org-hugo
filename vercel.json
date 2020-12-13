@@ -9,7 +9,7 @@
   "routes": [
     { "handle": "filesystem" },
     { "src": "/es/(.*)", "status": 404, "dest": "/es/404.html" },
-    { "src": "/pt_BR/(.*)", "status": 404, "dest": "/pt_BR/404.html" },
+    { "src": "/pt/(.*)", "status": 404, "dest": "/pt/404.html" },
     { "src": "/(.*)",    "status": 404, "dest": "/404.html" }
   ]
 }
