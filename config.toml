@@ -8,7 +8,7 @@ images = ["img/cover.png"]
 
 [params.social]
 slackurl = "https://hpcng.slack.com/join/shared_invite/zt-k5z04bsh-1uqpaD1NsYVP73vzc3uKdQ"
-twitter = "https://twitter.com/rocky_linux" 
+twitter = "https://twitter.com/rocky_linux"
 reddit = "https://reddit.com/r/rockylinux"
 forum = "https://forums.rockylinux.org/"
 email = "hello@rockylinux.org"
@@ -53,3 +53,11 @@ DefaultContentLanguage = "en"
     languageName = "Deutsch"
     title = "Rocky Linux"
     weight = 4
+  [languages.ru]
+    languageName = "Русский"
+    title = "Rocky Linux"
+    weight = 5
+  [languages.lv]
+    languageName = "Latviski"
+    title = "Rocky Linux"
+    weight = 6
