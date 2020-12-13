@@ -82,9 +82,6 @@ other = "pl"
     [faq.a.come-in]
     other = "Rocky Linux ma na celu funkcjonowanie jako kompilacja downstream, tak jak CentOS robił to wcześniej, budując wydania po dodaniu ich do dostawcy upstream, a nie wcześniej."
 
-[lang]
-  [lang.footer.literal]
-  other = "Język:"
-  
+[lang]  
   [lang.footer.choose-language]
   other = "Wybierz język..."
