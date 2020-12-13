@@ -40,40 +40,39 @@ DefaultContentLanguage = "en"
   [languages.es]
     languageName = "Español"
     title = "Rocky Linux"
-    weight = 1
-  [languages.pt-BR]
-    languageName = "Português (Brasil)"
-    title = "Rocky Linux"
-    weight = 6
-  [languages.it]
-    languageName = "Italiano"
-    title = "Rocky Linux"
     weight = 2
-  [languages.pt]
-    languageName = "Português"
-    title = "Rocky Linux"
-    weight = 5
-  [languages.tr]
-    languageName = "Türkçe"
-    title = "Rocky Linux"
-    weight = 3
-  [languages.de]
-    languageName = "German"
-    title = "Rocky Linux"
-    weight = 4
-  [languages.ru]
-    languageName = "Русский"
-    title = "Rocky Linux"
-    weight = 5
-  [languages.lv]
-    languageName = "Latviski"
-    title = "Rocky Linux"
-    weight = 6
   [languages.nl]
     languageName = "Nederlands"
     title = "Rocky Linux"
+    weight = 3
+  [languages.it]
+    languageName = "Italiano"
+    title = "Rocky Linux"
+    weight = 4
+  [languages.tr]
+    languageName = "Türkçe"
+    title = "Rocky Linux"
+    weight = 5
+  [languages.de]
+    languageName = "German"
+    title = "Rocky Linux"
+    weight = 6
+  [languages.ru]
+    languageName = "Русский"
+    title = "Rocky Linux"
     weight = 7
+  [languages.lv]
+    languageName = "Latviski"
+    title = "Rocky Linux"
+    weight = 8
+  [languages.zh]
+    languageName = "简体中文"
+    weight = 9
+  [languages.pt-BR]
+    languageName = "Português (Brasil)"
+    title = "Rocky Linux"
+    weight = 10
   [languages.ja]
     languageName = "日本語"
     title = "Rocky Linux"
-    weight = 8
+    weight = 11
