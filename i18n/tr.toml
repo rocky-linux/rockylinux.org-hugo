@@ -3,13 +3,13 @@ other = "tr"
 
 [links]
   [links.get-involved]
-  ot	her = "Bize Katılın" # Bize katılın daha samimi duruyor
+  ot	her = "Bize Katılın" 
 
   [links.get-in-touch]
   other = "İletişim"
 
   [links.go-home]
-  other = "Ana Sayfa" # Cümle paragraf bağlantısı için daha iyi gibi
+  other = "Ana Sayfa" 
 
   [links.close-menu]
   other = "Menüyü Kapat"
