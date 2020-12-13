@@ -29,6 +29,15 @@
         if(getParameterByName("l") == "en") {
             document.cookie = "preferredLanguage=en"
         }
+        if(getParameterByName("l") == "pt-BR") {
+            document.cookie = "preferredLanguage=pt-BR"
+        }
+        if(getParameterByName("l") == "pt-PT") {
+            document.cookie = "preferredLanguage=pt-PT"
+        }
+        if(getParameterByName("l") == "nl") {
+            document.cookie = "preferredLanguage=nl"
+        }
         if(getParameterByName("l") == "it") {
             document.cookie = "preferredLanguage=it"
         }
@@ -43,6 +52,12 @@
         }
         if(getParameterByName("l") == "ar") {
             document.cookie = "preferredLanguage=ar"
+        }
+        if(getParameterByName("l") == "zh") {
+            document.cookie = "preferredLanguage=zh"
+        }
+        if(getParameterByName("l") == "ja") {
+            document.cookie = "preferredLanguage=ja"
         }
     }
 
@@ -59,6 +74,12 @@
         } else if (language == "it") {
             window.location.href = "it/"
             document.cookie = "preferredLanguage=it"
+        } else if (language == "de") {
+            window.location.href = "de/"
+            document.cookie = "preferredLanguage=de"
+        } else if (language == "nl") {
+            window.location.href = "nl/"
+            document.cookie = "preferredLanguage=nl"
         } else if (language == "tr") {
             window.location.href = "tr/"
             document.cookie = "preferredLanguage=tr"
@@ -78,19 +99,30 @@
 
     if('{{ i18n "language" . }}' != language) {
         if (language == "de") {
+
+        } else if (language == "de") {
+
             window.location.href = "de/"
             document.cookie = "preferredLanguage=de"
-        }else if (language == "ru") {
-            window.location.href = "ru/"
-            document.cookie = "preferredLanguage=ru"
-        }else if (language == "lv") {
+        } else if (language == "lv") {
             window.location.href = "lv/"
             document.cookie = "preferredLanguage=lv"
         }else if (language == "ar") {
             window.location.href = "ar/"
             document.cookie = "preferredLanguage=ar"
-        }else{
-
+        } else if (language == "zh") {
+            window.location.href = "zh/"
+            document.cookie = "preferredLanguage=zh"
+        } else if (language == "pt-BR") {
+            window.location.href = "pt-BR/"
+            document.cookie = "preferredLanguage=pt-BR"
+        } else if (language == "pt-PT") {
+            window.location.href = "pt-PT/"
+            document.cookie = "preferredLanguage=pt-PT"
+        } else if (language == "ja") {
+            window.location.href = "ja/"
+            document.cookie = "preferredLanguage=ja"
+        } else  { //Default to english
             document.cookie = "preferredLanguage=en"
         }
     }
