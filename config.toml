@@ -1,4 +1,4 @@
-baseURL = "/"
+  baseURL = "/"
 languageCode = "en-us"
 title = "Rocky Linux"
 
@@ -61,3 +61,7 @@ DefaultContentLanguage = "en"
     languageName = "Latviski"
     title = "Rocky Linux"
     weight = 6
+[languages.sv]
+      languageName = "Svenska"
+    title = "Rocky Linux"
+    weight = 7
