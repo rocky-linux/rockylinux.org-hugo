@@ -17,6 +17,12 @@ Dependencies can be installed for you by simpling running `npm install` within t
 hugo server
 ```
 
+## Build files for production
+
+```bash
+hugo
+```
+
 ## Contributing
 
 We welcome your contributions! Please refer to our [contributing policies](https://github.com/rocky-linux/rockylinux.org/blob/main/CONTRIBUTING.md) prior to submitting pull requests.
