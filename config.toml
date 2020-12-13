@@ -84,3 +84,7 @@ DefaultContentLanguage = "en"
     languageName = "العربية"
     title = "روكي لينكس"
     weight = 13
+  [languages.pl]
+    languageName = "Polski"
+    title = "Rocky Linux"
+    weight = 14
