@@ -83,8 +83,5 @@ other = "de"
     other = "Rocky Linux zielt darauf ab, wie zuvor bei CentOS, als Downstream-Build zu fungieren und Releases zu veröffentlichen, nachdem sie vom Upstream-Anbieter hinzugefügt wurden, nicht zuvor."
 
 [lang]
-  [lang.footer.literal]
-  other = "Sprache:"
-
   [lang.footer.choose-language]
   other = "Wähle eine Sprache..."

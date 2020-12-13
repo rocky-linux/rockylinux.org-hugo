@@ -82,8 +82,5 @@ other = "tr"
     other = "Rocky Linux, CentOS'un daha önce yaptığı gibi yukarıdan aşağıya bir yapı olarak işlev görmeyi, daha önce değil, yukarı akış sağlayıcı tarafından eklendikten sonra sürümler oluşturmayı hedefliyor."
 
 [lang]
-  [lang.footer.literal]
-  other = "Dil"
-
   [lang.footer.choose-language]
   other = "Dil Seçin..."

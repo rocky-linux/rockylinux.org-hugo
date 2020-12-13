@@ -81,14 +81,9 @@ other = "it"
     [faq.a.downstream-partner-direction]
     other = "Il progetto CentOS ha recentemente annunciato un cambiamento di strategia per CentOS. Mentre in precedenza CentOS esisteva come una downstream build  del suo fornitore upstream (riceve le patch e gli aggiornamenti dopo che il fornitore upstream lo fa), passerà ad una upstream build  (test delle patch e degli aggiornamenti prima dell'inclusione nell' upstream). Inoltre, il supporto per CentOS Linux 8 è stato ridotto, dal 31 maggio 2029 al 31 dicembre 2021."
 
-
-
     [faq.a.come-in]
     other = "Rocky Linux mira a funzionare come una build downstream come CentOS aveva fatto in precedenza, costruendo le release dopo che sono state aggiunte in upstream, non prima."
 
 [lang]
-  [lang.footer.literal]
-  other = "Lingue:"
-
   [lang.footer.choose-language]
   other = "Scegli una lingua..."
