@@ -1,0 +1,90 @@
+[language]
+other = "zh"
+
+[links]
+  [links.get-involved]
+  other = "参与其中"
+
+  [links.get-in-touch]
+  other = "保持联系"
+
+  [links.go-home]
+  other = "去到主页"
+
+  [links.close-menu]
+  other = "关闭菜单"
+
+  [links.documentation]
+  other = "文档"
+
+  [links.join-the-discussion]
+  other = "参与讨论"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forums"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 Rocky Linux 项目. 版权所有."
+
+  [copyright.line2]
+  other = "CentOS是Red Hat, Inc.的注册商标，Rocky Linux 项目不属于Red Hat, Inc.,也不需要获得其认可"
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "找不到页面。"
+
+    [errors.404.explanation]
+    other = "找不到您请求的资源，请稍后再试。"
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "以社区驱动为导向，为您带来企业级可生产的Linux。"
+
+  [landing.p2.heading]
+  other = "Rocky Linux 项目是什么?"
+
+  [landing.p2.content]
+  other = "Rocky Linux是一个社区的企业操作系统，由于下游合作伙伴已经改变了方向，因此它的设计是为与美国顶级企业Linux发行版实现100％ Bug级兼容。社区正在大力发展，Rocky Linux由CentOS项目的创始人Gregory Kurtzer领导，没有发布的ETA，要求贡献者使用此站点上提供的通信方式进行联系。"
+
+[faq]
+  [faq.title]
+  other = "经常被问到的问题"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "您的意思是\"其下游合作伙伴已改变方向\"？"
+
+    [faq.q.come-in]
+    other = "那么Rocky Linux从何入手？"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "CentOS项目最近宣布了CentOS战略转变，CentOS以前是作为上游供应商的下游版本存在的（它在上游供应商之后收到补丁和更新），而现在它将转移到上游版本（其中包含上游供应商的之前测试补丁和更新）。另外，对CentOS Linux 8的支持已从2029年5月31日缩短到2021年12月31日。"
+
+    [faq.a.come-in]
+    other = "Rocky Linux的目标是像CentOS以前那样做为下游版本，在上游供应商添加发行版本之后（而不是之前）进行发行。"
+
+[lang]
+  [lang.footer.literal]
+  other = "Language:"
+
+  [lang.footer.choose-language]
+  other = "选择一种语言..."
