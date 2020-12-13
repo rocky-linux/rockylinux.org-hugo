@@ -29,6 +29,12 @@
         if(getParameterByName("l") == "en") {
             document.cookie = "preferredLanguage=en"
         }
+        if(getParameterByName("l") == "pt-BR") {
+            document.cookie = "preferredLanguage=pt-BR"
+        }
+        if(getParameterByName("l") == "nl") {
+            document.cookie = "preferredLanguage=nl"
+        }
         if(getParameterByName("l") == "it") {
             document.cookie = "preferredLanguage=it"
         }
@@ -40,6 +46,9 @@
         }
         if(getParameterByName("l") == "lv") {
             document.cookie = "preferredLanguage=lv"
+        }
+        if(getParameterByName("l") == "pt") {
+            document.cookie = "preferredLanguage=pt"
         }
     }
 
@@ -56,6 +65,12 @@
         } else if (language == "it") {
             window.location.href = "it/"
             document.cookie = "preferredLanguage=it"
+        } else if (language == "de") {
+            window.location.href = "de/"
+            document.cookie = "preferredLanguage=de"
+        } else if (language == "nl") {
+            window.location.href = "nl/"
+            document.cookie = "preferredLanguage=nl"
         } else if (language == "tr") {
             window.location.href = "tr/"
             document.cookie = "preferredLanguage=tr"
@@ -65,23 +80,20 @@
         } else if (language == "lv") {
             window.location.href = "lv/"
             document.cookie = "preferredLanguage=lv"
+        } else if (language == "pt") {
+            window.location.href = "pt/"
+            document.cookie = "preferredLanguage=pt"
+        } else if (language == "pt-BR") {
+            window.location.href = "pt-BR/"
+            document.cookie = "preferredLanguage=pt-BR"
         } else  { //Default to english
             document.cookie = "preferredLanguage=en"
         }
-    }
-
-    if('{{ i18n "language" . }}' != language) {
-        if (language == "de") {
-            window.location.href = "de/"
-            document.cookie = "preferredLanguage=de"
-        }else if (language == "ru") {
-            window.location.href = "ru/"
-            document.cookie = "preferredLanguage=ru"
-        }else if (language == "lv") {
-            window.location.href = "lv/"
-            document.cookie = "preferredLanguage=lv"
+        
+        if (language == "pt-BR") {
+            window.location.href = "pt-BR/"
+            document.cookie = "preferredLanguage=pt-BR"
         }else{
-
             document.cookie = "preferredLanguage=en"
         }
     }
