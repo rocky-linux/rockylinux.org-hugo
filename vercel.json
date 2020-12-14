@@ -9,6 +9,7 @@
   "routes": [
     { "handle": "filesystem" },
     { "src": "/zh-cn/(.*)", "status": 404, "dest": "/zh-cn/404.html" },
+    { "src": "/zh-hk/(.*)", "status": 404, "dest": "/zh-hk/404.html" },
     { "src": "/de/(.*)", "status": 404, "dest": "/de/404.html" },
     { "src": "/es/(.*)", "status": 404, "dest": "/es/404.html" },
     { "src": "/pt-br/(.*)", "status": 404, "dest": "/pt-br/404.html" },
@@ -23,6 +24,7 @@
     { "src": "/pl/(.*)", "status": 404, "dest": "/pl/404.html" },
     { "src": "/id/(.*)", "status": 404, "dest": "/id/404.html" },
     { "src": "/fa/(.*)", "status": 404, "dest": "/fa/404.html" },
+    { "src": "/ko/(.*)", "status": 404, "dest": "/ko/404.html" },
     { "src": "/(.*)",    "status": 404, "dest": "/404.html" }
   ]
 }
