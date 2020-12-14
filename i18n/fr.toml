@@ -6,10 +6,10 @@ other = "fr"
   other = "S'engager"
 
   [links.get-in-touch]
-  other = "Prendre contact"
+  other = "Contactez-nous"
 
   [links.go-home]
-  other = "Retour accueil"
+  other = "Retour à l'accueil"
 
   [links.close-menu]
   other = "Fermer le menu"
@@ -38,7 +38,7 @@ other = "fr"
 
 [copyright]
   [copyright.line1]
-  other = "© 2020 The Rocky Linux Project. All rights reserved."
+  other = "© 2020 The Rocky Linux Project. Tous droits réservés."
 
   [copyright.line2]
   other = "CentOS est une marque déposée de Red Hat, Inc. Le projet Rocky Linux Project n'est pas affilié à Red Hat, Inc. et n'est pas approuvé par cette société. "
