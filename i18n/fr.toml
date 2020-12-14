@@ -1,0 +1,87 @@
+[language]
+other = "fr"
+
+[links]
+  [links.get-involved]
+  other = "S'engager"
+
+  [links.get-in-touch]
+  other = "Contactez-nous"
+
+  [links.go-home]
+  other = "Retour à l'accueil"
+
+  [links.close-menu]
+  other = "Fermer le menu"
+
+  [links.documentation]
+  other = "Documentation"
+
+  [links.join-the-discussion]
+  other = "Participer à la discussion"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forums"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Project. Tous droits réservés."
+
+  [copyright.line2]
+  other = "CentOS est une marque déposée de Red Hat, Inc. Le projet Rocky Linux Project n'est pas affilié à Red Hat, Inc. et n'est pas approuvé par cette société. "
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Page non trouvée."
+
+    [errors.404.explanation]
+    other = "La ressource demandée n'a pas pu être localisée. Veuillez réessayer."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = " Un effort communautaire pour vous apporter une distribution Linux de qualité professionnelle, prêt pour la production."
+
+  [landing.p2.heading]
+  other = "Qu'est-ce que le Rocky Linux Project ?"
+
+  [landing.p2.content]
+  other = "Rocky Linux est un système d'exploitation d'entreprise communautaire conçu pour être 100% compatible bogue pour bogue avec la principale distribution d'entreprise Linux américaine, maintenant que son partenaire en aval a changé de direction. Elle est en cours de développement intensif par la communauté. Rocky Linux est dirigé par Gregory Kurtzer, fondateur du projet CentOS. Il n'y a pas d'ETA pour une version. Les contributeurs sont invités nous contacter en utilisant les options de communication proposées sur ce site."
+
+[faq]
+  [faq.title]
+  other = "Questions fréquemment posées"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "Que voulez-vous dire par \"son partenaire en aval a changé de direction\" ?"
+
+    [faq.q.come-in]
+    other = "Quel est l'intérêt de Rocky Linux ?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "Le projet CentOS a récemment annoncé un changement de stratégie pour CentOS. Alors que CentOS existait auparavant en tant que version en aval de son fournisseur en amont (il reçoit les correctifs et les mises à jour après que le fournisseur en amont le fasse), il passera à une version en amont (test des correctifs et des mises à jour avant leur inclusion dans le fournisseur en amont). De plus, la prise en charge de CentOS Linux 8 a été interrompue, du 31 mai 2029 au 31 décembre 2021."
+
+    [faq.a.come-in]
+    other = "Rocky Linux vise à fonctionner comme une construction en aval comme CentOS l'avait fait auparavant, en construisant des versions après qu'elles aient été ajoutées par le fournisseur en amont, et non avant."
+
+[lang]
+  [lang.footer.choose-language]
+  other = "Choisir une langue..."
