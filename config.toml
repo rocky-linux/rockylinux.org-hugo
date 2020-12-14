@@ -73,23 +73,27 @@ DefaultContentLanguage = "en"
     languageName = "Polski"
     title = "Rocky Linux"
     weight = 10
+  [languages.id]
+    languageName = "Bahasa Indonesia"
+    title = "Rocky Linux"
+    weight = 11    
   [languages.ru]
     languageName = "Русский"
     title = "Rocky Linux"
-    weight = 11
+    weight = 12
   [languages.ja]
     languageName = "日本語"
     title = "Rocky Linux"
-    weight = 12
+    weight = 13
   [languages.ar]
     languageName = "العربية"
     title = "روكي لينكس"
-    weight = 13
+    weight = 14
   [languages.zh-cn]
     languageName = "简体中文"
     title = "Rocky Linux"
-    weight = 14
+    weight = 15
   [languages.fa]
     languageName = "فارسی"
     title = "Rocky Linux"
-    weight = 15
+    weight = 16
