@@ -38,7 +38,7 @@ other = "sv"
 
 [copyright]
   [copyright.line1]
-  other = "© 2020 The Rocky Linux Projektet. Alla rättigheter förbehållna."
+  other = "© 2020 Rocky Linux-projektet. Alla rättigheter förbehållna."
 
   [copyright.line2]
   other = "CentOS är ett rregistrerat varumärke av Red Hat, Inc. The Rocky Linux projektet är inte anslutet till, och inte heller godkänt av Red Hat, Inc."
