@@ -62,7 +62,7 @@ other = "sv"
   other = "Vad är Rocky Linux Projektet?"
 
   [landing.p2.content]
-  other = "Rocky Linux är ett gemenskapsdrivet oprativsystem för företag och privatpersoner designat för att vara 100% bugg-för-bugg kompatibelt med Amerika's topp företags Linux distribution nu när dess nedströms partner har ändrat inriktning. Det är under intensiv utveckling av gemenskapen. Rocky Linux leds av Gregory Kurtzer, grundare av CentOS projektet. Det finns ingen ETA för en release. Bidragsgivare uppmanas att nå oss med hjälp av de kommunikationsalternativ som erbjuds på denna webbplats."
+  other = "Rocky Linux är ett gemenskapsdrivet oprativsystem för företag och privatpersoner designat för att vara 100% bugg-för-bugg-kompatibelt med Amerikas främsta företags-Linux distribution nu när dess nedströms partner har ändrat inriktning. Det är under intensiv utveckling av gemenskapen. Rocky Linux leds av Gregory Kurtzer, grundare av CentOS-projektet. Det finns inget datum satt för första utgåvan. Bidragsgivare uppmanas att nå oss med hjälp av de kommunikationsalternativ som erbjuds på denna webbplats."
   [faq.title]
   other = "Vanliga frågor"
 
