@@ -1,5 +1,5 @@
 [language]
-other = "zh"
+other = "zh-cn"
 
 [links]
   [links.get-involved]
@@ -88,3 +88,4 @@ other = "zh"
 
   [lang.footer.choose-language]
   other = "选择一种语言..."
+

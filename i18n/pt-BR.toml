@@ -1,5 +1,5 @@
 [language]
-other = "pt-BR"
+other = "pt-br"
 
 [links]
   [links.get-involved]
@@ -18,7 +18,7 @@ other = "pt-BR"
   other = "Documentação"
 
   [links.join-the-discussion]
-  other = "Unir-se à discussão"
+  other = "Juntar-se à discussão"
 
 [socials]
   [socials.twitter]
