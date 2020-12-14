@@ -101,4 +101,7 @@ DefaultContentLanguage = "en"
     languageName = "فارسی"
     title = "Rocky Linux"
     weight = 17
-
+  [languages.ko]
+    languageName = "한국어"
+    title = "Rocky Linux"
+    weight = 18
