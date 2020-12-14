@@ -6,10 +6,10 @@ other = "pt-br"
   other = "Envolva-se"
 
   [links.get-in-touch]
-  other = "Ficar em contato"
+  other = "Entrar em contato"
 
   [links.go-home]
-  other = "Inicio"
+  other = "Início"
 
   [links.close-menu]
   other = "Fechar menu"
@@ -28,7 +28,7 @@ other = "pt-br"
   other = "Reddit"
 
   [socials.forums]
-  other = "Forums"
+  other = "Fórums"
 
   [socials.slack]
   other = "Slack"
@@ -62,7 +62,7 @@ other = "pt-br"
   other = "O que é o projeto Rocky Linux?"
 
   [landing.p2.content]
-  other = "O Rocky Linux é um sistema operacional empresarial comunitário desenhado para ser 100% compatível com a distribuição Linux empresarial mais importante dos Estados Unidos agora que o sócio intermediário trocou de direção. Está em desenvolvimento intenso por parte da comunidade. O Rocky Linux é liderado por Gregory Kurtzer, fundador do projeto CentOS. Não há uma data para liberação. Solicitamos aos colaboradores que se comuniquem com as opções de comunicação que oferecemos no site."
+  other = "O Rocky Linux é um sistema operacional empresarial comunitário desenhado para ser 100% compatível com a distribuição Linux empresarial mais importante dos Estados Unidos agora que o seu parceiro de negócio mudou de direção. Está em desenvolvimento intenso por parte da comunidade. O Rocky Linux é liderado por Gregory Kurtzer, fundador do projeto CentOS. Não há uma data para liberação. Solicitamos aos colaboradores que se comuniquem com as opções de comunicação que oferecemos no site."
 
 [faq]
   [faq.title]
