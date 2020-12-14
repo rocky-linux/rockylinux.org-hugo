@@ -46,7 +46,7 @@ other = "sv"
 [errors]
   [errors.404]
     [errors.404.title]
-    other = "sidan hittas inte."
+    other = "Sidan hittas inte."
 
     [errors.404.explanation]
     other = "Den begärda resursen kunde inte hittas. Var god försök igen."
