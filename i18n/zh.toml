@@ -73,7 +73,7 @@ other = "zh"
     other = "您的意思是\"其下游合作伙伴已改变方向\"？"
 
     [faq.q.come-in]
-    other = "那么Rocky Linux从何入手？"
+    other = "那么 Rocky Linux 的优势在哪呢？"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
