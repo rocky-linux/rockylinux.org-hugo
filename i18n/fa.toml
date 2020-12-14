@@ -1,0 +1,87 @@
+[language]
+other = "fa"
+
+[links]
+  [links.get-involved]
+  other = "مشارکت کنید"
+
+  [links.get-in-touch]
+  other = "ارتباط با ما"
+
+  [links.go-home]
+  other = "رفتن به خانه"
+
+  [links.close-menu]
+  other = "بستن فهرست"
+
+  [links.documentation]
+  other = "مستندات"
+
+  [links.join-the-discussion]
+  other = "به بحث بپیوندید"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forums"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 پروژهٔ Rocky Linux. تمام حقوق محفوظ است."
+
+  [copyright.line2]
+  other = "CentOS یک نام تجاری ثبت شده برای کمپانی RedHat است. پروژهٔ Rocky Linux وابسته یا تحت تایید کمپانی RedHat نیست."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "صفحهٔ موردنظر یافت نشد."
+
+    [errors.404.explanation]
+    other = "قادر به پیدا کردن محتوای درخواستی نیستیم. لطفا دوباره تلاش کنید."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "یک تلاش جمعی برای ایجاد لینوکس سازمانی و آمادهٔ بهره‌برداری برای شما"
+
+  [landing.p2.heading]
+  other = "پروژهٔ Rocky Linux  چیست؟"
+
+  [landing.p2.content]
+  other = "Rocky Linux یک سیستم‌عامل سازمانی آزاد با سازگاری صد درصدی با توزیع لینوکس سازمانی پیشرو در قارهٔ آمریکا - که توزیع پایین‌دست آن در حال تغییر جهت است - است. این پروژه تحت توسعهٔ متمرکز توسط جامعه است. Rocky Linux توسط گرگوری کورتز، بنیان گذار پروژهٔ CentOS هدایت می‌شود. تخمینی از زمان عرضهٔ پروژه وجود ندارد. از مشارکت‌کنندگان دعوت می‌شود تا به واسطهٔ راه‌های ارتباطی ارائه‌شده در این سایت، با ما در ارتباط باشند."
+
+[faq]
+  [faq.title]
+  other = "پرسش‌های پرتکرار"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "منظور از «توزیع‌ پایین‌دست آن تغییر جهت داده است» چیست؟"
+
+    [faq.q.come-in]
+    other = "هدف از ساخت Rocky Linux چیست؟"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "استراتژی پروژهٔ CentOS خیرا دچار دگرگونی شده است. پیش‌تر CentOS یک توزیع پایین‌دست برای توزیع بالادست خود بود (آپدیت‌ها و وصله‌ها را پس از توزیع بالادست دریافت می‌کرد). در آینده، CentOS به یک توزیع بالادست تبدیل خواهد شد (آپدیت‌ها و وصله‌های آزمایشی را زودتر دریافت خواهد کرد. همچنین، تاریخ پایان مدت پشتیبانی CentOS Linux 8 از ۳۱ می ۲۰۲۹ به ۳۱ دسامبر ۲۰۲۱ منتقل شده است."
+
+    [faq.a.come-in]
+    other = "هدف Rocky Linux این است که یک توزیع پایین‌دست مانند وضعیت سابق CentOS باشد. تغییرات را پس از این که در توزیع بالادست عرضه شدند، عرضه کند، نه قبل از آن."
+
+[lang]
+  [lang.footer.choose-language]
+  other = "Choose a language..."
