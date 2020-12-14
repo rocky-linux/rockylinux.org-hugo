@@ -49,7 +49,7 @@ other = "sv"
     other = "Sidan hittas inte."
 
     [errors.404.explanation]
-    other = "Den begärda resursen kunde inte hittas. Var god försök igen."
+    other = "Den efterfrågade sidan hittades inte. Var god försök igen."
 
 [landing]
   [landing.p1.heading]
