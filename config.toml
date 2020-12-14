@@ -85,7 +85,7 @@ DefaultContentLanguage = "en"
     languageName = "العربية"
     title = "روكي لينكس"
     weight = 13
-  [languages.zh]
+  [languages.zh-cn]
     languageName = "简体中文"
     title = "Rocky Linux"
     weight = 14
