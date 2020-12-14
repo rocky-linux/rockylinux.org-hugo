@@ -10,6 +10,7 @@
     { "handle": "filesystem" },
     { "src": "/zh-cn/(.*)", "status": 404, "dest": "/zh-cn/404.html" },
     { "src": "/zh-hk/(.*)", "status": 404, "dest": "/zh-hk/404.html" },
+    { "src": "/zh-tw/(.*)", "status": 404, "dest": "/zh-tw/404.html" },    
     { "src": "/fr/(.*)", "status": 404, "dest": "/fr/404.html" },
     { "src": "/de/(.*)", "status": 404, "dest": "/de/404.html" },
     { "src": "/es/(.*)", "status": 404, "dest": "/es/404.html" },

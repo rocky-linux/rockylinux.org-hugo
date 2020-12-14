@@ -98,14 +98,18 @@ DefaultContentLanguage = "en"
     title = "Rocky Linux"
     weight = 16
   [languages.zh-hk]
-    languageName = "繁體中文"
+    languageName = "繁體中文(香港)"
     title = "Rocky Linux"
     weight = 17
+  [languages.zh-tw]
+    languageName = "繁體中文(台灣)"
+    title = "Rocky Linux"
+    weight = 18   
   [languages.fa]
     languageName = "فارسی"
     title = "Rocky Linux"
-    weight = 18
+    weight = 19
   [languages.ko]
     languageName = "한국어"
     title = "Rocky Linux"
-    weight = 19
+    weight = 20
