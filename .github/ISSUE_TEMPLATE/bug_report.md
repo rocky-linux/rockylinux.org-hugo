@@ -37,12 +37,5 @@ If applicable, add screenshots to help explain your problem.
  - Version [e.g. 22]
  
 
-**Additional context (Please Delete this if there's no additional context):**
+**Additional context (Please delete this if there's no additional context):**
 Add any other context about the problem here.
-
-**Would you like to work on this issue?**
-
-Just put an x in the []
-- [ ] Yes
-- [ ] No
-
