@@ -56,7 +56,7 @@ other = "pt-BR"
   other = "Rocky Linux"
 
   [landing.p1.content]
-  other = "Um esforço conduzido pela comunidade para obter para obter um sistema Linux de classe empresarial pronto para produção."
+  other = "Um esforço conduzido pela comunidade para obter um sistema Linux de classe empresarial pronto para produção."
 
   [landing.p2.heading]
   other = "O que é o projeto Rocky Linux?"
