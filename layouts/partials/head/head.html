@@ -1,19 +1,24 @@
+<!-- Site title-->
 <title>{{ .Title }}</title>
+
+<!-- Meta tags -->
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+<meta http-equiv="Content-Language" content="en{{ range $.Site.Home.AllTranslations }},{{ .Language.Lang }}{{ end }}">
+{{ partial "meta/site-twittercard.html" . }}
 
+<!-- Styles -->
 {{ $styles := resources.Get "css/main.css" }}
 {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) }}
-
 {{ $styles = $styles | minify }}
 <link href="{{ $styles.Permalink }}" rel="stylesheet" />
-
 <link href="/fonts/rocky-font.css" rel="stylesheet" type="text/css" />
+
+<!-- Favicon -->
 <link rel="icon" href="/img/favicon.ico"/>
 
+<!-- Javascrip -->
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer=""></script>
-
-{{ partial "meta/site-twittercard.html" . }}
 
 <!-- Script for language select -->
 {{ partial "head/languages.html" . }}
