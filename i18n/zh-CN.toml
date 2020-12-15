@@ -80,7 +80,7 @@ other = "zh-cn"
     other = "CentOS 项目最近宣布了 CentOS 的战略转变，CentOS 以前是作为上游供应商的下游构建版本存在的（即它会在上游供应商之后收到补丁和更新），而现在它将转移为一个上游构建版本（即它会在上游供应商纳入之前测试补丁和更新）。另外，对 CentOS Linux 8 的支持也已从 2029年 5 月 31 日缩短至 2021 年 12 月 31 日。"
 
     [faq.a.come-in]
-    other = "Rocky Linux 的目标是像 CentOS 以前那样作为一个下游构建版本，在被上游供应商纳入之后（而不是之前）发行。"
+    other = "Rocky Linux 的目标是像 CentOS 以前那样作为一个下游构建版本，在被上游供应商纳入包更新之后（而不是之前）构建发行。"
 
 [lang]
   [lang.footer.literal]
