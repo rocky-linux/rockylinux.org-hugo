@@ -56,7 +56,7 @@ other = "ja"
   other = "Rocky Linux"
 
   [landing.p1.content]
-  other = "コミュニティ主導の、企業向けの本番環境に対応したLinux。"
+  other = "コミュニティ主導の、商用環境にも本番環境にも対応したLinux。"
 
   [landing.p2.heading]
   other = "Rocky Linux Projectとは？"
