@@ -6,6 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 <meta http-equiv="Content-Language" content="en{{ range $.Site.Home.AllTranslations }},{{ .Language.Lang }}{{ end }}">
 {{ partial "meta/site-twittercard.html" . }}
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
+
 
 <!-- Styles -->
 {{ $styles := resources.Get "css/main.css" }}
