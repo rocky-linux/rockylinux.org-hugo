@@ -1,12 +1,12 @@
 [language]
-other = "en"
+other = "hu"
 
 [links]
   [links.get-involved]
-  other = "Bekapcsolódás"
+  other = "Közreműködés"
 
   [links.get-in-touch]
-  other = "Vedd fel a kapcsolatot velünk"
+  other = "Vedd fel velünk a kapcsolatot"
 
   [links.go-home]
   other = "Kezdőlapra"
@@ -62,7 +62,7 @@ other = "en"
   other = "Mi a Rocky Linux Projekt?"
 
   [landing.p2.content]
-  other = "Rocky Linux a közösség által működtetett vállalati környezetbe szánt operációs rendszer, amelyet úgy terveztek, hogy 100%-os hibakeresés és kompatibilitás érdekében kompatibilis legyen az Amerikai Enterprise Linux rendszerrel most, amikor a CentOS irányt váltott. A közösség intenzív fejlesztés alatt áll. A Rocky Linuxot Gregory Kurtzer, a CentOS projekt alapítója vezeti. A kiadáshoz nincs ETA. Kérjük a közreműködőket, hogy vegyék fel a kapcsolatot az ezen az oldalon kínált kommunikációs lehetőségekkel."
+  other = "Rocky Linux a közösség által működtetett vállalati környezetbe szánt operációs rendszer, amelyet úgy terveztek, hogy 100%-os hibakeresés és kompatibilitás érdekében kompatibilis legyen az Amerikai Enterprise Linux rendszerrel most, amikor a CentOS irányt váltott. A közösség intenzív fejlesztés alatt áll. A Rocky Linuxot Gregory Kurtzer, a CentOS projekt alapítója vezeti. A kiadáshoz nincs ETA. Kérjük a közreműködőket, hogy vegyék fel a kapcsolatot velünk az ezen az oldalon kínált kommunikációs lehetőségekkel."
 
 [faq]
   [faq.title]
