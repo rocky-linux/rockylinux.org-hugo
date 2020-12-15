@@ -1,0 +1,87 @@
+[language]
+other = "en"
+
+[links]
+  [links.get-involved]
+  other = "Bekapcsolódás"
+
+  [links.get-in-touch]
+  other = "Vedd fel a kapcsolatot velünk"
+
+  [links.go-home]
+  other = "Kezdőlapra"
+
+  [links.close-menu]
+  other = "Menü bezárás"
+
+  [links.documentation]
+  other = "Dokumentáció"
+
+  [links.join-the-discussion]
+  other = "Csatlakozzon a beszélgetéshez"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forums"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Project. Minden jog fenntartva."
+
+  [copyright.line2]
+  other = "CentOS a Red Hat, Inc. bejegyzett védjegye. A Rocky Linux Projekt nem áll kapcsolatban és nem is támogatja a Red Hat, Inc."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Az oldal nem található."
+
+    [errors.404.explanation]
+    other = "A szerver erőforrásai lefoglaltak kérjük probálkozzon újra késöbb."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "A közösség által vezérelt erőfeszítés, hogy vállalati szintű, gyártásra kész Linuxot hozzon Önhöz."
+
+  [landing.p2.heading]
+  other = "Mi a Rocky Linux Projekt?"
+
+  [landing.p2.content]
+  other = "Rocky Linux a közösség által működtetett vállalati környezetbe szánt operációs rendszer, amelyet úgy terveztek, hogy 100%-os hibakeresés és kompatibilitás érdekében kompatibilis legyen az Amerikai Enterprise Linux rendszerrel most, amikor a CentOS irányt váltott. A közösség intenzív fejlesztés alatt áll. A Rocky Linuxot Gregory Kurtzer, a CentOS projekt alapítója vezeti. A kiadáshoz nincs ETA. Kérjük a közreműködőket, hogy vegyék fel a kapcsolatot az ezen az oldalon kínált kommunikációs lehetőségekkel."
+
+[faq]
+  [faq.title]
+  other = "Gyakran Ismételt Kérdések"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "Mit értesz azalatt, \" hogy ez a downstream partner irányt váltott?\""
+
+    [faq.q.come-in]
+    other = "Tehát miért jött létre a Rocky Linux?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "A CentOS projekt nemrégiben bejelentette a CentOS stratégiájának megváltoztatását. Korábban a CentOS az upstream szállítójának downstream buildjeként létezett (javításokat és frissítéseket kapott, miután az upstream szolgáltató megkapta), de most már áttér egy upstream buildre (javítások és frissítések tesztelése az upstream szállítóba történő felvétel előtt). Ezenkívül a CentOS Linux 8 támogatása 2029. május 31. helyett 2021. december 31-én ér véget."
+
+    [faq.a.come-in]
+    other = "A Rocky Linux célja, hogy downstream építőként működjön, ahogy a CentOS korábban tette, azaz kiadásokat azután állítja össze miután azt az upstream gyártó hozzáadta őket, nem pedig korábban."
+
+[lang]
+  [lang.footer.choose-language]
+  other = "Válasszon nyelvet..."
