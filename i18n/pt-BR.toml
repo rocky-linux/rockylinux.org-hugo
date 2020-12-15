@@ -28,11 +28,7 @@ other = "pt-br"
   other = "Reddit"
 
   [socials.forums]
-<<<<<<< HEAD
   other = "Fóruns"
-=======
-  other = "Fórums"
->>>>>>> bc06911564303ee0263392471c42a65487424bb4
 
   [socials.slack]
   other = "Slack"
