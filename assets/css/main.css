@@ -6,6 +6,33 @@
     fill: black;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1,h2,h3,h4,h5,h6 { @apply font-display }
+
+h1 { @apply text-5xl font-bold }
+h2 { @apply text-4xl font-bold }
+h3 { @apply text-3xl font-bold mb-4 }
+h4 { @apply text-2xl font-medium }
+h5 { @apply text-xl font-normal }
+h6 { @apply text-sm font-bold }
+
+p { @apply font-normal text-base }
+
+hr { @apply w-16 border-b-4 border-green-500 /* mx-auto */ my-6 }
+
+#list_posts article {
+  @apply py-6 mb-8;
+}
+
 @media (prefers-color-scheme: dark) {
     .logo-text {
         fill: white;

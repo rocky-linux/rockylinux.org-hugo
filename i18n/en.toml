@@ -20,6 +20,9 @@ other = "en"
   [links.join-the-discussion]
   other = "Join the Discussion"
 
+  [links.posts]
+  other = "Posts"
+
 [socials]
   [socials.twitter]
   other = "Twitter"
