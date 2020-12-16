@@ -70,8 +70,8 @@ other = "es"
 
   [faq.q]
     [faq.q.downstream-partner-direction]
-    other = "Que significa, \"¿Su socio anterior ha cambiado de dirección?\""
-
+    other = "¿Qué significa que, \"su socio anterior haya cambiado de dirección?\""
+    
     [faq.q.come-in]
     other = "Entonces, ¿dónde entra Rocky Linux?"
 
