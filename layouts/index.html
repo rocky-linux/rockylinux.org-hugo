@@ -95,7 +95,7 @@
             <h1>
                 <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">{{ i18n "landing.p2.heading" . }}</span>
             </h1>
-            <p class="mt-8 text-xl text-gray-500 dark:text-gray-300 leading-8 text-center">{{ i18n "landing.p2.content" . }}</p>
+            <p class="mt-8 text-xl text-gray-600 dark:text-gray-300 leading-8 text-center">{{ i18n "landing.p2.content" . }}</p>
         </div>
     </div>
 </div>
@@ -112,7 +112,7 @@
                           {{ i18n ( printf "faq.q.%s" $current) . }}
                       </dt>
                       <dd class="mt-2 md:mt-0 md:col-span-7">
-                          <p class="text-base text-gray-500 dark:text-white">
+                          <p class="text-base text-gray-600 dark:text-white">
                               {{ i18n ( printf "faq.a.%s" $current ) . }}
                           </p>
                       </dd>
@@ -122,5 +122,4 @@
         </div>
     </div>
 </div>
-{{ partial "footer/footer.html" . }}
 {{ end }}

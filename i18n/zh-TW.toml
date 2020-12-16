@@ -1,0 +1,90 @@
+[language]
+other = "zh-tw"
+
+[links]
+  [links.get-involved]
+  other = "參與其中"
+
+  [links.get-in-touch]
+  other = "保持聯絡"
+
+  [links.go-home]
+  other = "回到首頁"
+
+  [links.close-menu]
+  other = "關閉選單"
+
+  [links.documentation]
+  other = "參考文件"
+
+  [links.join-the-discussion]
+  other = "參與討論"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forums"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 Rocky Linux 專案(C)版權所有."
+
+  [copyright.line2]
+  other = "CentOS 是 Red Hat, Inc. 的註冊商標，Rocky Linux 專案與 Red Hat, Inc. 無關，也不需要獲得其授權"
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "找不到網頁。"
+
+    [errors.404.explanation]
+    other = "目前無法開啟網頁，請稍後再試。"
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "以社群力量來推動並打造企業級的 Linux 作業系統。"
+
+  [landing.p2.heading]
+  other = "為什麼要創建 Rocky Linux 專案？"
+
+  [landing.p2.content]
+  other = "Rocky Linux 延續了 Community Enterprise Operating System 精神，是一個基於社群所開發的企業級作業系統，專案當初的考量是希望能與 RHEL 發行版 100％ 完全兼容。目前社群處於草創初期，希望有更多對本專案有興趣的成員能夠來參與。Rocky Linux 專案是由 CentOS 的創始人 Gregory Kurtzer 所提出，但目前還沒有 release 的時程，如果您有興趣參與，請使用網頁中提供的方式與相關窗口聯繫。"
+
+[faq]
+  [faq.title]
+  other = "常見問題"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "為什麼要改變？"
+
+    [faq.q.come-in]
+    other = "如何取得 Rocky Linux？"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "CentOS 專案最近宣布了策略上的改變，原本 CentOS 是作為在 RHEL 之後的發行版，但改成 CentOS Stream 之後反而成為了 RHEL 的前測版本。除此之外，CentOS 8 的生命週期也從 2029 年 5 月 31 日被縮短到 2021 年 12 月 31 日。"
+
+    [faq.a.come-in]
+    other = "Rocky Linux 的目標是延續 CentOS 先前的模式釋出發行版，而不是像 CentOS Stream 一樣成為 RHEL 的前測版本。"
+
+[lang]
+  [lang.footer.literal]
+  other = "Language:"
+
+  [lang.footer.choose-language]
+  other = "選擇其他語言..."
