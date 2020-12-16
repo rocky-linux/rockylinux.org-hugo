@@ -23,6 +23,9 @@ other = "en"
   [links.posts]
   other = "Posts"
 
+  [links.show-your-interest]
+  other = "Show your interest"
+
 [socials]
   [socials.twitter]
   other = "Twitter"

@@ -15,7 +15,7 @@
           <h3 class="mb-1">{{ $val.Title }}</h3>
           <span class="text-sm italic">{{ $val.PublishDate.Format "January 2, 2006" }}</span>
         </div>
-        <p>{{ truncate 200 $val.Content }}</p>
+        <p>{{ truncate 200 $val.Description }}</p>
       </article>
     </a>
   {{ end }}
