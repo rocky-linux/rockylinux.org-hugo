@@ -6,10 +6,10 @@ other = "pt-br"
   other = "Envolva-se"
 
   [links.get-in-touch]
-  other = "Ficar em contato"
+  other = "Entrar em contato"
 
   [links.go-home]
-  other = "Inicio"
+  other = "Início"
 
   [links.close-menu]
   other = "Fechar menu"
@@ -28,7 +28,7 @@ other = "pt-br"
   other = "Reddit"
 
   [socials.forums]
-  other = "Forums"
+  other = "Fóruns"
 
   [socials.slack]
   other = "Slack"
@@ -56,13 +56,13 @@ other = "pt-br"
   other = "Rocky Linux"
 
   [landing.p1.content]
-  other = "Um esforço conduzido pela comunidade para obter para obter um sistema Linux de classe empresarial pronto para produção."
+  other = "Um esforço conduzido pela comunidade para obter um sistema Linux de classe empresarial pronto para produção."
 
   [landing.p2.heading]
   other = "O que é o projeto Rocky Linux?"
 
   [landing.p2.content]
-  other = "O Rocky Linux é um sistema operacional empresarial comunitário desenhado para ser 100% compatível com a distribuição Linux empresarial mais importante dos Estados Unidos agora que o sócio intermediário trocou de direção. Está em desenvolvimento intenso por parte da comunidade. O Rocky Linux é liderado por Gregory Kurtzer, fundador do projeto CentOS. Não há uma data para liberação. Solicitamos aos colaboradores que se comuniquem com as opções de comunicação que oferecemos no site."
+  other = "O Rocky Linux é um sistema operacional empresarial comunitário desenhado para ser 100% compatível com a distribuição Linux empresarial mais importante dos Estados Unidos agora que o seu parceiro de negócio mudou de direção. Está em desenvolvimento intenso por parte da comunidade. O Rocky Linux é liderado por Gregory Kurtzer, fundador do projeto CentOS. Não há uma data para liberação. Solicitamos aos colaboradores que se comuniquem com as opções de comunicação que oferecemos no site."
 
 [faq]
   [faq.title]
@@ -77,7 +77,7 @@ other = "pt-br"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
-    other = "O projeto CentOS anunciou recentemente uma mudança na estratégia do CentOS. Considerando que o CentOS existia anteriormente como um build não principal de seu fornecedor principal (ou seja, ele recebe patches e atualizações após o fornecedor principal), ele mudará para um build principal (testes de patches e atualizações antes da inclusão no fornecedor principal). Além disso, o suporte para CentOS Linux 8 foi interrompido, de 31 de maio de 2029 a 31 de dezembro de 2021."
+    other = "O projeto CentOS anunciou recentemente uma mudança na estratégia do CentOS. Considerando que o CentOS existia anteriormente como um build não principal de seu fornecedor principal (ou seja, ele recebe patches e atualizações após o fornecedor principal), ele mudará para um build principal (testes de patches e atualizações antes da inclusão no fornecedor principal). Além disso, o suporte para CentOS Linux 8 foi interrompido, de 31 de maio de 2029 para 31 de dezembro de 2021."
 
     [faq.a.come-in]
     other = "O Rocky Linux tem como objetivo funcionar como um build não principal como o CentOS fazia anteriormente, criando releases depois de serem adicionados pelo fornecedor principal e não antes."

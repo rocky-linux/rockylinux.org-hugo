@@ -1,0 +1,87 @@
+[language]
+other = "vi"
+
+[links]
+  [links.get-involved]
+  other = "Tham gia"
+
+  [links.get-in-touch]
+  other = "Giữ liên lạc"
+
+  [links.go-home]
+  other = "Trang chủ"
+
+  [links.close-menu]
+  other = "Đóng menu"
+
+  [links.documentation]
+  other = "Tài liệu"
+
+  [links.join-the-discussion]
+  other = "Tham gia thảo luận"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Diễn đàn"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Project. Đã đăng ký bản quyền."
+
+  [copyright.line2]
+  other = "CentOS là nhẵn hiệu được đăng ký bởi Red Hat, Inc. Dự án The Rocky Linux không liên kết cũng như xác nhận bởi Red Hat, Inc."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Trang không tìm thấy."
+
+    [errors.404.explanation]
+    other = "Yêu cầu khồng được tìm thấy. Vui lòng thử lại."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "Một nỗ lực vì cộng đổng nhằm mang tới cho bạn Linux phiên bản doạnh nghiệp, sản phẩm hoàn thiện."
+
+  [landing.p2.heading]
+  other = "Dự án Rocky Linux là gì?"
+
+  [landing.p2.content]
+  other = "Rocky Linux là một hệ điều hành cộng đồng dành cho doanh nghiệp được thiết kế để tương thích 100% với lỗi tương thích với bản phân phối Linux dành cho doanh nghiệp hàng đầu của Mỹ hiện nay khi downstream partner của nó đã chuyển hướng. Nó đang được cộng đồng phát triển mạnh thêm. Rocky Linux được dẫn dắt bởi Gregory Kurtzer, người sáng lập dự án CentOS. Không có ETA cho một bản phát hành. Các cộng tác viên được yêu cầu liên hệ bằng cách sử dụng các tùy chọn liên lạc được cung cấp trên trang web này."
+
+[faq]
+  [faq.title]
+  other = "Câu hỏi thường gặp"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "Câu này nghĩa là gì, \"Downstream partner của nó đã chuyển hướng?\""
+
+    [faq.q.come-in]
+    other = "Vậy Rocky Linux tới từ đâu?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "Dự án CentOS gần đây đã thông báo về sự thay đổi chiến lược cho CentOS. Trong khi trước đây CentOS tồn tại như một bản downstream build của upstream vendor (nó nhận được các bản vá và cập nhật sau khi upstream vendor thực hiện), nó sẽ chuyển sang bản upstream build (thử nghiệm các bản vá và cập nhật trước khi đưa vào upstream vendor). Ngoài ra, hỗ trợ cho CentOS Linux 8 đã bị cắt ngắn, từ ngày 31 tháng 5 năm 2029 đến ngày 31 tháng 12 năm 2021."
+
+    [faq.a.come-in]
+    other = "Rocky Linux nhằm mục đích hoạt động như một bản downstream build như CentOS đã làm trước đây, xây dựng các bản phát hành sau khi chúng được  upstream vendor thêm vào, chứ không phải trước đó."
+
+[lang]
+  [lang.footer.choose-language]
+  other = "Chọn một ngôn ngữ..."

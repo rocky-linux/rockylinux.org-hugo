@@ -96,3 +96,5 @@ resources/_gen/**/*
 *.backup
 
 public
+.DS_Store
+package-lock.json
