@@ -117,3 +117,7 @@ DefaultContentLanguage = "en"
     languageName = "한국어"
     title = "Rocky Linux"
     weight = 21
+  [languages.uk]
+    languageName = "Українська"
+    title = "Rocky Linux"
+    weight = 22
