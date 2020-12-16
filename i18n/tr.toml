@@ -15,7 +15,7 @@ other = "tr"
   other = "Menüyü Kapat"
 
   [links.documentation]
-  other = "Belgelendirme"
+  other = "Dökümantasyon"
 
   [links.join-the-discussion]
   other = "Tartışmaya Katılın"
