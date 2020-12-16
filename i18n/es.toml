@@ -62,7 +62,7 @@ other = "es"
   other = "¿Qué es el proyecto Rocky Linux?"
 
   [landing.p2.content]
-  other = "Rocky Linux es un sistema operativo empresarial comunitario diseñado para ser 100% compatible con la distribución de Linux empresarial más importante de Estados Unidos, ahora que su socio intermedio ha cambiado de dirección. Está en desarrollo intensivo por parte de la comunidad. Rocky Linux está dirigido por Gregory Kurtzer, fundador del proyecto CentOS. No hay ETA para un lanzamiento. Se solicita a los colaboradores que se comuniquen con las opciones de comunicación que se ofrecen en este sitio."
+  other = "Rocky Linux es un sistema operativo empresarial comunitario diseñado para ser 100% compatible con la distribución de Linux empresarial más importante de Estados Unidos, ahora que su socio intermedio ha cambiado de dirección. Está en desarrollo intensivo por parte de la comunidad. Rocky Linux está dirigido por Gregory Kurtzer, fundador del proyecto CentOS. No hay una fecha estimada para el lanzamiento. Se solicita a los colaboradores que se comuniquen con las opciones de comunicación que se ofrecen en este sitio."
 
 [faq]
   [faq.title]
