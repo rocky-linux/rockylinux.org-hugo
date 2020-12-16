@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Rocky Linux"
+paginate = 2
 
 [params]
 description = "Rocky Linux is an open enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux."

@@ -33,6 +33,22 @@ hr { @apply w-16 border-b-4 border-green-500 /* mx-auto */ my-6 }
   @apply py-6 mb-8;
 }
 
+.pagination {
+  display: flex;
+}
+.pagination li a {
+  @apply flex mx-1/2 dark:bg-gray-900 border border-gray-700 w-8 h-8 items-center justify-center hover:border-gray-600;
+}
+.pagination li.active a {
+  @apply border-green-500
+}
+.pagination li:first-child a {
+  @apply ml-0 rounded-tl-lg rounded-bl-lg;
+}
+.pagination li:last-child a {
+  @apply mr-0 rounded-tr-lg rounded-br-lg;
+}
+
 @media (prefers-color-scheme: dark) {
     .logo-text {
         fill: white;
