@@ -9,7 +9,7 @@
                 <span class="block text-3xl sm:text-6xl">{{ i18n "errors.404.title" . }}</span>
             </h2>
             <p class="mt-7 text-2xl leading-6 text-black dark:text-white">{{ i18n "errors.404.explanation" . }}</p>
-            <a href="/" class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-500 bg-white dark:bg-gray-900 hover:bg-green-50 dark:hover:bg-gray-700 transition sm:w-auto">
+            <a href="{{ "/" | relLangURL }}" class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-500 bg-white dark:bg-gray-900 hover:bg-green-50 dark:hover:bg-gray-700 transition sm:w-auto">
                 {{ i18n "links.go-home" . }}
             </a>
         </div>
