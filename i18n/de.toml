@@ -12,7 +12,7 @@ other = "de"
   other = "Gehe zum Start"
 
   [links.close-menu]
-  other = "Schliesse Menü"
+  other = "Menü schließen"
 
   [links.documentation]
   other = "Dokumentation"
@@ -28,7 +28,7 @@ other = "de"
   other = "Reddit"
 
   [socials.forums]
-  other = "Forums"
+  other = "Forum"
 
   [socials.slack]
   other = "Slack"
