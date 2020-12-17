@@ -7,7 +7,7 @@ description = "Rocky Linux is an open enterprise Operating System designed to be
 images = ["img/cover.png"]
 
 [params.social]
-slackurl = "https://join.slack.com/t/hpcng/shared_invite/zt-k29vv4ab-yj1ksbHK_ZkXYi6HGtTYfw"
+slackurl = "https://slack.rockylinux.org/"
 twitter = "https://twitter.com/rocky_linux"
 reddit = "https://reddit.com/r/rockylinux"
 forum = "https://forums.rockylinux.org/"
@@ -81,43 +81,47 @@ DefaultContentLanguage = "en"
     languageName = "Bahasa Indonesia"
     title = "Rocky Linux"
     weight = 12
+  [languages.nb-NO]
+    languageName = "Norsk bokmål"
+    title = "Rocky Linux"
+    weight = 13
   [languages.ru]
     languageName = "Русский"
     title = "Rocky Linux"
-    weight = 13
+    weight = 14
   [languages.vi]
     languageName = "Tiếng Việt"
     title = "Rocky Linux"
-    weight = 14
+    weight = 15
   [languages.ja]
     languageName = "日本語"
     title = "Rocky Linux"
-    weight = 15
+    weight = 16
   [languages.ar]
     languageName = "العربية"
     title = "روكي لينكس"
-    weight = 16
+    weight = 17
   [languages.zh-cn]
     languageName = "简体中文"
     title = "Rocky Linux"
-    weight = 17
+    weight = 18
   [languages.zh-hk]
     languageName = "繁體中文(香港)"
     title = "Rocky Linux"
-    weight = 18
+    weight = 19
   [languages.zh-tw]
     languageName = "繁體中文(台灣)"
     title = "Rocky Linux"
-    weight = 19
+    weight = 20
   [languages.fa]
     languageName = "فارسی"
     title = "Rocky Linux"
-    weight = 20
+    weight = 21
   [languages.ko]
     languageName = "한국어"
     title = "Rocky Linux"
-    weight = 21
+    weight = 22
   [languages.uk]
     languageName = "Українська"
     title = "Rocky Linux"
-    weight = 22
+    weight = 23

@@ -59,7 +59,7 @@ other = "zh-tw"
   other = "以社群力量來推動並打造企業級的 Linux 作業系統。"
 
   [landing.p2.heading]
-  other = "為什麼要創建 Rocky Linux 專案？"
+  other = "Rocky Linux 專案是什麼？"
 
   [landing.p2.content]
   other = "Rocky Linux 延續了 Community Enterprise Operating System 精神，是一個基於社群所開發的企業級作業系統，專案當初的考量是希望能與 RHEL 發行版 100％ 完全相容。目前社群處於草創初期，希望有更多對本專案有興趣的成員能夠來參與。Rocky Linux 專案是由 CentOS 的創始人 Gregory Kurtzer 所提出，但目前還沒有 release 的時程，如果您有興趣參與，請使用網頁中提供的方式與相關窗口聯繫。"
@@ -70,10 +70,10 @@ other = "zh-tw"
 
   [faq.q]
     [faq.q.downstream-partner-direction]
-    other = "「CentOS 發展方向的改變」是什麼意思？"
+    other = "\"其下游合作夥伴已改變方向\" 是什麼意思？"
 
     [faq.q.come-in]
-    other = "Rocky Linux 為何而生？"
+    other = "那麽 Rocky Linux 的優勢在哪裡？"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
