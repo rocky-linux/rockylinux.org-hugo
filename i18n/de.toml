@@ -73,7 +73,7 @@ other = "de"
     other = "Was soll das heißen, \"sein nachgeschalteter Partner hat die Richtung geändert\"?"
 
     [faq.q.come-in]
-    other = "Was hat das mit Rocky Linux zu tun?"
+    other = "Was hat Rocky Linux damit zu tun?"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
