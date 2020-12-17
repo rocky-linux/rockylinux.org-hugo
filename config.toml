@@ -81,39 +81,43 @@ DefaultContentLanguage = "en"
     languageName = "Bahasa Indonesia"
     title = "Rocky Linux"
     weight = 12
+  [languages.nb-NO]
+    languageName = "Norsk bokmål"
+    title = "Rocky Linux"
+    weight = 13
   [languages.ru]
     languageName = "Русский"
     title = "Rocky Linux"
-    weight = 13
+    weight = 14
   [languages.vi]
     languageName = "Tiếng Việt"
     title = "Rocky Linux"
-    weight = 14
+    weight = 15
   [languages.ja]
     languageName = "日本語"
     title = "Rocky Linux"
-    weight = 15
+    weight = 16
   [languages.ar]
     languageName = "العربية"
     title = "روكي لينكس"
-    weight = 16
+    weight = 17
   [languages.zh-cn]
     languageName = "简体中文"
     title = "Rocky Linux"
-    weight = 17
+    weight = 18
   [languages.zh-hk]
     languageName = "繁體中文(香港)"
     title = "Rocky Linux"
-    weight = 18
+    weight = 19
   [languages.zh-tw]
     languageName = "繁體中文(台灣)"
     title = "Rocky Linux"
-    weight = 19
+    weight = 20
   [languages.fa]
     languageName = "فارسی"
     title = "Rocky Linux"
-    weight = 20
+    weight = 21
   [languages.ko]
     languageName = "한국어"
     title = "Rocky Linux"
-    weight = 21
+    weight = 22
