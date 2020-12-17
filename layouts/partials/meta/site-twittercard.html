@@ -15,6 +15,6 @@
 <meta name="twitter:image" content="{{ .Param "lua.image.url" | absURL }}"/>
 {{- else -}}
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:image" content="{{ with .Param "lua.image" }}{{ .url | absURL }}{{ else }}{{ with .Site.Params.logo }}{{ .url | absURL }}{{ end }}{{ end }}" />
+<meta name="twitter:image" content="{{ with .Param "lua.image" }}{{ .url | relLangURL }}{{ else }}{{ with .Site.Params.logo }}{{ .url | absURL }}{{ end }}{{ end }}" />
 {{- end }}
 {{- end }}
