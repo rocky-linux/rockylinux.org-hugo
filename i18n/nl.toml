@@ -3,13 +3,13 @@ other = "nl"
 
 [links]
   [links.get-involved]
-  other = "Doe Mee"
+  other = "Doe mee"
 
   [links.get-in-touch]
-  other = "Kom in Contact"
+  other = "Neem contact op"
 
   [links.go-home]
-  other = "Ga naar Begin"
+  other = "Terug naar de voorpagina"
 
   [links.close-menu]
   other = "Sluit menu"
@@ -18,7 +18,7 @@ other = "nl"
   other = "Documentatie"
 
   [links.join-the-discussion]
-  other = "Doe Mee met de Discussie"
+  other = "Discussieer mee"
 
 [socials]
   [socials.twitter]
@@ -41,7 +41,7 @@ other = "nl"
   other = "© 2020 The Rocky Linux Project. Alle rechten voorbehouden."
 
   [copyright.line2]
-  other = "CentOS is is een geregistreerd handelsmerk van Red Hat, Inc. Het Rocky Linux Project is niet verwant aan, noch aangeschreven door Red Hat, Inc."
+  other = "CentOS is is een geregistreerd handelsmerk van Red Hat, Inc. Het Rocky Linux Project is niet verwant aan Red Hat, Inc."
 
 [errors]
   [errors.404]
@@ -49,7 +49,7 @@ other = "nl"
     other = "Pagina niet gevonden."
 
     [errors.404.explanation]
-    other = "De aangevraagde pagina kan niet worden gevonden. Probeer het alsjeblieft nog eens."
+    other = "De aangevraagde pagina kon niet worden gevonden."
 
 [landing]
   [landing.p1.heading]
@@ -62,7 +62,7 @@ other = "nl"
   other = "Wat is het Rocky Linux Project?"
 
   [landing.p2.content]
-  other = "Rocky Linux is een community enterprise besturingssysteem ontworpen om 100% 'bug compatible' te zijn met Amerika's top enterprise Linux distributie, omdat de downstreampartner van richting is veranderd. Het is hevig onder ontwikkeling door de community. Rocky Linux is geleid door Gregory Kurtzer, oprichter van het CentOS project. Er is geen ETA voor een release. Mensen die bijdragen worden gevraagd om contact op te nemen via de communicatie opties op deze website."
+  other = "Rocky Linux is een community enterprise besturingssysteem ontworpen om 100% 'bug compatible' te zijn met Amerika's top enterprise Linux distributie, omdat de downstreampartner van richting is veranderd. Het is hevig onder ontwikkeling door de community. Rocky Linux is onder leiding van Gregory Kurtzer, de oprichter van het CentOS project. Er is geen vastgestelde datum voor een release. Mensen die bijdragen worden gevraagd om contact op te nemen via de opties op deze website."
 
 [faq]
   [faq.title]
@@ -70,17 +70,17 @@ other = "nl"
 
   [faq.q]
     [faq.q.downstream-partner-direction]
-    other = "Wat bedoel je met, \"z'n downstreampartner is van richting veranderd?\""
+    other = "Wat bedoel je met \"de downstreampartner is van richting veranderd\"?"
 
     [faq.q.come-in]
     other = "Dus waarom is er Rocky Linux?"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
-    other = "Het CentOS project kondigde recent een verandering in de strategie aan voor CentOS. Waar voorafgaand CentOS bestond als downstream build van de upstream vendor (waar het patches en updates ontving pas nadat de upstream vendor deze kreeg), zal het veranderen naar een upstream build (met testing patches en updates voordat ze in de upstream vendor komen). Daarnaast is ondersteuning voor CentOS Linux 8 ingekort, namelijk van 31 mei 2029 naar 31 december 2021."
+    other = "Het CentOS project kondigde recent een verandering aan in de strategie voor CentOS. Eerst bestond CentOS als downstream build van de upstream vendor (waar patches en updates pas werden ontvangen nádat de upstream vendor deze kreeg). Dit zal veranderen naar een upstream build (met dus testing patches en updates vóórdat ze bij de upstream vendor komen). Daarnaast is einddatum van ondersteuning van CentOS Linux 8 ook erg ingekort, namelijk van 31 mei 2029 naar 31 december 2021."
 
     [faq.a.come-in]
-    other = "Het doel van Rocky Linux is om een downstream build te worden net zoals CentOS voorafgaand had gedaan, door het bouwen van releases nadat ze zijn toegevoegd door de upstream vendor, en niet er voor."
+    other = "Het doel van Rocky Linux is om een downstream build te worden net zoals CentOS voorafgaand was. Dit wordt gedaan door het bouwen van releases nadat ze zijn toegevoegd door de upstream vendor, en niet er voor."
 
 [lang]
   [lang.footer.literal]
