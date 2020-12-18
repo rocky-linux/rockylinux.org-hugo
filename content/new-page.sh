@@ -1,8 +1,9 @@
 #!/bin/bash
 clear
-echo "---------------------"
-echo "---- Rocky Linux ----"
-echo "---------------------"
+echo "---------------------------------------------"
+echo "--------------- Rocky Linux -----------------"
+echo "------ Script written by @domingoruiz -------"
+echo "---------------------------------------------"
 echo ""
 echo "This script is in charge of duplicating the inputs to a new"
 echo "language so that the multilanguage system works correctly."
