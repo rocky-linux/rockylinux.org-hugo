@@ -73,7 +73,7 @@ other = "zh-cn"
     other = "“下游合作伙伴转移了发展方向”是什么意思？"
 
     [faq.q.come-in]
-    other = "那么 Rocky Linux 从何而来呢？"
+    other = "Rocky Linux 为何而生？"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
