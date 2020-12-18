@@ -78,7 +78,7 @@ other = "sv"
     other = "CentOS-projektet tillkännagav nyligen ett skifte i strategi för CentOS. Medan CentOS tidigare existerade som ett nedströmsbygge av dess uppströmsleverantör (det tar emot korrigeringar och uppdateringar efter att uppströmsleverantören gör det) kommer den att flyttas till att bara bli ett uppströmsbygge (testa korrigeringar och uppdateringar innan de inkluderas i uppströmsleverantören). Dessutom har stödet för CentOS Linux 8 förkortats, från 31 maj 2029 till 31 december 2021."
 
     [faq.a.come-in]
-    other = "Rocky Linux mål är att fungera som ett nedströmsbygge som CentOS har gjort tidigare, bygga utgåvor efter de har lagts till av uppströmsleverantören, inte före."
+    other = "Rocky Linux mål är att fungera som ett nedströmsbygge som CentOS har gjort tidigare, att bygga utgåvor efter de har lagts till av uppströmsleverantören, inte före."
 
 [lang]
   [lang.footer.choose-language]
