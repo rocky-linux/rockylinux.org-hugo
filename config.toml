@@ -125,7 +125,11 @@ DefaultContentLanguage = "en"
     languageName = "한국어"
     title = "Rocky Linux"
     weight = 23
+  [languages.sv]
+    languageName = "Svenska"
+    title = "Rocky Linux"
+    weight = 24
   [languages.ca]
     languageName = "Català"
     title = "Rocky Linux"
-    weight = 24
+    weight = 25
