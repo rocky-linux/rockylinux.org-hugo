@@ -70,7 +70,7 @@ other = "en"
 
   [faq.q]
     [faq.q.downstream-partner-direction]
-    other = "What do you mean, \"its downstream partner has shifted direction?\""
+    other = "What do you mean, \"its downstream partner has shifted direction\"?"
 
     [faq.q.come-in]
     other = "So where does Rocky Linux come in?"
