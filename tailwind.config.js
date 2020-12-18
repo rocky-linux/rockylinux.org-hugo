@@ -14,8 +14,8 @@ module.exports = {
                 gray: colors.gray,
             },
             fontFamily: {
-                display: ['Red Hat Display', 'sans-serif'],
-                sans: ['Red Hat Text', 'sans-serif'],
+                display: ['RockyDisplay', 'sans-serif'],
+                sans: ['RockyText', 'sans-serif'],
             },
         },
     },

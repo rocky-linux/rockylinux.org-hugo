@@ -1,98 +1,26 @@
+<!-- Site title-->
 <title>{{ .Title }}</title>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+<!-- Meta tags -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+<meta http-equiv="Content-Language" content="en{{ range $.Site.Home.AllTranslations }},{{ .Language.Lang }}{{ end }}">
+{{ partial "meta/site-twittercard.html" . }}
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
+
+
+<!-- Styles -->
 {{ $styles := resources.Get "css/main.css" }}
 {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) }}
-
 {{ $styles = $styles | minify }}
 <link href="{{ $styles.Permalink }}" rel="stylesheet" />
+<link href="/fonts/rocky-font.css" rel="stylesheet" type="text/css" />
 
-<link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css" />
+<!-- Favicon -->
 <link rel="icon" href="/img/favicon.ico"/>
 
+<!-- Javascript -->
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer=""></script>
 
-{{ partial "meta/site-twittercard.html" . }}
-
-<script type="text/javascript">
-    if(getParameterByName("l") != "") {
-        document.cookie = "preferredLanguage=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-
-        if(getParameterByName("l") == "es") {
-            document.cookie = "preferredLanguage=es"
-        }
-        if(getParameterByName("l") == "tr") {
-            document.cookie = "preferredLanguage=tr"
-        }
-        if(getParameterByName("l") == "en") {
-            document.cookie = "preferredLanguage=en"
-        }
-        if(getParameterByName("l") == "it") {
-            document.cookie = "preferredLanguage=it"
-        }
-        if(getParameterByName("l") == "de") {
-            document.cookie = "preferredLanguage=de"
-        }
-        if(getParameterByName("l") == "ru") {
-            document.cookie = "preferredLanguage=ru"
-        }
-        if(getParameterByName("l") == "lv") {
-            document.cookie = "preferredLanguage=lv"
-        }
-        if(getParameterByName("l") == "sv") {
-            document.cookie = "preferredLanguage=sv"
-        }
-        if(getParameterByName("l") == "pt") {
-            document.cookie = "preferredLanguage=pt"
-        }
-    }
-
-    if (getCookie("preferredLanguage")) {
-        var language = getCookie("preferredLanguage");
-    }else{
-        var language = (navigator.language || navigator.userLanguage).substr(0, 2);
-    }
-
-    if('{{ i18n "language" . }}' != language) {
-        if (language == "es") {
-            window.location.href = "es/"
-            document.cookie = "preferredLanguage=es"
-        } else if (language == "it") {
-            window.location.href = "it/"
-            document.cookie = "preferredLanguage=it"
-        } else if (language == "tr") {
-            window.location.href = "tr/"
-            document.cookie = "preferredLanguage=tr"
-        } else if (language == "ru") {
-            window.location.href = "ru/"
-            document.cookie = "preferredLanguage=ru"
-        } else if (language == "lv") {
-            window.location.href = "lv/"
-            document.cookie = "preferredLanguage=lv"
-        } else if (language == "sv") {
-            window.location.href = "sv/"
-            document.cookie = "preferredLanguage=sv"
-        } else if (language == "pt") {
-            window.location.href = "pt/"
-            document.cookie = "preferredLanguage=pt"
-        } else  { //Default to english
-            document.cookie = "preferredLanguage=en"
-        }
-    }
-
-    function getCookie(name) {
-       const value = `; ${document.cookie}`;
-       const parts = value.split(`; ${name}=`);
-       if (parts.length === 2) return parts.pop().split(';').shift();
-    }
-
-    function getParameterByName(name) {
-        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-        results = regex.exec(location.search);
-        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    }
-
- </script>
+<!-- Script for language select -->
+{{ partial "head/languages.html" . }}

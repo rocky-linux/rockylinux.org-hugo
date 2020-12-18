@@ -7,7 +7,7 @@ description = "Rocky Linux is an open enterprise Operating System designed to be
 images = ["img/cover.png"]
 
 [params.social]
-slackurl = "https://hpcng.slack.com/join/shared_invite/zt-k5z04bsh-1uqpaD1NsYVP73vzc3uKdQ"
+slackurl = "https://slack.rockylinux.org/"
 twitter = "https://twitter.com/rocky_linux"
 reddit = "https://reddit.com/r/rockylinux"
 forum = "https://forums.rockylinux.org/"
@@ -40,32 +40,92 @@ DefaultContentLanguage = "en"
   [languages.es]
     languageName = "Español"
     title = "Rocky Linux"
-    weight = 1
+    weight = 2
+  [languages.nl]
+    languageName = "Nederlands"
+    title = "Rocky Linux"
+    weight = 3
   [languages.it]
     languageName = "Italiano"
     title = "Rocky Linux"
-    weight = 2
-  [languages.pt]
-    languageName = "Português"
-    title = "Rocky Linux"
-    weight = 5
+    weight = 4
   [languages.tr]
     languageName = "Türkçe"
     title = "Rocky Linux"
-    weight = 3
+    weight = 5
   [languages.de]
     languageName = "Deutsch"
     title = "Rocky Linux"
-    weight = 4
-  [languages.ru]
-    languageName = "Русский"
+    weight = 6
+  [languages.fr]
+    languageName = "Français"
     title = "Rocky Linux"
-    weight = 5
+    weight = 7
   [languages.lv]
     languageName = "Latviski"
     title = "Rocky Linux"
-    weight = 6
-  [languages.sv]
-      languageName = "Svenska"
+    weight = 8
+  [languages.pt-pt]
+    languageName = "Português"
     title = "Rocky Linux"
-    weight = 7
+    weight = 9
+  [languages.pt-BR]
+    languageName = "Português (Brasil)"
+    title = "Rocky Linux"
+    weight = 10
+  [languages.pl]
+    languageName = "Polski"
+    title = "Rocky Linux"
+    weight = 11
+  [languages.id]
+    languageName = "Bahasa Indonesia"
+    title = "Rocky Linux"
+    weight = 12
+  [languages.nb-NO]
+    languageName = "Norsk bokmål"
+    title = "Rocky Linux"
+    weight = 13
+  [languages.ru]
+    languageName = "Русский"
+    title = "Rocky Linux"
+    weight = 14
+  [languages.uk]
+    languageName = "Українська"
+    title = "Rocky Linux"
+    weight = 15
+  [languages.vi]
+    languageName = "Tiếng Việt"
+    title = "Rocky Linux"
+    weight = 16
+  [languages.ja]
+    languageName = "日本語"
+    title = "Rocky Linux"
+    weight = 17
+  [languages.ar]
+    languageName = "العربية"
+    title = "روكي لينكس"
+    weight = 18
+  [languages.fa]
+    languageName = "فارسی"
+    title = "Rocky Linux"
+    weight = 19
+  [languages.zh-cn]
+    languageName = "简体中文"
+    title = "Rocky Linux"
+    weight = 20
+  [languages.zh-hk]
+    languageName = "繁體中文(香港)"
+    title = "Rocky Linux"
+    weight = 21
+  [languages.zh-tw]
+    languageName = "繁體中文(台灣)"
+    title = "Rocky Linux"
+    weight = 22
+  [languages.ko]
+    languageName = "한국어"
+    title = "Rocky Linux"
+    weight = 23
+  [languages.sv]
+    languageName = "Svenska"
+    title = "Rocky Linux"
+    weight = 24

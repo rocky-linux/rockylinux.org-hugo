@@ -1,0 +1,87 @@
+[language]
+other = "nb-NO"
+
+[links]
+  [links.get-involved]
+  other = "Bli involvert"
+
+  [links.get-in-touch]
+  other = "Ta kontakt"
+
+  [links.go-home]
+  other = "Hjem"
+
+  [links.close-menu]
+  other = "Lukk meny"
+
+  [links.documentation]
+  other = "Dokumentasjon"
+
+  [links.join-the-discussion]
+  other = "Bli med på diskusjonen"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forum"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Project. Alle rettigheter reservert."
+
+  [copyright.line2]
+  other = "CentOS er et registrert varemerke som tilhører Red Hat, Inc. The Rocky Linux Project er ikke tilknyttet eller støttet av Red Hat, Inc."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Siden ble ikke funnet."
+
+    [errors.404.explanation]
+    other = "Forespurt ressurs kunne ikke bli funnet. Vennligst prøv igjen."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "Er et samfunnsdrevet prosjekt som vil gi deg en produksjonsklar og næringslivsrettet Linux."
+
+  [landing.p2.heading]
+  other = "Hva er Rocky Linux?"
+
+  [landing.p2.content]
+  other = "Rocky Linux er et samfunnsdrevet næringslivsrettet operativ system designet for å være 100% feil-for-feil kompatibel med Amerikas topp næringslivsrettet Linux distribusjon nå som dets nedstrøms partner har byttet retning. Det er under utvikling av Rocky Linux samfunnet. Rocky Linux er ledet av Gregory Kurtzer, grunnlegger av CentOS prosjektet. Det er ingen estimat for en lansering. Bidragsytere er oppfordret til å nå oss via kommunikasjonsalternativene presentert på denne siden."
+
+[faq]
+  [faq.title]
+  other = "Ofte stilte spørsmål"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "Hva menes det med \"dets nedstrøms partner har byttet retning\"?"
+
+    [faq.q.come-in]
+    other = "Så hvor kommer Rocky Linux inn?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "CentOS prosjektet har nylig annonsert at de bytter strategy for CentOS. Før ble CentOS lansert som et nedstrøms alternativ for dets oppstrøms leverandør (altså at CentOS mottok oppdateringer etter at leverandøren gjorde det), men bytter nå til et oppstrøms strategi (som betyr at oppdateringene vil bli testet på CentOS før det blir inkludert hos leverandøren). I tillegg blir støtten for CentOS Linux 8 kuttet fra 31. mai 2029 til 31. desember 2021."
+
+    [faq.a.come-in]
+    other = "Rocky Linux ønsker å lanseres som et nedstrøms alternativ som CentOS gjorde tidligere, hvor endringer blir lagt til etter at leverandøren gjør dem tilgjengelig, ikke før."
+
+[lang]
+  [lang.footer.choose-language]
+  other = "Velg et språk..."

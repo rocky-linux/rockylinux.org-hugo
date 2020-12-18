@@ -1,0 +1,87 @@
+[language]
+other = "pl"
+
+[links]
+  [links.get-involved]
+  other = "Zaangażuj się"
+
+  [links.get-in-touch]
+  other = "Skontaktuj się z nami"
+
+  [links.go-home]
+  other = "Powrót na główną"
+
+  [links.close-menu]
+  other = "Zamknij menu"
+
+  [links.documentation]
+  other = "Dokumentacja"
+
+  [links.join-the-discussion]
+  other = "Przyłącz się do dyskusji"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forum"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 Projekt Rocky Linux. Wszelkie prawa zastrzeżone."
+
+  [copyright.line2]
+  other = "CentOS jest zastrzeżonym znakiem towarowym Red Hat, Inc. Projekt Rocky Linux nie jest powiązany, ani wsparty przez Red Hat, Inc."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Nie znaleziono strony."
+
+    [errors.404.explanation]
+    other = "Żądany zasób nie mógł zostać zlokalizowany. Proszę spróbować jeszcze raz."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "Inicjatywa społecznościowa w celu stworzenia biznesowej klasy, gotowego do wykorzystania produkcyjnego Linuksa."
+
+  [landing.p2.heading]
+  other = "Czym jest projekt Rocky Linux?"
+
+  [landing.p2.content]
+  other = "Rocky Linux jest społecznościowym systemem operacyjnym klasy biznesowej, zaprojektowanym aby być w 100% błąd-za-błędem kompatybilnym z najlepszą korporacyjną dystrybucją amerykańskiego systemu Linux, kiedy to jej mniejszy partner zmienił kierunek rozwoju. Jest on intensywnie rozwijany przez społeczność. Rocky Linux jest prowadzony przez Gregory'ego Kurtzera, założyciela projektu CentOS. Nie ma żadnego szacunkowego czasu wydania. Chętni do współpracy proszeni są o kontakt za pomocą źródeł komunikacji oferowanych na tej stronie."
+
+[faq]
+  [faq.title]
+  other = "Najczęściej zadawane pytania (FAQ)"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "Co masz na myśli mówiąc, \"jej partner zmienił kierunek rozwoju?\""
+
+    [faq.q.come-in]
+    other = "Więc gdzie jest miejsce dla Rocky Linux?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "Projekt CentOS niedawno ogłosił zmianę kierunku rozwoju. Mając na uwadze, że wcześniej CentOS istniał jako kompilacja tzw. downstream swojego dostawcy wyższego szczebla (otrzymuje łatki i aktualizacje po tym, jak dostawca wyższego szczebla je otrzymuje), zostanie on przeniesiony do kompilacji upstream (testowanie łatek i aktualizacji przed włączeniem do dostawcy wyższego szczebla)."
+
+    [faq.a.come-in]
+    other = "Rocky Linux ma na celu funkcjonowanie jako kompilacja downstream, tak jak CentOS robił to wcześniej, budując wydania po dodaniu ich do dostawcy upstream, a nie wcześniej."
+
+[lang]  
+  [lang.footer.choose-language]
+  other = "Wybierz język..."

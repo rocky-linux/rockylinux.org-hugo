@@ -1,0 +1,90 @@
+[language]
+other = "nl"
+
+[links]
+  [links.get-involved]
+  other = "Doe Mee"
+
+  [links.get-in-touch]
+  other = "Kom in Contact"
+
+  [links.go-home]
+  other = "Ga naar Begin"
+
+  [links.close-menu]
+  other = "Sluit menu"
+
+  [links.documentation]
+  other = "Documentatie"
+
+  [links.join-the-discussion]
+  other = "Doe Mee met de Discussie"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forums"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Project. Alle rechten voorbehouden."
+
+  [copyright.line2]
+  other = "CentOS is is een geregistreerd handelsmerk van Red Hat, Inc. Het Rocky Linux Project is niet verwant aan, noch aangeschreven door Red Hat, Inc."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Pagina niet gevonden."
+
+    [errors.404.explanation]
+    other = "De aangevraagde pagina kan niet worden gevonden. Probeer het alsjeblieft nog eens."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "Een community-gedreven project om enterprise-level, productie-klaar Linux aan te bieden."
+
+  [landing.p2.heading]
+  other = "Wat is het Rocky Linux Project?"
+
+  [landing.p2.content]
+  other = "Rocky Linux is een community enterprise besturingssysteem ontworpen om 100% 'bug compatible' te zijn met Amerika's top enterprise Linux distributie, omdat de downstreampartner van richting is veranderd. Het is hevig onder ontwikkeling door de community. Rocky Linux is geleid door Gregory Kurtzer, oprichter van het CentOS project. Er is geen ETA voor een release. Mensen die bijdragen worden gevraagd om contact op te nemen via de communicatie opties op deze website."
+
+[faq]
+  [faq.title]
+  other = "Veelgestelde Vragen"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "Wat bedoel je met, \"z'n downstreampartner is van richting veranderd?\""
+
+    [faq.q.come-in]
+    other = "Dus waarom is er Rocky Linux?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "Het CentOS project kondigde recent een verandering in de strategie aan voor CentOS. Waar voorafgaand CentOS bestond als downstream build van de upstream vendor (waar het patches en updates ontving pas nadat de upstream vendor deze kreeg), zal het veranderen naar een upstream build (met testing patches en updates voordat ze in de upstream vendor komen). Daarnaast is ondersteuning voor CentOS Linux 8 ingekort, namelijk van 31 mei 2029 naar 31 december 2021."
+
+    [faq.a.come-in]
+    other = "Het doel van Rocky Linux is om een downstream build te worden net zoals CentOS voorafgaand had gedaan, door het bouwen van releases nadat ze zijn toegevoegd door de upstream vendor, en niet er voor."
+
+[lang]
+  [lang.footer.literal]
+  other = "Taal:"
+
+  [lang.footer.choose-language]
+  other = "Kies een taal..."
