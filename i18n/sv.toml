@@ -71,7 +71,7 @@ other = "sv"
     other = "Vad menar ni med att \"dess nedströmspartner har skiftat riktning?\""
 
     [faq.q.come-in]
-    other = "Så var kommer Rocky Linux in??"
+    other = "Så var kommer Rocky Linux in?"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
