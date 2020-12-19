@@ -38,10 +38,10 @@ other = "sv"
 
 [copyright]
   [copyright.line1]
-  other = "© 2020 Rocky Linux-projektet. Alla rättigheter förbehållna."
+  other = "© 2020 Rocky Linux projektet. Alla rättigheter förbehållna."
 
   [copyright.line2]
-  other = "CentOS är ett registrerat varumärke som tillhör Red Hat, Inc. Rocky Linux-projektet är inte anslutet till eller godkänt av Red Hat, Inc."
+  other = "CentOS är ett registrerat varumärke som tillhör Red Hat, Inc. Rocky Linux projektet är inte anknutet till eller godkänt av Red Hat, Inc."
 
 [errors]
   [errors.404]
@@ -49,36 +49,38 @@ other = "sv"
     other = "Sidan hittades inte."
 
     [errors.404.explanation]
-    other = "Den sida du försökte nå kunde inte hittas. Var god försök igen."
+    other = "Sidan du försökte nå kunde inte hittas. Var god försök igen."
 
 [landing]
   [landing.p1.heading]
   other = "Rocky Linux"
 
   [landing.p1.content]
-  other = "En gemenskapsdriven insats för att ge dig en produktionsklar Linux i företagsklass."
+  other = "En community-driven insats för att skapa en enterprise-klassad linuxdistribution redo att användas i skarp drift."
 
   [landing.p2.heading]
-  other = "Vad är Rocky Linux Projektet?"
+  other = "Vad är Rocky Linux projektet?"
 
   [landing.p2.content]
-  other = "Rocky Linux är ett gemenskapsdrivet operativsystem utformat för att vara 100% bugg-för-bugg-kompatibelt med Amerikas främsta företagsklass Linux distribution nu när dess nedströms partner har skiftat inriktning. Det är under intensiv utveckling av gemenskapen. Rocky Linux leds av Gregory Kurtzer, grundare av CentOS-projektet. Det finns inget datum satt för första utgåvan. Bidragsgivare uppmanas att nå oss med hjälp av de kommunikationsalternativ som erbjuds på denna webbplats."
+  other = "Rocky Linux är ett community-drivet enterprise-operativsystem designat för att vara 100% bugg-för-bugg kompatibelt med Amerikas främsta enterprise-klassade linuxdistribution nu när downstream-partnern har bytt inriktning. Rocky Linux är under intensiv utveckling av communityn. Det leds av Gregory Kurtzer, grundare av CentOS-projektet. Det är ännu inte bestämt när första versionen ska släppas. Ni som vill bidra uppmanas att kontakta oss med hjälp av de kommunikationsalternativ som erbjuds på webbplatsen."
+ 
+[faq]
   [faq.title]
   other = "Vanliga frågor"
 
   [faq.q]
     [faq.q.downstream-partner-direction]
-    other = "Vad menar ni med att \"dess nedströmspartner har skiftat riktning?\""
+    other = "Vad menas med att \"downstream-partnern har bytt inriktning?\""
 
     [faq.q.come-in]
-    other = "Så var kommer Rocky Linux in?"
+    other = "Så var kommer Rocky Linux in i bilden?"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
-    other = "CentOS-projektet tillkännagav nyligen ett skifte i strategi för CentOS. Medan CentOS tidigare existerade som ett nedströmsbygge av dess uppströmsleverantör (det tar emot korrigeringar och uppdateringar efter att uppströmsleverantören gör det) kommer den att flyttas till att bara bli ett uppströmsbygge (testa korrigeringar och uppdateringar innan de inkluderas i uppströmsleverantören). Dessutom har stödet för CentOS Linux 8 förkortats, från 31 maj 2029 till 31 december 2021."
+    other = "CentOS-projektet tillkännagav nyligen de har bytt strategi för CentOS. Tidigare existerade CentOS som en downstream build från upstream vendorn (den tar emot patcher och uppdateringar efter att upstream vendorn gör det) men i och med att de har bytt till att vara en upstream build (där patcher och uppdateringar testas innan de inkluderas i upstream vendorn). Dessutom har stödet för CentOS Linux 8 förkortats, från 31 maj 2029 till 31 december 2021."
 
     [faq.a.come-in]
-    other = "Rocky Linux mål är att fungera som ett nedströmsbygge som CentOS har gjort tidigare, att bygga utgåvor efter de har lagts till av uppströmsleverantören, inte före."
+    other = "Målet med Rocky Linux är att fungera som en downstream build som CentOS tidigare gjorde, där releaser byggdes efter de har lagts till av upstream vendorn, inte före."
 
 [lang]
   [lang.footer.choose-language]
