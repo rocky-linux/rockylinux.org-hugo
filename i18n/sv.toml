@@ -77,7 +77,7 @@ other = "sv"
 
   [faq.a]
     [faq.a.downstream-partner-direction]
-    other = "CentOS-projektet tillkännagav nyligen de har bytt strategi för CentOS. Tidigare existerade CentOS som en downstream build från upstream vendorn (den tar emot patcher och uppdateringar efter att upstream vendorn gör det) men i och med att de har bytt till att vara en upstream build (där patcher och uppdateringar testas innan de inkluderas i upstream vendorn). Dessutom har stödet för CentOS Linux 8 förkortats, från 31 maj 2029 till 31 december 2021."
+    other = "CentOS-projektet tillkännagav nyligen att de har bytt strategi för CentOS. Tidigare existerade CentOS som en downstream build från upstream vendorn (den tar emot patcher och uppdateringar efter att upstream vendorn gör det) men i och med att de har bytt till att vara en upstream build (där patcher och uppdateringar testas innan de inkluderas i upstream vendorn). Dessutom har stödet för CentOS Linux 8 förkortats, från 31 maj 2029 till 31 december 2021."
 
     [faq.a.come-in]
     other = "Målet med Rocky Linux är att fungera som en downstream build som CentOS tidigare gjorde, där releaser byggdes efter de har lagts till av upstream vendorn, inte före."
