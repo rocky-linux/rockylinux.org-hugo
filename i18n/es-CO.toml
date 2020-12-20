@@ -49,7 +49,7 @@ other = "es-CO"
     other = "Página no encontrada."
 
     [errors.404.explanation]
-    other = "No se pudo localizar el recurso solicitado. Inténtalo de nuevo."
+    other = "El contenido que esta buscando no puede ser encontrado."
 
 [landing]
   [landing.p1.heading]
