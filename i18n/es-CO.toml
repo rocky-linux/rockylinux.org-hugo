@@ -9,7 +9,7 @@ other = "es-CO"
   other = "Contactar"
 
   [links.go-home]
-  other = "Inicio"
+  other = "Página principal"
 
   [links.close-menu]
   other = "Cerrar menu"
