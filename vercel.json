@@ -13,6 +13,7 @@
     { "src": "/fr/(.*)", "status": 404, "dest": "/fr/404.html" },
     { "src": "/de/(.*)", "status": 404, "dest": "/de/404.html" },
     { "src": "/es/(.*)", "status": 404, "dest": "/es/404.html" },
+    { "src": "/es-co/(.*)", "status": 404, "dest": "/es-co/404.html" },
     { "src": "/pt-br/(.*)", "status": 404, "dest": "/pt-br/404.html" },
     { "src": "/pt-pt/(.*)", "status": 404, "dest": "/pt-pt/404.html" },
     { "src": "/nl/(.*)", "status": 404, "dest": "/nl/404.html" },
