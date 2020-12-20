@@ -41,83 +41,87 @@ DefaultContentLanguage = "en"
     languageName = "Español"
     title = "Rocky Linux"
     weight = 2
+  [languages.es-CO]
+    languageName = "Español (Columbia)"
+    title = "Rocky Linux"
+    weight = 3
   [languages.nl]
     languageName = "Nederlands"
     title = "Rocky Linux"
-    weight = 3
+    weight = 4
   [languages.it]
     languageName = "Italiano"
     title = "Rocky Linux"
-    weight = 4
+    weight = 5
   [languages.tr]
     languageName = "Türkçe"
     title = "Rocky Linux"
-    weight = 5
+    weight = 6
   [languages.de]
     languageName = "Deutsch"
     title = "Rocky Linux"
-    weight = 6
+    weight = 7
   [languages.fr]
     languageName = "Français"
     title = "Rocky Linux"
-    weight = 7
+    weight = 8
   [languages.lv]
     languageName = "Latviski"
     title = "Rocky Linux"
-    weight = 8
+    weight = 9
   [languages.pt-pt]
     languageName = "Português"
     title = "Rocky Linux"
-    weight = 9
+    weight = 10
   [languages.pt-BR]
     languageName = "Português (Brasil)"
     title = "Rocky Linux"
-    weight = 10
+    weight = 11
   [languages.pl]
     languageName = "Polski"
     title = "Rocky Linux"
-    weight = 11
+    weight = 12
   [languages.id]
     languageName = "Bahasa Indonesia"
     title = "Rocky Linux"
-    weight = 12
+    weight = 13
   [languages.nb-NO]
     languageName = "Norsk bokmål"
     title = "Rocky Linux"
-    weight = 13
+    weight = 14
   [languages.ru]
     languageName = "Русский"
     title = "Rocky Linux"
-    weight = 14
+    weight = 15
   [languages.vi]
     languageName = "Tiếng Việt"
     title = "Rocky Linux"
-    weight = 15
+    weight = 16
   [languages.ja]
     languageName = "日本語"
     title = "Rocky Linux"
-    weight = 16
+    weight = 17
   [languages.ar]
     languageName = "العربية"
     title = "روكي لينكس"
-    weight = 17
+    weight = 18
   [languages.zh-cn]
     languageName = "简体中文"
     title = "Rocky Linux"
-    weight = 18
+    weight = 19
   [languages.zh-hk]
     languageName = "繁體中文(香港)"
     title = "Rocky Linux"
-    weight = 19
+    weight = 20
   [languages.zh-tw]
     languageName = "繁體中文(台灣)"
     title = "Rocky Linux"
-    weight = 20
+    weight = 21
   [languages.fa]
     languageName = "فارسی"
     title = "Rocky Linux"
-    weight = 21
+    weight = 22
   [languages.ko]
     languageName = "한국어"
     title = "Rocky Linux"
-    weight = 22
+    weight = 23
