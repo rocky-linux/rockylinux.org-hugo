@@ -41,6 +41,7 @@ height = 600
 questions = ["downstream-partner-direction", "come-in"]
 
 DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
