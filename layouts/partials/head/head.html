@@ -8,6 +8,10 @@
 {{ partial "meta/site-twittercard.html" . }}
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 
+<!-- RSS -->
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 
 <!-- Styles -->
 {{ $styles := resources.Get "css/main.css" }}

@@ -1,6 +1,9 @@
 baseURL = "/"
-languageCode = "en-us"
 title = "Rocky Linux"
+copyright = "© 2020 The Rocky Linux Project. All rights reserved."
+[author]
+    name = "Rocky Linux team"
+
 paginate = 5
 
 [markup]
@@ -40,6 +43,7 @@ height = 600
 [params.faqs]
 questions = ["downstream-partner-direction", "come-in"]
 
+languageCode = "en-us"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
