@@ -18,6 +18,7 @@
     { "src": "/nl/(.*)", "status": 404, "dest": "/nl/404.html" },
     { "src": "/it/(.*)", "status": 404, "dest": "/it/404.html" },
     { "src": "/tr/(.*)", "status": 404, "dest": "/tr/404.html" },
+    { "src": "/ro/(.*)", "status": 404, "dest": "/ro/404.html" },
     { "src": "/ru/(.*)", "status": 404, "dest": "/ru/404.html" },
     { "src": "/vi/(.*)", "status": 404, "dest": "/vi/404.html" },
     { "src": "/lv/(.*)", "status": 404, "dest": "/lv/404.html" },
