@@ -43,7 +43,7 @@
                             </div>
                         </div>
                         <div class="hidden md:flex md:space-x-10">
-                            <a href="{{ "/posts/" | relLangURL }}" class="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{{ i18n "links.posts" . }}</a>
+                            <a href="{{ "/posts/" | absURL }}" class="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{{ i18n "links.posts" . }}</a>
                             <a href="{{ .Site.Params.links.wiki | relLangURL }}" class="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{{ i18n "links.documentation" . }}</a>
                         </div>
                         <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
