@@ -1,0 +1,87 @@
+[language]
+other = "ro"
+
+[links]
+  [links.get-involved]
+  other = "Implică-te"
+
+  [links.get-in-touch]
+  other = "Ia legătura cu noi"
+
+  [links.go-home]
+  other = "Mergi Acasă"
+
+  [links.close-menu]
+  other = "Închide meniul"
+
+  [links.documentation]
+  other = "Documentație"
+
+  [links.join-the-discussion]
+  other = "Alătură-te Discuției"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forum"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 Proiectul Rocky Linux. Toate drepturile rezervate."
+
+  [copyright.line2]
+  other = "CentOS este marcă înregistrată a Red Hat, Inc. Proiectul Rocky Linux nu este afiliat cu, sau avizat de Red Hat, Inc."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Pagina nu a fost găsită."
+
+    [errors.404.explanation]
+    other = "Pagina solicitată nu a fost localizată. Te rugăm să încerci din nou."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "Un efort condus de comunitate pentru a vă aduce Linux la nivel enterprise, pregătit pentru producție."
+
+  [landing.p2.heading]
+  other = "Ce este proiectul Rocky Linux?"
+
+  [landing.p2.content]
+  other = "Rocky Linux este un sistem de operare enterprise creat de comunitate, conceput pentru a fi 100% compatibil cu distribuția Linux de top a Americii, acum când partenerul său și-a schimbat direcția. Este în curs de dezvoltare intensă de către comunitate. Rocky Linux este condus de Gregory Kurtzer, fondatorul proiectului CentOS. Nu există un termen estimativ pentru lansare. Contribuitorilor li se cere să ne contacteze utilizând căile de comunicare puse la dispoziție pe acest site."
+
+[faq]
+  [faq.title]
+  other = "Întrebări Frecvente"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "Cum adică \"partenerul său și-a schimbat direcția?\""
+
+    [faq.q.come-in]
+    other = "Sub ce formă va apărea Rocky Linux?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "Proiectul CentOS a anunțat recent o schimbare a strategiei pentru sistemul CentOS. Dacă la început CentOS a fost o versiune de bază (primea patch-uri și actualizări după ce erau testate anterior la scară largă pe o altă distribuție), acum va deveni o versiune de testare (va primi patch-uri și actualizări înainte de a fi testate la scară largă). În plus, suportul pentru CentOS Linux 8 a fost redus până la data de 31 decembrie 2021 (anterior fusese anunțată data de 31 mai 2029)."
+
+    [faq.a.come-in]
+    other = "Rocky Linux își propune să fie o versiune de bază, așa cum era CentOS anterior, lansând noi versiuni după ce acestea au fost testate la scară largă, nu înainte."
+
+[lang]
+  [lang.footer.choose-language]
+  other = "Alege limba..."
