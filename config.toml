@@ -42,7 +42,7 @@ DefaultContentLanguage = "en"
     title = "Rocky Linux"
     weight = 2
   [languages.es-CO]
-    languageName = "Español (Columbia)"
+    languageName = "Español (Colombia)"
     title = "Rocky Linux"
     weight = 3
   [languages.nl]
