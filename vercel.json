@@ -28,6 +28,7 @@
     { "src": "/nb-no/(.*)", "status": 404, "dest": "/nb-no/404.html" },
     { "src": "/fa/(.*)", "status": 404, "dest": "/fa/404.html" },
     { "src": "/ko/(.*)", "status": 404, "dest": "/ko/404.html" },
+    { "src": "/da/(.*)", "status": 404, "dest": "/da/404.html" },
     { "src": "/(.*)",    "status": 404, "dest": "/404.html" }
   ]
 }

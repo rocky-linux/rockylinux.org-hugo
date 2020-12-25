@@ -1,0 +1,87 @@
+[language]
+other = "da"
+
+[links]
+  [links.get-involved]
+  other = "Bliv involveret"
+
+  [links.get-in-touch]
+  other = "Hold kontakt"
+
+  [links.go-home]
+  other = "Hjem"
+
+  [links.close-menu]
+  other = "Luk menu"
+
+  [links.documentation]
+  other = "Dokumentation"
+
+  [links.join-the-discussion]
+  other = "Deltag i diskussionen"
+
+[socials]
+  [socials.twitter]
+  other = "Twitter"
+
+  [socials.reddit]
+  other = "Reddit"
+
+  [socials.forums]
+  other = "Forum"
+
+  [socials.slack]
+  other = "Slack"
+
+  [socials.github]
+  other = "Github"
+
+[copyright]
+  [copyright.line1]
+  other = "© 2020 The Rocky Linux Projektet. Alle rettigheder reservet."
+
+  [copyright.line2]
+  other = "CentOS er et registeret trademark af Red Hat, Inc. Rocky Linux Project er ikke beslægtet med, eller promoveret af Red Hat, Inc."
+
+[errors]
+  [errors.404]
+    [errors.404.title]
+    other = "Side ikke fundet."
+
+    [errors.404.explanation]
+    other = "Den ønskede ressource kunne ikke findes. Prøv venligst igen."
+
+[landing]
+  [landing.p1.heading]
+  other = "Rocky Linux"
+
+  [landing.p1.content]
+  other = "En fællesskabsdrevet indsats for at bringe dig et enterprise-grad, produktions-parat Linux."
+
+  [landing.p2.heading]
+  other = "Hvad er Rocky Linux Projektet?"
+
+  [landing.p2.content]
+  other = "Rocky Linux er et fællesskabs enterprise operativsystem designet til at være 100% fejl-for-fejl kompatibelt med Amerika's top enterprise Linux distribution nu da dets downstream partneren har skiftet retning. Det er under intensiv udvikling af fællesskabet. Rocky Linux er ledet af Gregory Kurtzer, stifter af CentOS projektet. Der er ikke nogen tidsplan for en udgivelse. Bidragydere er velkommen til at kontakte projektet via de kommunikationsmuligheder der er beskrevet på denne side."
+
+[faq]
+  [faq.title]
+  other = "Ofte stillede Spørgsmål"
+
+  [faq.q]
+    [faq.q.downstream-partner-direction]
+    other = "Hvad mener du med, \"downstream partneren har skiftet retning?\""
+
+    [faq.q.come-in]
+    other = "Så hvordan passer Rocky Linux ind i?"
+
+  [faq.a]
+    [faq.a.downstream-partner-direction]
+    other = "CentOS projektet har fornyligt bekendtgjort et skifte i strategien for CentOS. Hvor CentOS tidligere har eksisteret som et downstream build af dets upstream sælger (det modtog rettelser og opdateringer efter upstream sælgeren havde disse klar), vil det nu skifte til at være upstream build (som tester rettelser og opdateringer før disse inkluderes i upstream sælgeren). Ydermer er support for CentOS Linux 8 blevet begrænset tidsmæssigt, fra 31. Maj, 2029 til 31. December, 2021."
+
+    [faq.a.come-in]
+    other = "Rocky Linux sigter mod at fungere som downstream build som CentOS tidligere har gjort, bygge udgivelser efter de er blevet tilføjet af upstream sælgeren, ikke før."
+    
+[lang]
+  [lang.footer.choose-language]
+  other = "Vælg et sprog..."

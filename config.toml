@@ -121,3 +121,7 @@ DefaultContentLanguage = "en"
     languageName = "한국어"
     title = "Rocky Linux"
     weight = 22
+  [languages.da]
+    languageName = "Dansk"
+    title = "Rocky Linux"
+    weight = 23
