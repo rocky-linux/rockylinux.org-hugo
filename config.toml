@@ -2,7 +2,7 @@ baseURL = "/"
 title = "Rocky Linux"
 copyright = "© 2020 The Rocky Linux Project. All rights reserved."
 [author]
-    name = "Rocky Linux team"
+    name = "The Rocky Linux Project"
 
 paginate = 5
 
