@@ -55,7 +55,18 @@ pre { @apply p-4 rounded-lg }
   @apply dark:text-gray-300;
 }
 .prose a {
-  @apply text-green-600
+  @apply text-green-600;
+}
+
+#list_posts article {
+  @apply flex items-center;
+}
+#list_posts article .image {
+  @apply mr-6;
+  width: 350px;
+}
+#list_posts article .image img {
+  @apply w-full;
 }
 
 @media (prefers-color-scheme: dark) {

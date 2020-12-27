@@ -13,7 +13,7 @@
       <article>
         {{ if $val.Params.images }}
           <div class="image">
-            <img src="{{ first 1 $val.Params.images }}" />
+            <img src="{{ index ($val.Params.images) 0 }}" />
           </div>
         {{ end }}
         <div class="post">
@@ -21,7 +21,11 @@
             <h3 class="mb-1">{{ $val.Title }}</h3>
             <span class="text-sm italic">{{ $val.PublishDate.Format "January 2, 2006" }}</span>
           </div>
-          <p>{{ truncate 200 $val.Description }}</p>
+          {{ if $val.Params.images }}
+            <p>{{ truncate 150 $val.Description }}</p>
+          {{ else }}
+            <p>{{ truncate 200 $val.Description }}</p>
+          {{ end }}
         </div>
       </article>
     </a>
