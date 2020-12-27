@@ -1,4 +1,4 @@
-<div class="relative bg-gray-50 dark:bg-gray-900 overflow-hidden" dir="auto">
+<div class="relative bg-gray-50 dark:bg-gray-900" dir="auto">
     <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between" x-data="{ open: false }">
             <a href="/" aria-label="Rocky Linux" title="Rocky Linux" class="inline-flex items-center">
@@ -31,7 +31,7 @@
                         <path fill="currentColor" d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"></path>
                     </svg>
                 </button>
-                <div class="absolute top-0 left-0 w-full" x-show="open" x-description="Mobile menu, show/hide based on menu open state." x-transition:enter="duration-150 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" style="display: none; z-index: 10;">
+                <div class="absolute top-0 left-0 w-full" x-show="open" x-description="Mobile menu, show/hide based on menu open state." x-transition:enter="duration-150 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" style="display: none; z-index: 50;">
                     <div class="p-5 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded shadow-sm">
                         <div class="flex items-center justify-between mb-4">
                             <div>
