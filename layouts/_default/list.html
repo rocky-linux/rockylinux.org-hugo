@@ -11,11 +11,18 @@
     {{ end }}
     <a href="{{ .Permalink }}">
       <article>
-        <div class="frontmatter mb-4">
-          <h3 class="mb-1">{{ $val.Title }}</h3>
-          <span class="text-sm italic">{{ $val.PublishDate.Format "January 2, 2006" }}</span>
+        {{ if $val.Params.images }}
+          <div class="image">
+            <img src="{{ first 1 $val.Params.images }}" />
+          </div>
+        {{ end }}
+        <div class="post">
+          <div class="frontmatter mb-4">
+            <h3 class="mb-1">{{ $val.Title }}</h3>
+            <span class="text-sm italic">{{ $val.PublishDate.Format "January 2, 2006" }}</span>
+          </div>
+          <p>{{ truncate 200 $val.Description }}</p>
         </div>
-        <p>{{ truncate 200 $val.Description }}</p>
       </article>
     </a>
   {{ end }}
