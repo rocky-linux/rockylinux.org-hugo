@@ -1,0 +1,106 @@
+{
+  "language": {
+    "other": "ja"
+  },
+  "copyright": {
+    "line1": {
+      "other": "© 2020 The Rocky Linux Project. All rights reserved."
+    },
+    "line2": {
+      "other": "CentOS は Red Hat, Inc.の登録商標です。Rocky Linux Project は Red Hat, Inc.と提携しておらず、また Red Hat, Inc.が推奨しているものではありません。"
+    }
+  },
+  "errors": {
+    "404": {
+      "explanation": {
+        "other": "指定されたURLが見つかりませんでした。もう一度お試しください。"
+      },
+      "title": {
+        "other": "Page not found."
+      }
+    }
+  },
+  "faq": {
+    "a": {
+      "come-in": {
+        "other": "Rocky Linuxは、以前にCentOSが行っていたように、リリースが追加される前ではなく、アップストリームベンダによって追加された後にリリースをビルドすることで、ダウンストリームビルドとして機能することを目指しています。"
+      },
+      "downstream-partner-direction": {
+        "other": "CentOSプロジェクトは最近、CentOSの戦略の転換を発表しました。これまでCentOSは、アップストリームベンダーのダウンストリームビルドとして存在していたのに対し（アップストリームベンダーがパッチを適用した後にパッチ適用やアップデートを行う）、アップストリームビルド（アップストリームベンダーに組み込む前にパッチやアップデートをテストする）に移行するとしました。さらに、CentOS Linux 8のサポートは2029年5月31日から2021年12月31日まで短縮されました。"
+      }
+    },
+    "q": {
+      "come-in": {
+        "other": "Rocky Linux はどのような役割を持つのですか？"
+      },
+      "downstream-partner-direction": {
+        "other": "\"ダウンストリームパートナーが方向転換した\"ってどういうこと？"
+      }
+    },
+    "title": {
+      "other": "よくある質問"
+    }
+  },
+  "landing": {
+    "p1": {
+      "content": {
+        "other": "コミュニティ主導の、商用環境にも本番環境にも対応したLinux。"
+      },
+      "heading": {
+        "other": "Rocky Linux"
+      }
+    },
+    "p2": {
+      "content": {
+        "other": "Rocky Linux は、ダウンストリームパートナーが方向転換した今、アメリカのトップエンタープライズ Linux ディストリビューションとの間で、バグをも含めて 100% の互換性を持つように設計されたコミュニティ商用OSです。このオペレーティングシステムはコミュニティ主導で開発されています。Rocky LinuxはCentOSプロジェクトの創設者であるGregory Kurtzer(グレゴリー・クルツァー)氏が率いています。現時点でのリリースは未定です。プロジェクトに貢献する場合は、このサイトに記載されている連絡手段で連絡を取ってください。"
+      },
+      "heading": {
+        "other": "Rocky Linux Projectとは？"
+      }
+    }
+  },
+  "lang": {
+    "footer": {
+      "choose-language": {
+        "other": "言語を選択してください..."
+      }
+    }
+  },
+  "links": {
+    "close-menu": {
+      "other": "メニューを閉じる"
+    },
+    "documentation": {
+      "other": "ドキュメント"
+    },
+    "get-in-touch": {
+      "other": "お問い合わせ"
+    },
+    "get-involved": {
+      "other": "参加する"
+    },
+    "go-home": {
+      "other": "ホームに戻る"
+    },
+    "join-the-discussion": {
+      "other": "議論に参加する"
+    }
+  },
+  "socials": {
+    "forums": {
+      "other": "Forums"
+    },
+    "github": {
+      "other": "Github"
+    },
+    "reddit": {
+      "other": "Reddit"
+    },
+    "slack": {
+      "other": "Slack"
+    },
+    "twitter": {
+      "other": "Twitter"
+    }
+  }
+}
