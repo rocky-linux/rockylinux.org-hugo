@@ -28,6 +28,20 @@ $ pre-commit install
 $ pre-commit install --hook-type commit-msg
 ```
 
+### Merge Commits
+
+Merge commits must be styled as follows:
+
+```
+chore(merge): from_branch -> to_branch
+```
+
+For example, if you had merged `main` into `develop`:
+
+```
+chore(merge): main -> develop
+```
+
 ## Pull requests
 
 Allow us to preface this by saying - All bug fixes, feature implementations,
