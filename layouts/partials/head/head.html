@@ -10,7 +10,7 @@
 
 <!-- Posts Meta tags -->
 {{if .PublishDate}}
-    <meta name='date' content='{{ .PublishDate.Format "2006/01/02" }}'>  
+    <meta name='date' content='{{ .PublishDate.Format "2006/01/02" }}'>
 {{ end }}
 {{if .Keywords}}
     <meta name="keywords" content="{{ range $tab := .Keywords }}{{$tab}}, {{ end }}"/>
