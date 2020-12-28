@@ -1,6 +1,19 @@
 baseURL = "/"
-languageCode = "en-us"
 title = "Rocky Linux"
+copyright = "© 2020 The Rocky Linux Foundation. All rights reserved."
+[author]
+    name = "The Rocky Linux Foundation"
+
+paginate = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    style = "monokai"
+    tabWidth = 4
 
 [params]
 description = "Rocky Linux is an open enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux."
@@ -30,7 +43,9 @@ height = 600
 [params.faqs]
 questions = ["downstream-partner-direction", "come-in"]
 
+languageCode = "en-us"
 DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
