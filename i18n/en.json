@@ -1,1 +1,112 @@
-{"language":"en","copyright":{"line1":"© 2020 The Rocky Linux Project. All rights reserved.","line2":"CentOS is a registered trademark of Red Hat, Inc. The Rocky Linux Project is not affiliated with, nor endorsed by Red Hat, Inc."},"errors":{"404":{"explanation":"The requested resource couldn't be located. Please try again.","title":"Page not found."}},"faq":{"a":{"come-in":"Rocky Linux aims to function as a downstream build as CentOS had done previously, building releases after they have been added by the upstream vendor, not before.","downstream-partner-direction":"The CentOS project recently announced a shift in strategy for CentOS. Whereas previously CentOS existed as a downstream build of its upstream vendor (it receives patches and updates after the upstream vendor does), it will be shifting to an upstream build (testing patches and updates before inclusion in the upstream vendor). Additionally, support for CentOS Linux 8 has been cut short, from May 31, 2029 to December 31, 2021."},"q":{"come-in":"So where does Rocky Linux come in?","downstream-partner-direction":"What do you mean, \"its downstream partner has shifted direction?\""},"title":"Frequently Asked Questions"},"landing":{"p1":{"content":"A community-driven effort to bring you enterprise-grade, production-ready Linux.","heading":"Rocky Linux"},"p2":{"content":"Rocky Linux is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution now that its downstream partner has shifted direction. It is under intensive development by the community. Rocky Linux is led by Gregory Kurtzer, founder of the CentOS project. There is no ETA for a release. Contributors are asked to reach out using the communication options offered on this site.","heading":"What is the Rocky Linux Project?"}},"lang":{"footer":{"choose-language":"Choose a language..."}},"links":{"close-menu":"Close menu","documentation":"Documentation","get-in-touch":"Get In Touch","get-involved":"Get Involved","go-home":"Go Home","join-the-discussion":"Join the Discussion","posts":"Posts","show-your-interest":"Show your interest"},"socials":{"forums":"Forums","github":"Github","reddit":"Reddit","slack":"Slack","twitter":"Twitter"}}
+{
+  "language": {
+    "other": "en"
+  },
+  "copyright": {
+    "line1": {
+      "other": "© 2020 The Rocky Linux Project. All rights reserved."
+    },
+    "line2": {
+      "other": "CentOS is a registered trademark of Red Hat, Inc. The Rocky Linux Project is not affiliated with, nor endorsed by Red Hat, Inc."
+    }
+  },
+  "errors": {
+    "404": {
+      "explanation": {
+        "other": "The requested resource couldn't be located. Please try again."
+      },
+      "title": {
+        "other": "Page not found."
+      }
+    }
+  },
+  "faq": {
+    "a": {
+      "come-in": {
+        "other": "Rocky Linux aims to function as a downstream build as CentOS had done previously, building releases after they have been added by the upstream vendor, not before."
+      },
+      "downstream-partner-direction": {
+        "other": "The CentOS project recently announced a shift in strategy for CentOS. Whereas previously CentOS existed as a downstream build of its upstream vendor (it receives patches and updates after the upstream vendor does), it will be shifting to an upstream build (testing patches and updates before inclusion in the upstream vendor). Additionally, support for CentOS Linux 8 has been cut short, from May 31, 2029 to December 31, 2021."
+      }
+    },
+    "q": {
+      "come-in": {
+        "other": "So where does Rocky Linux come in?"
+      },
+      "downstream-partner-direction": {
+        "other": "What do you mean, \"its downstream partner has shifted direction?\""
+      }
+    },
+    "title": {
+      "other": "Frequently Asked Questions"
+    }
+  },
+  "landing": {
+    "p1": {
+      "content": {
+        "other": "A community-driven effort to bring you enterprise-grade, production-ready Linux."
+      },
+      "heading": {
+        "other": "Rocky Linux"
+      }
+    },
+    "p2": {
+      "content": {
+        "other": "Rocky Linux is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution now that its downstream partner has shifted direction. It is under intensive development by the community. Rocky Linux is led by Gregory Kurtzer, founder of the CentOS project. There is no ETA for a release. Contributors are asked to reach out using the communication options offered on this site."
+      },
+      "heading": {
+        "other": "What is the Rocky Linux Project?"
+      }
+    }
+  },
+  "lang": {
+    "footer": {
+      "choose-language": {
+        "other": "Choose a language..."
+      }
+    }
+  },
+  "links": {
+    "close-menu": {
+      "other": "Close menu"
+    },
+    "documentation": {
+      "other": "Documentation"
+    },
+    "get-in-touch": {
+      "other": "Get In Touch"
+    },
+    "get-involved": {
+      "other": "Get Involved"
+    },
+    "go-home": {
+      "other": "Go Home"
+    },
+    "join-the-discussion": {
+      "other": "Join the Discussion"
+    },
+    "posts": {
+      "other": "Posts"
+    },
+    "show-your-interest": {
+      "other": "Show your interest"
+    }
+  },
+  "socials": {
+    "forums": {
+      "other": "Forums"
+    },
+    "github": {
+      "other": "Github"
+    },
+    "reddit": {
+      "other": "Reddit"
+    },
+    "slack": {
+      "other": "Slack"
+    },
+    "twitter": {
+      "other": "Twitter"
+    }
+  }
+}

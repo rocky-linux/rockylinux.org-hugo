@@ -15,12 +15,12 @@ documentation improvements, issues, etc. are all *very* much welcome. We
 don't wish to discourage any such contributions, quite the opposite. With
 that said, we must ask that:
 
-- Pull requests must be linked to an issue and must be targeted towards the `develop` branch. If there is no issue currently
-  open describing the issue/feature request you are contributing a solution
-  to, open one yourself first, *before* you make a PR. This is to ensure that
-  we know every part of our project is organized well, and makes sure that we
-  are able to track every problem and enhancement the community would like to
-  raise with us.
+- Pull requests must be linked to an issue and must be made against the
+  `develop` branch. If there is no issue currently open describing the
+  issue/feature request you are contributing a solution to, open one yourself
+  first, *before* you make a PR. This is to ensure that we know every part of
+  our project is organized well, and makes sure that we are able to track every
+  problem and enhancement the community would like to raise with us.
 
 - Once an issue has been created, you wait until we have evaluated the impact
   of the issue, or the priority of the feature request, before creating your
@@ -33,5 +33,9 @@ the terms of which are described fully in the [LICENSE](./LICENSE) file, located
 at the root of this repository.
 
 ## Translations
-Please refer to [wiki](https://wiki.rockylinux.org/en/Web/Website/contrib-i18n) for
-information on translation contributions.
+
+For the time being, we will not be accepting i18n PRs. This is due to the sheer
+volume of them we have received, leading to it getting to an unmaintainable state.
+
+This is not a permanent no-translation rule, but a system (see issue #134) will be
+put in place in due time to resolve the problem.

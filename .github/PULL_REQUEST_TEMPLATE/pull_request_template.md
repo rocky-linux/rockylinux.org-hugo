@@ -8,4 +8,3 @@ Fixes: #(issue)
 - [ ] My pull request follows the contribution guidelines of this project
 - [ ] I have performed a self-review of my own code
 - [ ] My changes generate no new warnings or errors
-
