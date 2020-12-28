@@ -4,8 +4,6 @@ publishDate: '2020-12-23'
 description: "Our teams are working to coordinate the many individuals and organizations that have offered to help advance The Rocky Linux Foundation, Inc. (Rocky Linux). The core team is working to lay the infrastructure that will support the legal entity and the engineering efforts required to deliver and support an initial release."
 ---
 
-# Community Update - December 2020
-
 ## Summary
 
 Our teams are working to coordinate the many individuals and organizations that have offered to help advance The Rocky Linux Foundation, Inc. (Rocky Linux). The core team is working to lay the infrastructure that will support the legal entity and the engineering efforts required to deliver and support an initial release. Updates regarding project news, release dates, and more will be announced on our [forums](https://forums.rockylinux.org), [website](https://rockylinux.org), and [other social media platforms](https://forums.rockylinux.org/t/all-rocky-linux-links/833?u=jorp).
