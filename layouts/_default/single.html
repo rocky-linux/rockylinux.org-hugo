@@ -10,5 +10,13 @@
   <div class="prose mx-auto dark-mode:prose-dark dark:text-gray-300">
     {{ .Content }}
   </div>
+  </br>
+  <div class="prose mx-auto dark-mode:prose-dark dark:text-gray-300">
+    <h4>{{ i18n "posts.post-info" . }}</h4>
+    {{ i18n "posts.publish-date" . }} {{ .PublishDate.Format "January 2, 2006" }}</br>
+    {{ i18n "posts.last-mod" . }} {{ .Lastmod.Format "January 2, 2006" }}</br>
+    {{ i18n "posts.reading-time" . }} {{ .ReadingTime }} minutes</br>
+    {{ i18n "posts.keywords" . }} {{ range $tab := .Keywords }}{{$tab}}, {{ end }}</br>
+  </div>
 
 {{ end }}

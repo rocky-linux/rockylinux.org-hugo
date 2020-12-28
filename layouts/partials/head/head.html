@@ -8,6 +8,14 @@
 {{ partial "meta/site-twittercard.html" . }}
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 
+<!-- Posts Meta tags -->
+{{if .PublishDate}}
+    <meta name='date' content='{{ .PublishDate.Format "2006/01/02" }}'>  
+{{ end }}
+{{if .Keywords}}
+    <meta name="keywords" content="{{ range $tab := .Keywords }}{{$tab}}, {{ end }}"/>
+{{ end }}
+
 <!-- RSS -->
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

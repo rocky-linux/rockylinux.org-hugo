@@ -1,7 +1,15 @@
 ---
 title: Community Update - December 2020
-publishDate: '2020-12-23'
 description: "Our teams are working to coordinate the many individuals and organizations that have offered to help advance The Rocky Linux Foundation, Inc. (Rocky Linux). The core team is working to lay the infrastructure that will support the legal entity and the engineering efforts required to deliver and support an initial release."
+publishDate: '2020-12-23'
+Lastmod: '2020-12-23'
+Language: en
+ReadingTime: 5
+slug: community-update-december-2020
+Keywords:
+- Community Update
+- December 2020
+- Rocky Linux
 ---
 
 ## Summary
