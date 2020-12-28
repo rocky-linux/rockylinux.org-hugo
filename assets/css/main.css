@@ -47,8 +47,11 @@ hr { @apply w-16 border-b-4 border-green-500 /* mx-auto */ my-6 }
 
 pre { @apply p-4 rounded-lg }
 
-.prose code, .prose strong, .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+.prose code, .prose strong {
   @apply dark:text-gray-300;
+}
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  @apply dark:text-white;
 }
 .prose a {
   @apply text-green-600;
