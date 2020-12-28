@@ -29,7 +29,7 @@
         language = navigatorLanguage.substr(0, 2);
         languageWCountry = navigatorLanguage.toLowerCase();
     }
-  
+
     // Check language against current hugo language and set cookie and redirect if they are different.
     let hugoLanguage = '{{ i18n "language" . }}'.toLowerCase();
     if (hugoLanguage != language && hugoLanguage != languageWCountry) {

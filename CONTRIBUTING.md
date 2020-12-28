@@ -15,7 +15,7 @@ documentation improvements, issues, etc. are all *very* much welcome. We
 don't wish to discourage any such contributions, quite the opposite. With
 that said, we must ask that:
 
-- Pull requests must be linked to an issue and must be made against the 
+- Pull requests must be linked to an issue and must be made against the
   `develop` branch. If there is no issue currently open describing the
   issue/feature request you are contributing a solution to, open one yourself
   first, *before* you make a PR. This is to ensure that we know every part of

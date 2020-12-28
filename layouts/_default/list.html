@@ -4,7 +4,7 @@
     <h1 class="">Posts</h1>
     <p class="text-sm dark:text-gray-400 pl-4">{{ len .Pages }} posts found.</p>
   </div>
-  <div id="list_posts"> 
+  <div id="list_posts">
   {{ range $index, $val := $paginator.Pages }}
     {{ if gt $index 0 }}
       <hr />

@@ -892,4 +892,3 @@ Markdown provides backslash escapes for the following characters:
 	-	minus sign (hyphen)
     .   dot
     !   exclamation mark
-
