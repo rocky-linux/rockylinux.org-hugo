@@ -1,5 +1,8 @@
 # rockylinux.org
 
+[![Translation status](http://weblate.rockylinux.org/widgets/rockylinux-org/-/website/svg-badge.svg)](http://weblate.rockylinux.org/engage/rockylinux-org/)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/rocky-linux/rockylinux.org/main.svg)](https://results.pre-commit.ci/latest/github/rocky-linux/rockylinux.org/main)
+
 The Rocky Linux landing page, built using [Hugo](https://gohugo.io) and [TailwindCSS](https://tailwindcss.com).
 
 ## Requirements

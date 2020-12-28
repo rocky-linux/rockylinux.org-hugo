@@ -8,6 +8,40 @@ However, to the ends of keeping everything manageable and reducing stress on
 every project member & collaborator, we need to set some policies on
 contributions.
 
+## Linting & Commit Hooks
+
+We use [pre-commit](https://pre-commit.com) for our linting & quality control
+tooling, so it is required that you install the pre-commit hooks (normal and
+commit-msg stages) so that your PR meets our quality control standards. If
+you fail to do this, we have [pre-commit.ci](https://pre-commit.ci) configured
+on all PRs, and it will flag up any errors that there may be.
+
+There is also commitlint (which is included in our pre-commit config) in place,
+which is configured to use the
+[conventional commit](https://www.conventionalcommits.org) standard. If your PR
+does not meet the specified standard, changes may be requested or your changes
+may be rejected.
+
+```shell
+# After installing pre-commit...
+$ pre-commit install
+$ pre-commit install --hook-type commit-msg
+```
+
+### Merge Commits
+
+Merge commits must be styled as follows:
+
+```
+chore(merge): from_branch -> to_branch
+```
+
+For example, if you had merged `main` into `develop`:
+
+```
+chore(merge): main -> develop
+```
+
 ## Pull requests
 
 Allow us to preface this by saying - All bug fixes, feature implementations,
@@ -15,7 +49,7 @@ documentation improvements, issues, etc. are all *very* much welcome. We
 don't wish to discourage any such contributions, quite the opposite. With
 that said, we must ask that:
 
-- Pull requests must be linked to an issue and must be made against the 
+- Pull requests must be linked to an issue and must be made against the
   `develop` branch. If there is no issue currently open describing the
   issue/feature request you are contributing a solution to, open one yourself
   first, *before* you make a PR. This is to ensure that we know every part of

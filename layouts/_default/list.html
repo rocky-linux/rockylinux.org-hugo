@@ -1,0 +1,35 @@
+{{ define "main" }}
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  <div class="flex items-center mb-8">
+    <h1 class="">Posts</h1>
+    <p class="text-sm dark:text-gray-400 pl-4">{{ len .Pages }} posts found.</p>
+  </div>
+  <div id="list_posts">
+  {{ range $index, $val := $paginator.Pages }}
+    {{ if gt $index 0 }}
+      <hr />
+    {{ end }}
+    <a href="{{ .Permalink }}">
+      <article>
+        {{ if $val.Params.images }}
+          <div class="image">
+            <img src="{{ index ($val.Params.images) 0 }}" />
+          </div>
+        {{ end }}
+        <div class="post">
+          <div class="frontmatter mb-4">
+            <h3 class="mb-1">{{ $val.Title }}</h3>
+            <span class="text-sm italic">{{ $val.PublishDate.Format "January 2, 2006" }}</span>
+          </div>
+          {{ if $val.Params.images }}
+            <p>{{ truncate 150 $val.Description }}</p>
+          {{ else }}
+            <p>{{ truncate 200 $val.Description }}</p>
+          {{ end }}
+        </div>
+      </article>
+    </a>
+  {{ end }}
+  </div>
+  {{ template "_internal/pagination.html" . }}
+{{ end }}

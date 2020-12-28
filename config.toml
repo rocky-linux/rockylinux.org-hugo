@@ -1,6 +1,19 @@
 baseURL = "/"
-languageCode = "en-us"
 title = "Rocky Linux"
+copyright = "© 2020 The Rocky Linux Foundation. All rights reserved."
+[author]
+    name = "The Rocky Linux Foundation"
+
+paginate = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    style = "monokai"
+    tabWidth = 4
 
 [params]
 description = "Rocky Linux is an open enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux."
@@ -30,94 +43,80 @@ height = 600
 [params.faqs]
 questions = ["downstream-partner-direction", "come-in"]
 
+languageCode = "en-us"
 DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
     languageName = "English"
     title = "Rocky Linux"
-    weight = 1
   [languages.es]
     languageName = "Español"
     title = "Rocky Linux"
-    weight = 2
   [languages.nl]
     languageName = "Nederlands"
     title = "Rocky Linux"
-    weight = 3
   [languages.it]
     languageName = "Italiano"
     title = "Rocky Linux"
-    weight = 4
   [languages.tr]
     languageName = "Türkçe"
     title = "Rocky Linux"
-    weight = 5
   [languages.de]
     languageName = "Deutsch"
     title = "Rocky Linux"
-    weight = 6
   [languages.fr]
     languageName = "Français"
     title = "Rocky Linux"
-    weight = 7
   [languages.lv]
     languageName = "Latviski"
     title = "Rocky Linux"
-    weight = 8
   [languages.pt-pt]
     languageName = "Português"
     title = "Rocky Linux"
-    weight = 9
   [languages.pt-BR]
     languageName = "Português (Brasil)"
     title = "Rocky Linux"
-    weight = 10
   [languages.pl]
     languageName = "Polski"
     title = "Rocky Linux"
-    weight = 11
   [languages.id]
     languageName = "Bahasa Indonesia"
     title = "Rocky Linux"
-    weight = 12
-  [languages.nb-NO]
-    languageName = "Norsk bokmål"
-    title = "Rocky Linux"
-    weight = 13
   [languages.ru]
     languageName = "Русский"
     title = "Rocky Linux"
-    weight = 14
+  [languages.uk]
+    languageName = "Українська"
+    title = "Rocky Linux"
   [languages.vi]
     languageName = "Tiếng Việt"
     title = "Rocky Linux"
-    weight = 15
   [languages.ja]
     languageName = "日本語"
     title = "Rocky Linux"
-    weight = 16
   [languages.ar]
     languageName = "العربية"
     title = "روكي لينكس"
-    weight = 17
-  [languages.zh-cn]
-    languageName = "简体中文"
-    title = "Rocky Linux"
-    weight = 18
-  [languages.zh-hk]
-    languageName = "繁體中文(香港)"
-    title = "Rocky Linux"
-    weight = 19
-  [languages.zh-tw]
-    languageName = "繁體中文(台灣)"
-    title = "Rocky Linux"
-    weight = 20
   [languages.fa]
     languageName = "فارسی"
     title = "Rocky Linux"
-    weight = 21
+  [languages.zh-cn]
+    languageName = "简体中文"
+    title = "Rocky Linux"
+  [languages.zh-hk]
+    languageName = "繁體中文(香港)"
+    title = "Rocky Linux"
+  [languages.zh-tw]
+    languageName = "繁體中文(台灣)"
+    title = "Rocky Linux"
   [languages.ko]
     languageName = "한국어"
     title = "Rocky Linux"
-    weight = 22
+  [languages.sv]
+    languageName = "Svenska"
+    title = "Rocky Linux"
+  [languages.ca]
+    languageName = "Català"
+    title = "Rocky Linux"

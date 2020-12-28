@@ -29,18 +29,20 @@
         language = navigatorLanguage.substr(0, 2);
         languageWCountry = navigatorLanguage.toLowerCase();
     }
-  
+
     // Check language against current hugo language and set cookie and redirect if they are different.
     let hugoLanguage = '{{ i18n "language" . }}'.toLowerCase();
     if (hugoLanguage != language && hugoLanguage != languageWCountry) {
-        if (languages.includes(languageWCountry)) {
-            setLangCookie(languageWCountry);
-            window.location.href = "/" + languageWCountry + "/";
-        } else if (languages.includes(language)) {
-            setLangCookie(language);
-            window.location.href = "/" + language + "/";
-        } else {
-            setLangCookie(DEFAULT_LANG);
+        if(getLangCookie() == null || window.location.pathname == "/") {
+            if (languages.includes(languageWCountry)) {
+                setLangCookie(languageWCountry);
+                window.location.href = "/" + languageWCountry + "/";
+            } else if (languages.includes(language)) {
+                setLangCookie(language);
+                window.location.href = "/" + language + "/";
+            } else {
+                setLangCookie(DEFAULT_LANG);
+            }
         }
     }
 

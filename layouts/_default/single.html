@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+  <div class="frontmatter mb-8 text-center">
+    <h1 class="mb-2">{{ .Title }}</h1>
+    <span class="dark:text-gray-300 italic">{{ .PublishDate.Format "January 2, 2006" }}</span>
+  </div>
+
+  <hr class="mx-auto" />
+
+  <div class="prose mx-auto dark-mode:prose-dark dark:text-gray-300">
+    {{ .Content }}
+  </div>
+
+{{ end }}
