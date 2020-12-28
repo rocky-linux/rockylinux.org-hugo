@@ -1,5 +1,7 @@
 # rockylinux.org
 
+[![Translation status](http://weblate.rockylinux.org/widgets/rockylinux-org/-/website/svg-badge.svg)](http://weblate.rockylinux.org/engage/rockylinux-org/)
+
 The Rocky Linux landing page, built using [Hugo](https://gohugo.io) and [TailwindCSS](https://tailwindcss.com).
 
 ## Requirements
