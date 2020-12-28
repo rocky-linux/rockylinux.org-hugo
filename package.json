@@ -1,7 +1,7 @@
 {
-  "name": "rocky-linux",
+  "name": "rockylinux.org",
   "version": "1.0.0",
-  "description": "The website for Rocky Linux, built with Hugo and TailwindCSS",
+  "description": "The website for Rocky Linux, built with Hugo and Tailwind CSS",
   "main": "postcss.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,10 @@
     "enterprise",
     "stable"
   ],
-  "author": "Michael Kinder <michael@hostbend.net>",
+  "contributors": [
+    "Michael Kinder <michael@hostbend.net>",
+    "Hayden Young <hbjy@rockylinux.org>"
+  ],
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/rocky-linux/rockylinux.org/issues"
