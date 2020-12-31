@@ -31,7 +31,6 @@
     { "src": "/ko/(.*)", "status": 404, "dest": "/ko/404.html" },
     { "src": "/ca/(.*)", "status": 404, "dest": "/ca/404.html" },
     { "src": "/(.*)",    "status": 404, "dest": "/404.html" },
-    { "src": "/(.*)/posts/", "status": 200, "dest": "/posts/" },
-    { "src": "/(*)/posts/", "status": 200, "dest": "/posts/" }
+    { "src": "/(.*)/posts/", "status": 200, "dest": "/posts/" }
   ]
 }
