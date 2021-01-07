@@ -2,6 +2,7 @@
 <title>{{ .Title }}</title>
 
 <!-- Meta tags -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'nonce-7104127283' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:" />
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 <meta http-equiv="Content-Language" content="en{{ range $.Site.Home.AllTranslations }},{{ .Language.Lang }}{{ end }}">
@@ -24,7 +25,7 @@
 <link rel="icon" href="/img/favicon.ico"/>
 
 <!-- Javascript -->
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer=""></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" nonce="7104127283" defer=""></script>
 
 <!-- Script for language select -->
 {{ partial "head/languages.html" . }}
