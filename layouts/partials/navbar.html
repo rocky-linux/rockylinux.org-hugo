@@ -10,6 +10,7 @@
             <ul class="flex items-center hidden space-x-8 lg:flex">
                 <a href="{{ "/posts/" | absURL }}" class="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{{ i18n "links.posts" . }}</a>
                 <a href="{{ .Site.Params.links.wiki | absURL }}" class="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{{ i18n "links.documentation" . }}</a>
+                <a href="{{ .Site.Params.social.forum | absURL }}" class="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{{ i18n "socials.forums" . }}</a>
             </ul>
             <ul class="flex items-center hidden space-x-8 lg:flex">
                 <li>
@@ -57,6 +58,7 @@
                             <ul class="space-y-4">
                                 <li><a href="{{ "/posts/" | absURL }}" aria-label="{{ i18n "links.posts" . }}" title="{{ i18n "links.posts" . }}" class="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">{{ i18n "links.posts" . }}</a></li>
                                 <li><a href="{{ .Site.Params.links.wiki | absURL }}" aria-label="{{ i18n "links.documentation" . }}" title="{{ i18n "links.documentation" . }}" class="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">{{ i18n "links.documentation" . }}</a></li>
+                                <li><a href="{{ .Site.Params.social.forum | absURL }}" aria-label="{{ i18n "socials.forums" . }}" title="{{ i18n "socials.forums" . }}" class="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">{{ i18n "socials.forums" . }}</a></li>
                                 <li>
                                     <a
                                             href="mailto:{{ .Site.Params.social.email }}"
