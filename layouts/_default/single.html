@@ -1,14 +1,24 @@
 {{ define "main" }}
 
-  <div class="frontmatter mb-8 text-center">
-    <h1 class="mb-2">{{ .Title }}</h1>
-    <span class="dark:text-gray-300 italic">{{ .PublishDate.Format "January 2, 2006" }}</span>
+<div class="px-4 pb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <div class="max-w-screen-sm text-center sm:mx-auto">
+    <div class="inline-block mb-5 rounded-full sm:mx-auto">
+      <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-600">
+        <svg class="w-12 h-12 text-green-100" stroke="currentColor" viewBox="0 0 52 52">
+          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+        </svg>
+      </div>
+    </div>
+    <h2 class="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl sm:leading-none">
+      {{ .Title }}
+    </h2>
+    <p class="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
+      {{ .Description }}
+    </p>
+    <hr class="mx-auto" />
   </div>
+</div>
 
-  <hr class="mx-auto" />
-
-  <div class="prose mx-auto dark-mode:prose-dark dark:text-gray-300">
-    {{ .Content }}
-  </div>
+  {{ .Content }}
 
 {{ end }}
