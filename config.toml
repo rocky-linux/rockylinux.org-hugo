@@ -87,6 +87,9 @@ defaultContentLanguageInSubdir = true
   [languages.ru]
     languageName = "Русский"
     title = "Rocky Linux"
+  [languages.sr]
+    languageName = "Српски"
+    title = "Rocky Linux"
   [languages.uk]
     languageName = "Українська"
     title = "Rocky Linux"
