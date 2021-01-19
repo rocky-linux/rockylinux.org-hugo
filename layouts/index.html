@@ -78,6 +78,50 @@
             </div>
         </div>
     </div>
+    <div class="relative bg-gray-50 dark:bg-gray-900 overflow-hidden" dir="auto">
+        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-4 lg:px-4 lg:py-4">
+            <div class="max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
+                <h2 class="max-w-lg mb-2 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl md:mx-auto">
+                    Sponsors
+                </h2>
+            </div>
+            <div class="rounded shadow p-7 sm:p-10 bg-gray-700 dark:bg-gray-800 grid grid-cols-2 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-4">
+                <div class="text-center">
+                    <a href="https://ctrliq.com" aria-label="CtrlIQ">
+                        <img src="/img/ciq.png" alt="CtrlIQ" class="grayscale transition duration-200 ">
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="https://mattermost.com" aria-label="Mattermost">
+                        <img src="/img/mattermost.png" alt="Mattermost" class="grayscale transition duration-200">
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="https://navercorp.com/en/" aria-label="Naver">
+                        <img src="/img/naver.png" alt="Naver" class="grayscale transition duration-200">
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="https://aws.amazon.com/" aria-label="AWS">
+                        <img src="/img/aws.png" alt="AWS" class="grayscale transition duration-200">
+                    </a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a
+                        href="{{ "/sponsors/" | absURL }}"
+                class="mb-2 inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out"
+                >
+                <span class="-ml-2 mr-1">
+                        <svg class="w-8 h-8" stroke="currentColor" viewBox="0 0 52 52">
+                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                        </svg>
+                    </span>
+                See All
+                </a>
+            </div>
+        </div>
+    </div>
         {{ partial "footer/footer.html" . }}
     </body>
 </html>
