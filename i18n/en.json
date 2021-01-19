@@ -38,15 +38,16 @@
   },
   "links": {
     "close-menu": "Close menu",
-    "documentation": "Documentation",
+    "documentation": "Wiki",
     "get-in-touch": "Get In Touch",
     "get-involved": "Get Involved",
     "go-home": "Go Home",
     "join-the-discussion": "Join the Discussion",
-    "posts": "Posts",
+    "posts": "News",
     "show-your-interest": "Show Your Interest",
     "sponsors": "Sponsors",
-    "donate": "Donate"
+    "donate": "Donate",
+    "store": "Store"
   },
   "socials": {
     "forums": "Forums",

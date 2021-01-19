@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
   <div class="flex items-center mb-8">
-    <h1 class="">Posts</h1>
+    <h1 class="">News</h1>
     <p class="text-sm dark:text-gray-400 pl-4">{{ len .Pages }} posts found.</p>
   </div>
   <div id="list_posts">
