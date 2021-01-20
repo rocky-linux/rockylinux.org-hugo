@@ -1,7 +1,7 @@
 ---
 title: Community Update - January 2021
 publishDate: '2020-01-20'
-description: "In the three-plus weeks since our [last community update](https://forums.rockylinux.org/t/community-update-december-2020), a lot has happened. Frustratingly--but also necessarily--for many of you, the progress we’ve made has been behind the scenes. We’ve been working diligently to setup the build infrastructure (our top priority), position ourselves to accept donations (huge thank you to those that have expressed interest), prepare to migrate from Slack to Mattermost, and sort out the necessary organizational structures to support the engineering efforts that will be going into Rocky Linux. We want to thank everyone that’s stayed up well into the early hours of the morning with us working on all of the above and more; it’s this kind of effort that constantly reminds us how remarkably dedicated and supportive this community is."
+description: "In the three-plus weeks since our last community update, a lot has happened. Frustratingly--but also necessarily--for many of you, the progress we’ve made has been behind the scenes. We’ve been working diligently to setup the build infrastructure (our top priority), position ourselves to accept donations (huge thank you to those that have expressed interest), prepare to migrate from Slack to Mattermost, and sort out the necessary organizational structures to support the engineering efforts that will be going into Rocky Linux. We want to thank everyone that’s stayed up well into the early hours of the morning with us working on all of the above and more; it’s this kind of effort that constantly reminds us how remarkably dedicated and supportive this community is."
 ---
 
 ## Summary
