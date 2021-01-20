@@ -69,7 +69,7 @@ If you’re unfamiliar with Mattermost, be sure to check out their [User’s Gui
 
 An IRC bridge to relevant channels is planned.
 
-We would love to see some designs from our community for future Rocky Linux merchandise. If you’re interested in creating and sharing your own design, please be sure to [submit your ideas and vote](https://forums.rockylinux.org/t/merchandise-design-submissions/1455) in the forums before the deadline on  [date=2021-01-27 time=18:00:00 timezone="America/New_York" timezones="America/Los_Angeles|Europe/London|Australia/Brisbane|Asia/Tokyo|UTC"].
+We would love to see some designs from our community for future Rocky Linux merchandise. If you’re interested in creating and sharing your own design, please be sure to [submit your ideas and vote](https://forums.rockylinux.org/t/merchandise-design-submissions/1455) in the forums before the deadline on  2021-01-27 18:00:00 EST.
 
 
 
