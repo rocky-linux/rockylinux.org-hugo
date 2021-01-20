@@ -42,7 +42,7 @@ The [official Rocky Linux store](https://www.mucklesu.com/collections/rocky-linu
 
 ## Community
 
-We have finished standing up [Mattermost](https://mattermost.com) as our alternative chat platform to Slack. We will no longer be monitoring or responding to queries in Slack, and will be closing the existing Rocky Linux related Slack channels on  [date=2021-02-01 time=19:00:00 timezone="America/New_York" timezones="America/Los_Angeles|Europe/London|Australia/Brisbane|Asia/Tokyo|UTC"].
+We have finished standing up [Mattermost](https://mattermost.com) as our alternative chat platform to Slack. We will no longer be monitoring or responding to queries in Slack, and will be closing the existing Rocky Linux related Slack channels on  2021-02-01 19:00:00 EST.
 
 Please join us at [https://chat.rockylinux.org](https://chat.rockylinux.org)! We have channels setup for:
 
