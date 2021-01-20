@@ -79,3 +79,16 @@ pre { @apply p-4 rounded-lg }
         fill: white;
     }
 }
+
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.grayscale:hover {
+  -webkit-filter: none;
+  filter: none;
+  opacity: 100%;
+}
