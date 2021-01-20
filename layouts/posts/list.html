@@ -1,5 +1,7 @@
 {{ define "main" }}
-  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  {{ $pages := where .Data.Pages "Type" "posts" }}
+  {{ $sorted := $pages.ByParam "publishDate" }}
+  {{ $paginator := .Paginate $sorted 7 }}
   <div class="flex items-center mb-8">
     <h1 class="">News</h1>
     <p class="text-sm dark:text-gray-400 pl-4">{{ len .Pages }} posts found.</p>
