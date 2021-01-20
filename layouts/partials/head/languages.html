@@ -75,4 +75,7 @@
         return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     }
 
+    var languagePicker = document.getElementById("languagePicker");
+    languagePicker.addEventListener("change", function (){location = languagePicker.value});
+
  </script>
