@@ -99,7 +99,7 @@ We’ve recently added a Documentation team and are working on ideas and organiz
 
 
 
-If you’re interested in working on the Documentation team, you can view the details for their first meeting in [the forums](https://forums.rockylinux.org/t/the-documentation-team-is-having-a-whos-doing-what-meeting-and-youre-invited/1538), which is scheduled for [date=2021-01-20 time=22:00:00 timezone="UTC" timezones="America/New_York|America/Los_Angeles|Europe/London|Asia/Tokyo|Australia/Brisbane"].
+If you’re interested in working on the Documentation team, you can view the details for their first meeting in [the forums](https://forums.rockylinux.org/t/the-documentation-team-is-having-a-whos-doing-what-meeting-and-youre-invited/1538), which is scheduled for 2021-01-20 22:00:00 UTC.
 
 
 
