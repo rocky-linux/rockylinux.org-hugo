@@ -108,6 +108,8 @@ As always, if you have any questions, comments, concerns, suggestions, or would 
 
 
 
-Sincerely,
-The Rocky Linux Foundation
-[https://rockylinux.org](https://rockylinux.org)
+<span class="mb-2">
+  Sincerely,<br/>
+  The Rocky Linux Foundation<br/>
+  <a href="https://rockylinux.org">https://rockylinux.org</a>
+</span>
