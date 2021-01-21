@@ -46,23 +46,23 @@ We have finished standing up [Mattermost](https://mattermost.com) as our alterna
 
 Please join us at [https://chat.rockylinux.org](https://chat.rockylinux.org)! We have channels setup for:
 
--   Announcements
--   Branding
--   Community
--   Dev/Anaconda
--   Dev/Autobuilder
--   Dev/General
--   Dev/Packaging
--   Documentation
--   Infrastructure
--   General
--   Legal
--   Media
--   Off-Topic
--   Packaging
--   Security
--   Testing
--   Web
+-   [Announcements](https://chat.rockylinux.org/rocky-linux/channels/announcements)
+-   [Branding](https://chat.rockylinux.org/rocky-linux/channels/branding)
+-   [Community](https://chat.rockylinux.org/rocky-linux/channels/community)
+-   [Dev/Anaconda](https://chat.rockylinux.org/rocky-linux/channels/dev-anaconda)
+-   [Dev/Autobuilder](https://chat.rockylinux.org/rocky-linux/channels/dev-autobuilder)
+-   [Dev/General](https://chat.rockylinux.org/rocky-linux/channels/development)
+-   [Dev/Packaging](https://chat.rockylinux.org/rocky-linux/channels/dev-packaging)
+-   [Documentation](https://chat.rockylinux.org/rocky-linux/channels/documentation)
+-   [Infrastructure](https://chat.rockylinux.org/rocky-linux/channels/infrastructure)
+-   [Introductions](https://chat.rockylinux.org/rocky-linux/channels/introductions)
+-   [General](https://chat.rockylinux.org/rocky-linux/channels/town-square)
+-   [Legal](https://chat.rockylinux.org/rocky-linux/channels/legal)
+-   [Media](https://chat.rockylinux.org/rocky-linux/channels/media)
+-   [Off-Topic](https://chat.rockylinux.org/rocky-linux/channels/off-topic)
+-   [Security](https://chat.rockylinux.org/rocky-linux/channels/security)
+-   [Testing](https://chat.rockylinux.org/rocky-linux/channels/testing)
+-   [Web](https://chat.rockylinux.org/rocky-linux/channels/web)
 
 
 If you’re unfamiliar with Mattermost, be sure to check out their [User’s Guide](https://docs.mattermost.com/guides/user.html).
