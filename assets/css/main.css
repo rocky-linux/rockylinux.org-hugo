@@ -97,12 +97,13 @@ pre { @apply p-4 rounded-lg }
   filter: grayscale(100%);
   opacity: 0.6;
   filter: alpha(opacity=60);
-  filter: contrast(0%);
+  filter: brightness(10%);
 }
 
 .grayscale:hover {
   -webkit-filter: none;
   opacity: 100%;
   filter: contrast(20%);
+  filter: brightness(0%);
 }
 }
