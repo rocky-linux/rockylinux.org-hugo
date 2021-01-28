@@ -29,6 +29,7 @@ get_involved = "https://wiki.rockylinux.org/contributing"
 
 [params.links]
 wiki = "https://wiki.rockylinux.org/"
+rss = "index.xml"
 
 [params.logo]
 url = "img/logo.png"

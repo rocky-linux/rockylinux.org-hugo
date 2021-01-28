@@ -33,16 +33,16 @@ hr { @apply w-16 border-b-4 border-green-500 /* mx-auto */ my-6 }
   display: flex;
 }
 .pagination li a {
-  @apply flex mx-1/2 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 w-8 h-8 items-center justify-center hover:border-gray-600;
+  @apply flex mx-1 rounded-md bg-gray-100 dark:bg-gray-800 ring-2 ring-inset ring-gray-300 dark:ring-gray-700 w-8 h-8 items-center justify-center;
 }
 .pagination li.active a {
-  @apply border-green-500
+  @apply ring-green-500 bg-white dark:bg-gray-600
 }
 .pagination li:first-child a {
-  @apply ml-0 rounded-tl-lg rounded-bl-lg;
+  @apply mx-0;
 }
 .pagination li:last-child a {
-  @apply mr-0 rounded-tr-lg rounded-br-lg;
+  @apply mx-0;
 }
 
 pre { @apply p-4 rounded-lg }
@@ -75,20 +75,35 @@ pre { @apply p-4 rounded-lg }
 }
 
 @media (prefers-color-scheme: dark) {
-    .logo-text {
-        fill: white;
-    }
+  .logo-text {
+    fill: white;
+  }
+  .grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+  .grayscale:hover {
+    -webkit-filter: none;
+    filter: none;
+    opacity: 100%;
+  }
 }
 
+@media (prefers-color-scheme: light) {
 .grayscale {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.6;
   filter: alpha(opacity=60);
+  filter: brightness(10%);
 }
 
 .grayscale:hover {
   -webkit-filter: none;
-  filter: none;
   opacity: 100%;
+  filter: contrast(20%);
+  filter: brightness(0%);
+}
 }
