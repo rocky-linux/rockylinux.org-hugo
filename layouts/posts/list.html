@@ -1,0 +1,43 @@
+{{ define "main" }}
+  {{ $pages := where .Data.Pages "Type" "posts" }}
+  {{ $sorted := $pages.ByParam "publishDate" }}
+  {{ $paginator := .Paginate $sorted 7 }}
+  <div class="flex items-center mb-8">
+    <h1 class="">News</h1>
+    <p class="text-sm dark:text-gray-400 pl-4">{{ len .Pages }} posts found.</p>
+    <a href="{{ .Site.Params.links.rss }}" class="ml-2 text-yellow-600 hover:text-yellow-500">
+      <span class="sr-only">{{ i18n "socials.twitter" . }}</span>
+      <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z" />
+      </svg>
+    </a>
+  </div>
+  <div id="list_posts">
+  {{ range $index, $val := $paginator.Pages }}
+    {{ if gt $index 0 }}
+      <hr />
+    {{ end }}
+    <a href="{{ .Permalink }}">
+      <article>
+        {{ if $val.Params.images }}
+          <div class="image">
+            <img src="{{ index ($val.Params.images) 0 }}" />
+          </div>
+        {{ end }}
+        <div class="post">
+          <div class="frontmatter mb-4">
+            <h3 class="mb-1">{{ $val.Title }}</h3>
+            <span class="text-sm italic">{{ $val.PublishDate.Format "January 2, 2006" }}</span>
+          </div>
+          {{ if $val.Params.images }}
+            <p>{{ truncate 150 $val.Description }}</p>
+          {{ else }}
+            <p>{{ truncate 200 $val.Description }}</p>
+          {{ end }}
+        </div>
+      </article>
+    </a>
+  {{ end }}
+  </div>
+  {{ template "_internal/pagination.html" . }}
+{{ end }}

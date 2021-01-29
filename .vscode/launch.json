@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "command": "hugo server -v",
+            "name": "Run hugo server",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "hugo",
+            "name": "Build site",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}

@@ -6,9 +6,104 @@
     fill: black;
 }
 
-@media (prefers-color-scheme: dark) {
-    .logo-text {
-        fill: white;
-    }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+main {
+  flex-grow: 1;
+}
+
+h1,h2,h3,h4,h5,h6 { @apply font-display }
+
+h1 { @apply text-5xl font-bold }
+h2 { @apply text-4xl font-bold }
+h3 { @apply text-3xl font-bold mb-4 }
+h4 { @apply text-2xl font-medium }
+h5 { @apply text-xl font-normal }
+h6 { @apply text-sm font-bold }
+
+p { @apply font-normal text-base }
+
+hr { @apply w-16 border-b-4 border-green-500 /* mx-auto */ my-6 }
+
+.pagination {
+  display: flex;
+}
+.pagination li a {
+  @apply flex mx-1 rounded-md bg-gray-100 dark:bg-gray-800 ring-2 ring-inset ring-gray-300 dark:ring-gray-700 w-8 h-8 items-center justify-center;
+}
+.pagination li.active a {
+  @apply ring-green-500 bg-white dark:bg-gray-600
+}
+.pagination li:first-child a {
+  @apply mx-0;
+}
+.pagination li:last-child a {
+  @apply mx-0;
+}
+
+pre { @apply p-4 rounded-lg }
+
+.prose code, .prose strong {
+  @apply dark:text-gray-300;
+}
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  @apply dark:text-white;
+}
+.prose a {
+  @apply text-green-600;
+}
+
+#list_posts article {
+  @apply flex items-center py-6 mb-8;
+}
+#list_posts article .image {
+  @apply mr-6;
+  width: 350px;
+}
+#list_posts article .image img {
+  @apply w-full;
+}
+#list_posts article .post h3 {
+  @apply dark:text-white;
+}
+#list_posts article .post {
+  @apply dark:text-gray-300;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo-text {
+    fill: white;
+  }
+  .grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+  .grayscale:hover {
+    -webkit-filter: none;
+    filter: none;
+    opacity: 100%;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  filter: brightness(10%);
+}
+
+.grayscale:hover {
+  -webkit-filter: none;
+  opacity: 100%;
+  filter: contrast(20%);
+  filter: brightness(0%);
+}
+}
